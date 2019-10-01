@@ -10,37 +10,21 @@ License URI: LICENSE
 Text Domain: jumperfranquia
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-JUMPER Franquias is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
+
+
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
+# Fonts
+
+font-family: bebas-neue, sans-serif;
+font-family: 'Montserrat', sans-serif;
+
 --------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://use.typekit.net/jdv7grg.css"); 
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/

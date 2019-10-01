@@ -15,22 +15,32 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jumperfranquia' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'jumperfranquia' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'jumperfranquia' ), 'jumperfranquia', '<a href="http://jumpercursos.com.br">Danilo Zeni & Arthur</a>' );
-				?>
+			
+
+
+			
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
+
+<!-- jQuery -->
+<script src="<?php bloginfo( 'template_url' ); ?>/assets/jQuery-3.4.1/jquery-3.4.1.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="<?php bloginfo( 'template_url' ); ?>/assets/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+
+<!-- simpleParallax -->
+<script src="<?php bloginfo( 'template_url' ); ?>/assets/simpleParallax/dist/simpleParallax.min.js"></script>
+
+
+<!-- scripts -->
+<script src="<?php bloginfo( 'template_url' ); ?>/js/scripts.js"></script>
+
+
 </body>
 </html>
+
+

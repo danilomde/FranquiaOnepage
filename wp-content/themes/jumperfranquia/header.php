@@ -17,7 +17,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+
+  	<!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/bootstrap-4.3.1/css/bootstrap.min.css" />
+
+    <!-- Animate JS -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/animatejs-3.7.2/animate.css" />
+
+
 	<?php wp_head(); ?>
+
+
+
+
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -25,34 +38,53 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jumperfranquia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$jumperfranquia_description = get_bloginfo( 'description', 'display' );
-			if ( $jumperfranquia_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $jumperfranquia_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-3 site-branding">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" />
+				</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jumperfranquia' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
+				<nav id="site-navigation" class="col-md-7 main-navigation">
+					
+					<ul class='main-navigation'>
+						<li class='menu-item'> <a>A Jumper! </a>	</li>
+						<li class='menu-item'> <a>Estrutura</a>		</li>
+						<li class='menu-item'> <a>Investimento</a>	</li>
+						<li class='menu-item'> <a>Jumper na Mídia</a>	</li>
+						<li class='menu-item'> <a>Contato</a>		</li>
+					</ul>
+
+				</nav><!-- #site-navigation -->
+
+				<div class="col-md-2 phone">
+					<span itemprop="telephone"><a href="tel:4130813686">(41)<strong>3081-3686</strong> </a></span>
+				</div>
+
+
+
+			</div>
+
+		</div>
 	</header><!-- #masthead -->
+
+
+
+	<section class='header-top'>
+		<?php echo get_field( "texto_banner" );?>
+		<?php echo get_field( "foto_everton" );?>
+		<?php echo get_field( "texto_chamada" );?>
+	</section>
+
+
+	<h1 class="animated infinite bounce ">Example</h1>
+
+
+
+
+
+
+
+
 
 	<div id="content" class="site-content">
