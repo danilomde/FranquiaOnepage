@@ -77,9 +77,12 @@
 	<section class='header-top'>
 
 		
-		<div class="section1ImgFundoEscola  col-md-12">
-			<!-- *BACKEND -->
-				<img class="float-right testeParallax" src="http://127.0.0.1:8080/wp-content/uploads/2019/10/background-pt1-1.png">	
+		<div class="section1ImgFundoEscola  col-md-12" >
+okok
+okok
+
+			<!-- *BACKEND 
+				<img style="height: 630px" class="float-right testeParallax" src="http://127.0.0.1:8080/wp-content/uploads/2019/10/background-pt1-1.png">	-->
 		</div>
 
 		<div class="divBgSection1">
