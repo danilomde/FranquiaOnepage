@@ -34,8 +34,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jumperfranquia' ); ?></a>
+
 
 	<header id="masthead" class="site-header">
 		<div class="container">
@@ -45,19 +47,21 @@
 					<img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" />
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="col-md-7 main-navigation">
+				<nav id="site-navigation" class="col-md-7 main-navigation navbar navbar-expand-lg">
 					
-					<ul class='main-navigation'>
-						<li class='menu-item'> <a>A Jumper! </a>	</li>
-						<li class='menu-item'> <a>Estrutura</a>		</li>
-						<li class='menu-item'> <a>Investimento</a>	</li>
-						<li class='menu-item'> <a>Jumper na Mídia</a>	</li>
-						<li class='menu-item'> <a>Contato</a>		</li>
-					</ul>
+					<div class="collapse navbar-collapse">
+						<ul class='main-navigation navbar-nav mr-auto'>
+							<li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
+							<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link">Contato</a>		</li>
+						</ul>
+					</div>
 
 				</nav><!-- #site-navigation -->
 
-				<div class="col-md-2 phone">
+				<div class="col-md-2 mt-3 ml-n2 phone">
 					<span itemprop="telephone"><a href="tel:4130813686">(41)<strong>3081-3686</strong> </a></span>
 				</div>
 
@@ -70,10 +74,38 @@
 
 
 
-	<section class='header-top'>
-		<?php echo get_field( "texto_banner" );?>
-		<?php echo get_field( "foto_everton" );?>
-		<?php echo get_field( "texto_chamada" );?>
+	<section class='header-top' >
+
+
+		
+
+		<div class="divBgSection1">
+
+			<div class="divH2Section1 col-6 col-sm-12 col-md-12 col-lg-4 col-xl-4 offset-md-4 animated bounceInLeft">
+				<?php echo get_field( "texto_banner");?>
+			</div>
+
+			<div class="divImageSection1 col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+				<img class="float-right animated bounceInRight" id="oia" width="350" src="<?php echo get_field( "foto_everton" );?>">
+				<div class="float-right">
+					<div class="verticalLine">
+						<span><strong>Everton Sabú</strong></span>
+						<br>
+						<span>Fundador</span>
+					</div>
+					
+				</div>
+			</div>
+			
+
+		</div>
+
+		<div class="divBg2Section1 text-center mt-n2">
+			<div class="animated bounceInUp">
+				<?php echo get_field( "texto_chamada" );?>
+			</div>
+		</div>
+
 	</section>
 
 
@@ -88,3 +120,85 @@
 
 
 	<div id="content" class="site-content">
+
+
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
+a
+<br>
