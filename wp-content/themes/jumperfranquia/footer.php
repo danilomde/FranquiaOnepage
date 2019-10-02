@@ -15,17 +15,20 @@
 
 	<footer id="footer" class="site-footer">
 		<div class="row boxfooter">
-			<div class="col-md-6 callfooter ">
-				<h2><strong>Multiplique</strong> o seu <strong class="bigstrong">dinheiro</strong></h2>
+			<div class="col-md-7 callfooter ">
 
-				<br /><br /><br />
-				<h3>Lucre RR$ 15 Mil Nebsak *a partir do 6º mês</h3>
-				<button>Quero Contato</button>
+				<h2><strong>Multiplique</strong> <span> o seu </span> <strong class="bigstrong">dinheiro</strong></h2>
+
 			</div>
 
-			<div class="col-md-5 cashman">
+			
+
+			<!-- <div class="col-md-5 cashman">
 				<img  class="" src="<?php bloginfo( 'template_url' ); ?>/images/footer-img2.png">
-			</div>	
+			</div>	 -->
+
+			<h3>Lucre RR$ 15 Mil Nebsak *a partir do 6º mês</h3>
+			<button>Quero Contato</button>
 		</div>
 		
 

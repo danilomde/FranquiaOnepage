@@ -1078,27 +1078,28 @@ h1 strong{
  */
 
 .site-footer{
-	background-image: url('images/footer-bg.png');
+	background-image: url('images/novo-fundo.png');
 	min-height: 1879px;
     padding-top: 175px;	
-
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
-.boxfooter{
+/*.boxfooter{
 	background: url('images/footer-img1.png') no-repeat;
 	background-position-x: 254px;
     background-position-y: 129px;
-}
+}*/
 
 .cashman{
 	padding-left: 118px;
 }
 
 .callfooter{
-	padding-top: 263px;
-    padding-left: 467px;
-    padding-right: 0px;
+    padding-top: 263px;
+    padding-left: 20%;
+    padding-right: 6%;
 
 }
 
