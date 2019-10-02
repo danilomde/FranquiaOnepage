@@ -971,6 +971,7 @@ object {
 	display: block;
 }
 
+
 /*------------------------------------------------------------------------------*/
 .header-top{
 	background-image: url('../../uploads/2019/10/background-pt1-1.png');
@@ -1065,5 +1066,55 @@ h1{
 h1 strong{
 	color: #B7CB21;
 	font-weight: 900;
+}
+
+/*
+ * 		@zeni
+ */
+
+.site-footer{
+	background-image: url('images/footer-bg.png');
+	min-height: 1879px;
+    padding-top: 175px;	
+
+
+}
+
+.boxfooter{
+	background: url('images/footer-img1.png') no-repeat;
+	background-position-x: 254px;
+    background-position-y: 129px;
+}
+
+.cashman{
+	padding-left: 118px;
+}
+
+.callfooter{
+	padding-top: 263px;
+    padding-left: 467px;
+    padding-right: 0px;
+
+}
+
+.callfooter h2{
+	font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.callfooter h2 strong{
+	font-family: 'Montserrat', sans-serif;
+    color: #29354F;
+    font-size: 62px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.callfooter h2 .bigstrong{
+
+    font-size: 72px;
+   
 }
 
