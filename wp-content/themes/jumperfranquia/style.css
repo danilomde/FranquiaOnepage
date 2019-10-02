@@ -1206,5 +1206,11 @@ h1 strong{
    
 }
 
+.btnwhats{
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 9999999999;
 
+}
 
