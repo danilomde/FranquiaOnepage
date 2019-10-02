@@ -974,7 +974,7 @@ object {
 
 /*------------------------------------------------------------------------------*/
 .header-top{
-	background-image: url('../../uploads/2019/10/background-pt1-1.png');
+	/*background-image: url('../../uploads/2019/10/background-pt1-1.png');*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 600px;
@@ -1042,6 +1042,11 @@ object {
 }
 .phone span a strong{
 	font-size: 25px;
+}
+
+.section1ImgFundoEscola{
+	z-index: -1;
+    position: absolute;
 }
 
 h2{
