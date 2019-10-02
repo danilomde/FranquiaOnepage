@@ -13,14 +13,31 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			
+	<footer id="footer" class="site-footer">
+		<div class="row boxfooter">
+			<div class="col-md-6 callfooter ">
+				<h2><strong>Multiplique</strong> o seu <strong class="bigstrong">dinheiro</strong></h2>
+
+				<br /><br /><br />
+				<h3>Lucre RR$ 15 Mil Nebsak *a partir do 6º mês</h3>
+				<button>Quero Contato</button>
+			</div>
+
+			<div class="col-md-5 cashman">
+				<img  class="" src="<?php bloginfo( 'template_url' ); ?>/images/footer-img2.png">
+			</div>	
+		</div>
+		
 
 
-			
-		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+
+
+
+
+
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

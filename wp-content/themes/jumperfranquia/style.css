@@ -21,7 +21,7 @@ font-family: 'Montserrat', sans-serif;
 
 --------------------------------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
 @import url("https://use.typekit.net/jdv7grg.css"); 
 
 
@@ -966,4 +966,54 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*
+ * 		@zeni
+ */
+
+.site-footer{
+	background-image: url('images/footer-bg.png');
+	min-height: 1879px;
+    padding-top: 175px;	
+
+
+}
+
+.boxfooter{
+	background: url('images/footer-img1.png') no-repeat;
+	background-position-x: 254px;
+    background-position-y: 129px;
+}
+
+.cashman{
+	padding-left: 118px;
+}
+
+.callfooter{
+	padding-top: 263px;
+    padding-left: 467px;
+    padding-right: 0px;
+
+}
+
+.callfooter h2{
+	font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.callfooter h2 strong{
+	font-family: 'Montserrat', sans-serif;
+    color: #29354F;
+    font-size: 62px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.callfooter h2 .bigstrong{
+
+    font-size: 72px;
+   
 }
