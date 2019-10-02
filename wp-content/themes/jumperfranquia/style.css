@@ -1047,6 +1047,9 @@ object {
 .section1ImgFundoEscola{
 	z-index: -1;
     position: absolute;
+    min-height: 600px;
+	background: transparent;
+	
 }
 
 h2{
