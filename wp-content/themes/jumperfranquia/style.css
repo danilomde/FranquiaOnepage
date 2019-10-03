@@ -1107,11 +1107,15 @@ h1 strong{
 
 .section2AjusteTopo{
 	padding: 12%;
-    padding-top: 15%;
+    padding-top: 18%;
 }
 
 .section2AjusteTopo h2{
 	font-size: 28px;
+}
+
+.meninoCarteira{
+	margin-top: -55%;
 }
 
 /*

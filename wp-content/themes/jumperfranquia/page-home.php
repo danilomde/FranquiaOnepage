@@ -18,6 +18,7 @@ get_header();
 	<section class="section2">
 		<div class="container">
 			<div class="row rowSection2Bg">
+				
 				<div class="col-md-6 section2AjusteTopo">
 					<h2>Como está a situação dos <strong>jovens</strong> no <strong>mercado de trabalho?</strong></h2>
 				</div>
@@ -25,6 +26,19 @@ get_header();
 				<div class="col-md-6 section2AjusteTopo">
 					<h3>93% dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</h3>
 				</div>
+
+				<div class="col-md-12 text-center meninoCarteira"> 
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/p2/pessoa-p2.png">	
+				</div>
+
+				<div class="col-md-6">
+					
+				</div>
+
+				<div class="col-md-6">
+					
+				</div>
+			
 			</div>
 		</div>
 	</section>
