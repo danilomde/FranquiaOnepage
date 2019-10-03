@@ -55,7 +55,13 @@
 							<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
 							<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
 							<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
-							<li class='menu-item nav-item'> <a class="nav-link">Contato</a>		</li>
+							<li class='menu-item nav-item'>
+								 <a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
+							</li>
+
+							
+
+							
 						</ul>
 					</div>
 
