@@ -78,9 +78,6 @@
 
 		
 		<div class="section1ImgFundoEscola  col-md-12" >
-okok
-okok
-
 			<!-- *BACKEND 
 				<img style="height: 630px" class="float-right testeParallax" src="http://127.0.0.1:8080/wp-content/uploads/2019/10/background-pt1-1.png">	-->
 		</div>
@@ -92,7 +89,7 @@ okok
 			</div>
 
 			<div class="divImageSection1 col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-				<img class="float-right animated bounceInRight" id="oia" width="350" src="<?php echo get_field( "foto_everton" );?>">
+				<img class="float-right animated bounceInRight" width="380" src="<?php echo get_field( "foto_everton" );?>">
 				<div class="float-right">
 					<div class="verticalLine">
 						<span><strong>Everton Sabú</strong></span>
@@ -115,9 +112,6 @@ okok
 	</section>
 
 
-	<h1 class="animated infinite bounce ">Example</h1>
-
-
 
 
 
@@ -126,85 +120,3 @@ okok
 
 
 	<div id="content" class="site-content">
-
-
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
-a
-<br>
