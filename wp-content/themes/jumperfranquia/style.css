@@ -60,10 +60,14 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 	padding: 0.2%;
 	position: relative; 
 	z-index: 10;
+
+	-webkit-box-shadow: 2px 2px 48px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 48px -16px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 48px -16px rgba(0,0,0,0.75);
 }
 
 .divImageSection1{
-	margin-top: -27.2%;
+	margin-top: -31.2%;
     margin-left: 15%;
 
 }
@@ -137,12 +141,53 @@ h1 strong{
 	font-weight: 900;
 }
 
+
+.section2{
+	background-image: url('images/p2/bg-p2-container.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 3790px;
+}
+.section2 .container{
+	padding: 0;
+	margin:0;
+	max-width: 1000% !important;
+}
+
+.rowSection2Bg{
+	background-image: url('images/p2/bg2-p2-container.png');
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 2000px;
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+}
+
+.section2AjusteTopo{
+	padding: 12%;
+    padding-top: 18%;
+}
+
+.section2AjusteTopo h2{
+	font-size: 28px;
+}
+
+.meninoCarteira{
+	margin-top: -55%;
+}
+
+
 /*--------------------------------------------------------------
  *	@zeni
  *--------------------------------------------------------------*/
 
+
 .site-footer{
-	background-image: url('images/novo-fundo.png');
+	background-image: url('images/footer-novo-fundo.png');
 	min-height: 1879px;
     padding-top: 175px;	
     background-repeat: no-repeat;
@@ -275,12 +320,9 @@ h1 strong{
 
 }
 
-<<<<<<< HEAD
-
 
 .nav-link{
 	cursor:pointer !important;
 
 }
-=======
->>>>>>> 631ffed6de6ef407649868d68001964cc2f330ce
+
