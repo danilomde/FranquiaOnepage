@@ -10,4 +10,5 @@ new simpleParallax(image, {
 
 */
 
-$('.section1ImgFundoEscola').parallax({imageSrc: 'http://127.0.0.1:8080/wp-content/uploads/2019/10/background-pt1-1.png'});
+jQuery('.section1ImgFundoEscola').parallax({imageSrc: 'http://127.0.0.1:8080/wp-content/uploads/2019/10/background-pt1-1.png'});
+
