@@ -142,17 +142,97 @@ h1 strong{
  *--------------------------------------------------------------*/
 
 .site-footer{
-	background-image: url('images/footer-bg.png');
+	background-image: url('images/novo-fundo.png');
 	min-height: 1879px;
     padding-top: 175px;	
-
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
-.boxfooter{
+/*.boxfooter{
 	background: url('images/footer-img1.png') no-repeat;
 	background-position-x: 254px;
     background-position-y: 129px;
+}*/
+
+.footerLucre15Mil h2  strong span{
+    font-size: 100px;
+    padding-top: 20px;
+    position: absolute;
+    margin-left: -113px !important;
+    margin-top: -31px;
+    color: #fff;
+}
+.footerLucre15Mil h2  strong{
+    color: #BED62F;
+    font-weight: 900;
+    padding-left: 112px;
+}
+.footerLucre15Mil h2 {
+	margin-left: 18.5%;
+    margin-top: 3%;
+    font-size: 66px;
+}
+.footerLucre15Mil h3{
+	color: white;
+    font-size: 39px;
+}
+
+.footerLucreAjuste{
+	padding-left: 4%;
+    margin-top: -1%;
+}
+.footerLucreAjuste span{
+	color: #fff;
+}
+
+#span15{
+	color: #BED62F;
+}
+
+.divBotaoFooterContato{
+	padding-right: 25%;
+}
+
+.botaoFooterContato{
+	border-radius: 9px;
+    width: 20%;
+    padding: 0.8%;
+    font-size: 24px;
+    color: #303B4E;
+    background-color: #C7D11E;
+    border: none;
+    font-weight: bold;
+}
+
+#row2Footer{
+	margin-top: 10%;
+}
+
+#row2Footer form .row{
+	padding: 2%;
+}
+
+#row2Footer form .row div label{
+	color: white;
+}
+
+#btnFormFooter{
+    border-radius: 9px;
+    width: 38%;
+    padding: 2%;
+    font-size: 16px;
+    color: #A2BC05;
+    background-color: transparent;
+    border: 1px solid #A2BC05;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#row3Fotter{
+	padding-top: 5%;
+	color: white;
 }
 
 .cashman{
@@ -160,9 +240,9 @@ h1 strong{
 }
 
 .callfooter{
-	padding-top: 263px;
-    padding-left: 467px;
-    padding-right: 0px;
+    padding-top: 263px;
+	padding-left: 18%;
+    padding-right: 0%;
 
 }
 
@@ -195,9 +275,12 @@ h1 strong{
 
 }
 
+<<<<<<< HEAD
 
 
 .nav-link{
 	cursor:pointer !important;
 
 }
+=======
+>>>>>>> 631ffed6de6ef407649868d68001964cc2f330ce
