@@ -177,7 +177,52 @@ h1 strong{
 }
 
 .meninoCarteira{
-	margin-top: -55%;
+	margin-top: -26%;
+}
+
+#textoMenino1{
+    margin-top: -24%;
+    padding-left: 10%;
+}
+
+#textoMenino1 .texto1Section2{
+	width: 71%;
+}
+
+#textoMenino2{
+	padding-left: 17%;
+    margin-top: -25%;
+}
+
+#textoMenino2 .texto2Section2{
+	width: 64%;
+}
+
+#textMenino3{
+	margin-top: -5%;     
+	padding-right: 30%;
+    padding-left: 16%;
+}
+
+#rowAjusteSec2{
+	margin-bottom: 34%;
+	width: 74%;
+	margin-left: 11%;
+}
+
+#rowAjusteSec2 .sec2DivNoMax{
+	max-width: 21% !important;
+}
+
+#rowAjusteSec2 div p{
+	padding: 2%;
+	color: #90B70C;
+}
+
+#section2RowAjuste4{
+	margin-top: -30%;
+    width: 56%;
+    margin-left: 17%;
 }
 
 
