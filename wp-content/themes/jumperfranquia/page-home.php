@@ -106,6 +106,9 @@ get_header();
 
 				</div>
 				
+				<div class="row text-center" id="section2RowAjuste4">
+					<h2>Quando o jovem possui todas estas <strong>qualificações,</strong> se destaca em um processo seletivo, e consegue o seu <strong>primeiro emprego.</strong></h2>
+				</div>
 
 			</div>
 		</div>

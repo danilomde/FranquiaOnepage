@@ -8,21 +8,14 @@
  *
  * @package JUMPER_Franquias
  */
-
 ?>
 	</div><!-- #content -->
 
 	<footer id="footer" class="site-footer">
-<<<<<<< HEAD
-		<div class="row boxfooter" id="target">
-			<div class="col-md-6 callfooter ">
-				<h2><strong>Multiplique</strong> o seu <strong class="bigstrong">dinheiro</strong></h2>
-=======
 		<div class="row boxfooter">
 			<div class="col-md-6 col-offset-3 callfooter ">
 
 				<h2><strong>Multiplique</strong> <span> o seu </span> <strong class="bigstrong">dinheiro</strong></h2>
->>>>>>> 631ffed6de6ef407649868d68001964cc2f330ce
 
 			</div>
 

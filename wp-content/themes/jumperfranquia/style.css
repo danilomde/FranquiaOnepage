@@ -177,11 +177,11 @@ h1 strong{
 }
 
 .meninoCarteira{
-	margin-top: -30%;
+	margin-top: -26%;
 }
 
 #textoMenino1{
-    margin-top: -27%;
+    margin-top: -24%;
     padding-left: 10%;
 }
 
@@ -191,7 +191,7 @@ h1 strong{
 
 #textoMenino2{
 	padding-left: 17%;
-    margin-top: -28%;
+    margin-top: -25%;
 }
 
 #textoMenino2 .texto2Section2{
@@ -199,7 +199,7 @@ h1 strong{
 }
 
 #textMenino3{
-	margin-top: -11%;     
+	margin-top: -5%;     
 	padding-right: 30%;
     padding-left: 16%;
 }
@@ -217,6 +217,12 @@ h1 strong{
 #rowAjusteSec2 div p{
 	padding: 2%;
 	color: #90B70C;
+}
+
+#section2RowAjuste4{
+	margin-top: -30%;
+    width: 56%;
+    margin-left: 17%;
 }
 
 
