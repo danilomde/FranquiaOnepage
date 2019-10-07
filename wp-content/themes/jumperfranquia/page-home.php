@@ -47,9 +47,9 @@ get_header();
 
 
 				<div class="col-md-12 text-center" id="textMenino3">
-					<h1>Mas, se fierem um curso, vão mudar essa situação?</h1>
+					<h1>Mas, se fizerem 1 curso, vão mudar essa situação?</h1>
 					<h3 style="background-color: yellow;">NÃO</h3>
-					<h4>Somente com um curso o jovem aidna não se qualifica o suficiente. Para trabalhar ele precisa: </h4>
+					<h4>Somente com 1 curso o jovem ainda não se qualifica o suficiente. Para trabalhar ele precisa: </h4>
 				</div>
 				
 				<div class="row" id="rowAjusteSec2">
@@ -107,11 +107,125 @@ get_header();
 				</div>
 				
 				<div class="row text-center" id="section2RowAjuste4">
-					<h2>Quando o jovem possui todas estas <strong>qualificações,</strong> se destaca em um processo seletivo, e consegue o seu <strong>primeiro emprego.</strong></h2>
+
+					<div class="ajusteH2RowAjuste4">
+						<h2>Quando o jovem possui todas estas <strong>qualificações,</strong> se destaca em um processo seletivo, e consegue o seu <strong>primeiro emprego.</strong></h2>
+					</div>
+					
+
+					<div class="ajusteLinha1RowAjuste4">
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/p2/flecha1.png">
+					</div>
+					
 				</div>
+
+				<div class="row">
+					<div class="ajusteSomenteUmaFormacao">
+						<h2>"Somente uma <strong>formação completa</strong> muda a vida das pessoas"</h2>
+
+						<div class="text-right">
+							<p>- Everton Sabú</p>
+						</div>
+						
+						<p>O salário desse primeiro emprego, transforma não somente a vida desse jovem, mas de toda familia.</p>
+
+						<div class="ajusteLinha2RowAjuste4">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p2/flecha2.png">
+						</div>
+
+						<div class="ajusteClasseCeD">	
+							<h2>E as classes <strong>C e D,</strong> conseguem pagar todos esses cursos?</h2>
+							<p>Na concorrência, não. Pois, os cursos necessários, são cobrados separadamente.</p>
+
+							<p>Mas se vier na <strong>JUMPER!</strong>, terá <strong>Formação completa,</strong> irá fazer cursos, com valor único e acessível, nas áreas de: </p>
+
+						</div>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+			<div class="ajusteLinha3RowAjuste4">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/p2/flecha3.png">
+				</div>
+
+			<div class="row rowSection3Bg">
+				<div class="col-md-12 imgEscolaSec3">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/escola-sec3.png">
+				</div>
+
+				<div class="container">
+					<div class="row rowContainerSec3 ">
+						<div class="col-md-2 text-left">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-1.png" width="125px" height="125px">
+							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+							
+						</div>
+
+						<div class="col-md-2 text-center">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-2.png" width="125px" height="125px">
+							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+						</div>
+
+						<div class="col-md-2 text-center">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-3.png" width="125px" height="125px">
+							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+						</div>
+
+						<div class="col-md-2 text-center">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-4.png" width="125px" height="125px">
+							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+						</div>
+
+						<div class="col-md-2 text-center" id="ultimoIcon">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-5.png" width="125px" height="125px">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12" id="rowBgTreinamentoSection3">
+					<!-- <div class="container"> -->
+						<div class="row justify-content-md-center" id="ajusteRowTreinamentoSection3">
+							<div class="col-md-3 text-right divBorderRightSec3">
+								<p>Além disso, durante a sua formação receberá</p>
+							</div>
+
+							<div class="col-md-3 text-left">
+								<h2 id="h2AjusteSec3">12 treinamentos <span>complementares gratuitos</span></h2>
+							</div>
+						</div>
+					<!-- </div> -->
+				</div>
+
+				<div class="col-md-6" id="bgMeninaApontandoSec3">
+				</div>
+
+				<div class="col-md-6" id="rowListaMeninaApontandoSec3">
+					<ul>
+						<li>1. Liderança</li>
+						<li>2. Técnicas de Entrevistas de Emprego</li>
+						<li>3. Comnunicação</li>
+						<li>4. Expressão Corporal</li>
+						<li>5. Marketing Pessoal</li>
+						<li>6. Trabalho em Equipe</li>
+						<li>7. Solução de Conflitos no Trabalho</li>
+						<li>8. Finanças Pessoais</li>
+						<li>9. Atendimento ao Cliente</li>
+						<li>10. Auxiliar de Escritório</li>
+						<li>11. Telemarketing</li>
+						<li>12. Elaboração de Currículo</li>
+					</ul>
+				</div>
+				
 
 			</div>
 		</div>
+	</section>
+
+	<section class="section4">
+		
 	</section>
 	
 	
