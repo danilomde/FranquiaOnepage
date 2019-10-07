@@ -237,6 +237,7 @@ h1 strong{
     padding-top: 175px;	
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -172px;
 
 }
 
@@ -371,3 +372,18 @@ h1 strong{
 
 }
 
+
+.namidia{
+	height: 700px;
+
+}
+
+.titlenamidia{
+	background: url(images/bg-triangulo-gray.png) center center no-repeat;
+	height: 565px;
+	background-position-y: -160px;
+}
+
+.titlenamidia img{
+	width: 500px;
+}

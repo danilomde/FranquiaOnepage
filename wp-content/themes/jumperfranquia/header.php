@@ -30,7 +30,10 @@
 
 
 
-
+	<script type="text/javascript">
+		var url = "<?php bloginfo( 'url' ); ?>";
+		var template_url = "<?php bloginfo( 'template_url' ); ?>";
+	</script>
 </head>
 
 <body <?php body_class(); ?>>

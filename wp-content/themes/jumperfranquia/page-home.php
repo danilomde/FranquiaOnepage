@@ -113,6 +113,15 @@ get_header();
 			</div>
 		</div>
 	</section>
+
+	
+
+
+	<section class="namidia">
+		<div class='titlenamidia'>
+			<img src="<?php bloginfo( 'template_url' ); ?>/images/jumper-na-midia.png" class="mt-5 ml-5" alt="JIMPER NA MÍDIA" title="JIMPER NA MÍDIA">
+		</div>
+	</section>
 	
 	
 <?php
