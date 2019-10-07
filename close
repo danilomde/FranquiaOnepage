@@ -1,0 +1,201 @@
+[33mcommit 6a348970275f91cfddd9d9e0b3103d8e4bf08824[m[33m ([m[1;36mHEAD -> [m[1;32mteste[m[33m, [m[1;31morigin/teste[m[33m, [m[1;32mart[m[33m)[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Mon Oct 7 13:16:57 2019 -0300
+
+    S3 Pronta
+
+[33mcommit 6b18959694d1daa7279868ed6db17995c6a8d6aa[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Fri Oct 4 09:44:19 2019 -0300
+
+    FooterCorrigido
+
+[33mcommit 07774ede0b70738957575aad042d7d8502d53922[m
+Merge: f566e69 8fa0f28
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Thu Oct 3 17:39:20 2019 -0300
+
+    Merge branch 'art' of https://github.com/danilomde/FranquiaOnepage into art
+
+[33mcommit f566e69c42adbe47f7b60f5549443b46dfc87913[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Thu Oct 3 17:36:50 2019 -0300
+
+    Parte2_QUaseCompletaSQN
+
+[33mcommit 8fa0f28ca5b9dcf2b21f8abdcddc57cf578b9b57[m
+Merge: d371e87 7483fac
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Thu Oct 3 17:35:53 2019 -0300
+
+    Merge branch 'master' into art
+
+[33mcommit 7483fac3111ddabc03ca4ef374fd213657481e51[m
+Merge: ac59743 631ffed
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Thu Oct 3 17:34:14 2019 -0300
+
+    Scrollto2
+
+[33mcommit ac5974391b377cfa311e3e42352c950449f98fcb[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Thu Oct 3 17:33:02 2019 -0300
+
+    Scrollto
+
+[33mcommit d371e87c641e53aab2dddd9667110e28e5b518a5[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Thu Oct 3 14:58:00 2019 -0300
+
+    Parte22
+
+[33mcommit 5882e1dadfce75a0fd67a5baacf776b6fd11904b[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Thu Oct 3 14:33:15 2019 -0300
+
+    Parte2
+
+[33mcommit a332b290bd6d249172cefbd5f24c274b6fd2a7a2[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Thu Oct 3 14:26:48 2019 -0300
+
+    Css ajustado
+
+[33mcommit 631ffed6de6ef407649868d68001964cc2f330ce[m
+Merge: 9cf071b 9a6c019
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 17:58:30 2019 -0300
+
+    Merge pull request #4 from danilomde/art
+    
+    Footer Semi Completo
+
+[33mcommit 9a6c019ad97c1e3f040786679c6379e76f59d93d[m
+Merge: 9bee8b6 9cf071b
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 17:58:23 2019 -0300
+
+    Merge branch 'master' into art
+
+[33mcommit 9bee8b6d15002b52d8090e020bf64c14aaa28718[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 17:56:27 2019 -0300
+
+    Footer Semi Completo
+
+[33mcommit 9cf071b29809a30138a4c65393a53d9b99afff51[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 17:54:24 2019 -0300
+
+    Whatsapp
+
+[33mcommit 2c5d881f7a20561e4f5600091d7bd6c2fd90cbf6[m
+Merge: c99e9a5 f551db0
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 15:13:29 2019 -0300
+
+    Merge branch 'master' into art
+
+[33mcommit c99e9a5b9bd80eff056a9fd3669612c1f5e91d0a[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 15:09:57 2019 -0300
+
+    FundoFooterRecortado
+
+[33mcommit f551db026f12d5d9db65765ff970ed7c0792a693[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 15:06:09 2019 -0300
+
+    Paralax novo
+
+[33mcommit e18ad0932c14a4d28e212bc5a7cbddfaef62b95e[m
+Merge: e0eb257 cbc61f3
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 14:17:10 2019 -0300
+
+    Merge pull request #3 from danilomde/art
+    
+    parallaxSection1
+
+[33mcommit cbc61f327b4d3143390271f2d904a698dbb6255a[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 14:15:52 2019 -0300
+
+    parallaxSection1
+
+[33mcommit e0eb257d6b71da28b9daaab0da8590eb8edc3d4f[m
+Merge: e9d178c d36119f
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 11:48:08 2019 -0300
+
+    Merge pull request #2 from danilomde/art
+    
+    Headerr
+
+[33mcommit d36119f7f394ad66e55c9054791f3d2b35307fcb[m
+Merge: 5d922f1 e9d178c
+Author: Artur Sampaio <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 11:46:57 2019 -0300
+
+    Merge branch 'master' into art
+
+[33mcommit 5d922f1b107b7d20525f37309bea3bb94017cdb0[m
+Author: Artur <arturcedaspy@gmail.com>
+Date:   Wed Oct 2 11:37:44 2019 -0300
+
+    02/10
+
+[33mcommit e9d178c98dc80e50874daf8f437a0a501aae67bc[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Wed Oct 2 11:36:56 2019 -0300
+
+    Footer
+
+[33mcommit 228ec129c0c6c2e6b27cc3595e225bf8179431fe[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 16:35:39 2019 -0300
+
+    imagens
+
+[33mcommit 3da677b1b20d5db1d13d91b6fb05b2b427fe8843[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 15:30:38 2019 -0300
+
+    z3
+
+[33mcommit 3ce57e1cad42184aa0b7ec471f8acac5db938503[m
+Merge: 2526cdd a31ce9f
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:54:41 2019 -0300
+
+    Merge branch 'master' of https://github.com/danilomde/FranquiaOnepage
+
+[33mcommit 2526cddc3d6a6ba06f3a6ba05b56f72753db59a0[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:54:29 2019 -0300
+
+    Segundo Commit
+
+[33mcommit a31ce9f51df01f78cea0fdd03c1be9fac3283f8d[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:54:17 2019 -0300
+
+    Delete readme.html
+
+[33mcommit d102094f9837289ec200f3435b25977e89ea9f6d[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:53:39 2019 -0300
+
+    Segundo Commit
+
+[33mcommit b9b75b0f595773608c5f4a785affbc3a8f6da76f[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:48:27 2019 -0300
+
+    Update readme.html
+
+[33mcommit 2ab798982e738ade22bcb23bde2dfd07c092e8d5[m
+Author: Danilo Zeni <danilomde@gmail.com>
+Date:   Tue Oct 1 11:44:38 2019 -0300
+
+    Primeiro Commit
