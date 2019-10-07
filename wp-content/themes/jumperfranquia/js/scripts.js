@@ -23,7 +23,7 @@ jQuery('.section5').parallax({
 // 	imageSrc: template_url+'/images/p4/bgSec4.png',
 // 	positionY: '-50px',
 // 	bleed: '10',
-// 	zIndex: '0'
+// 	zIndex: '0'sdaadsasdsadasdsadasd
 // });
 
 // var x = template_url+'/images/p4/bgSec4.png';
