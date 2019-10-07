@@ -142,9 +142,6 @@ get_header();
 						</div>
 					</div>
 				</div>
-
-				
-
 			</div>
 
 			<div class="ajusteLinha3RowAjuste4">
@@ -224,8 +221,61 @@ get_header();
 		</div>
 	</section>
 
+
 	<section class="section4">
-		
+		<div class="container">
+			<div class="row" id="ajusteRow1Sec4">
+				<div class="col-md-10 text-left" id="div1Sec4">
+					<h1 id="h1Div1Sec4">Mas,</h1>
+					<h1 id="h2Div1Sec4">e o preço</h1>
+				</div>
+				<div class="col-md-2" id="div2Sec4">
+					<h1 id="h1Div2Sec4"> ? </h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-md-center">
+
+				<div class="col-md-4" id="div3Sec4" >
+
+					<p><strong>Toda essa formação</strong> custaria:</p>
+					<div>
+						<img src="<?php bloginfo( 'template_url' ); ?>/images/p4/x.png">
+						<h3>R$<span>697</span>,00 / mês</h3>
+					</div>
+					
+				</div>
+				<div class="col-md-4" id="div4Sec4" >
+					<p>Sabemos que esse valor, não cabe no orçamento das famílias das <strong>classes C e D.</strong></p>
+				</div>
+			</div>
+
+			<div class="row justify-content-md-center">
+				<div class="col-md-4" id="div5Sec4">
+					<p>Na <strong>JUMPER!</strong>, estamos comprometidos em transformar a vida das pessoas. Por isso, criamos o programa <strong>FORMATEC,</strong> que oferece condições acessíveis a todos.</p>
+				</div>
+
+				<div class="col-md-4" id="div6Sec4">
+					<p>O aluno faz todos os cursos <strong>(Formação Completa)</strong> por: </p>
+					<h3>R$<span>249</span>,00 / mês</h3>
+				</div>
+			</div>
+		</div>
+  	</section>
+
+  	<section class="section5">
+  		<span style="display: none;">já transformamos a vida de mais de 600 mil pessoas</span>
+  	</section>
+
+  	<section class="section6">
+  		
+  	</section>
+
+
+	<section class="namidia">
+		<div class='titlenamidia'>
+			<img src="<?php bloginfo( 'template_url' ); ?>/images/jumper-na-midia.png" class="mt-5 ml-5" alt="JIMPER NA MÍDIA" title="JIMPER NA MÍDIA">
+		</div>
 	</section>
 	
 	
