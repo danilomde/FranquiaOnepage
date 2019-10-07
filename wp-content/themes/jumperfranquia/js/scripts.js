@@ -14,3 +14,18 @@ jQuery('.section1ImgFundoEscola').parallax({imageSrc: url+'/wp-content/uploads/2
 
 jQuery('.namidia').parallax({imageSrc: template_url+'/images/na-midia.jpg'});
 
+jQuery('.section5').parallax({
+	imageSrc: template_url+'/images/p5/bg-s5-txt.png',
+	speed: 0.3,
+});
+
+// jQuery('.section4').parallax({
+// 	imageSrc: template_url+'/images/p4/bgSec4.png',
+// 	positionY: '-50px',
+// 	bleed: '10',
+// 	zIndex: '0'
+// });
+
+// var x = template_url+'/images/p4/bgSec4.png';
+
+// console.log(x);
