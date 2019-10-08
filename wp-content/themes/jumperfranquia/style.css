@@ -486,6 +486,9 @@ h1 strong{
 	background-position: center;
 	background-repeat: no-repeat;
 
+	position: relative;
+	z-index: 10;
+
 	margin-top: -11%;
 	min-height: 788px;
 }
@@ -574,7 +577,54 @@ h1 strong{
 	font-size: 24px;
 }
 
+.section7{
+/*	background-image: url('images/p7/unidade-jumper.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;*/
 
+	position: relative;
+	z-index: 0;
+	
+	margin-top: -10%;
+
+	min-height: 515px;
+}
+
+#ajusteDivSec7{
+	padding-top: 15%;
+}
+
+
+#row1Sec8Bg{
+	background-image: url('images/p8/video-bg.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	position: relative;
+	z-index: 10;
+
+	margin-top: -8.5%;
+	min-height: 717px;
+
+	cursor: pointer;
+}
+
+
+.section8Imgs{
+	margin-right: auto;
+    margin-left: auto;
+}
+.section8Imgs div{
+	padding: 0;
+    margin: 0;
+    margin-bottom: -3%;
+}
+.section8Imgs div img{
+	height: 86%;
+	cursor: pointer;
+}
 
 /*--------------------------------------------------------------
  *	@zeni
