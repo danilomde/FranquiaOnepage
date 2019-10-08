@@ -626,6 +626,90 @@ h1 strong{
 	cursor: pointer;
 }
 
+
+.section9{
+	background-image: url('images/p9/bg-3.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 914px;
+}
+
+.section9 .container{
+	background-image: url('images/p9/tabuleiro-com-linha.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 900px;
+}
+
+#ajusteDiv1Sec9{
+	padding-left: 20.5%;
+    padding-top: 11%;
+}
+#ajusteDiv1Sec9 h2{
+	font-size: 30px;
+    height: 0;
+}
+#ajusteDiv1Sec9 h1{
+	font-size: 60px;
+    font-weight: 800;
+}
+
+.tabuleiroAjuste .row div h1{
+	font-size: 50px;
+    font-weight: 900;
+}
+.tabuleiroAjuste .row div p{
+	color: #C4CD18;
+}
+.tabuleiroAjuste .row .h1Sec9{
+	margin-top: -8%;
+}
+.tabuleiroAjuste .row .pSec9{
+	padding-top: 10%;
+}
+
+#rowAjusteSec9{
+	padding-top: 8%;
+}
+
+.tabuleiroAjuste2{
+	padding-right: 8%;
+}
+.tabuleiroAjuste2 div div h1{
+	font-size: 50px;
+    font-weight: 900;
+}
+.tabuleiroAjuste2 div div h1{
+	font-size: 50px;
+    font-weight: 900;
+}
+.tabuleiroAjuste2 div .h1Sec92{
+	margin-top: -10%;
+}
+.tabuleiroAjuste2 div .pSec92{
+	color: #C4CD18;
+	padding-top: 5%;
+}
+
+#row3AjusteSec9{
+	margin-top: 8.5%;
+}
+
+.pSec93{
+	padding-top: 5%;
+	color: #C4CD18;
+}
+
+.h1Sec93{
+	margin-top: -10%;
+}
+.h1Sec93 h1{
+	font-size: 50px;
+    font-weight: 900;
+}
+
 /*--------------------------------------------------------------
  *	@zeni
  *--------------------------------------------------------------*/

@@ -363,6 +363,151 @@ get_header();
   				</div>
   	</section>
 
+
+  	<section class="section9">
+  		<div class="container">
+
+  			<div class="row">
+  				<div class="col-md-12" id="ajusteDiv1Sec9">
+  					<h2>Estaremos com </h2>
+  					<h1>Você</h1>
+  				</div>
+  			</div>
+
+  			<div class="row mt-n4">
+  				
+  				<div class="col pl-4 pr-5 tabuleiroAjuste offset-md-4" >
+  					<div class="row">
+  						<div class="col-md-2 h1Sec9">
+  							<h1>1</h1>
+  						</div>
+
+  						<div class="col pSec9">
+  							<p>Auxílio na escolha do imóvel</p>
+  						</div>
+  					</div> 
+  					
+  				</div>
+
+  				<div class="col pl-4 pr-5 tabuleiroAjuste" >
+  					<div class="row">
+  						<div class="col-md-2 h1Sec9">
+  							<h1>2</h1>
+  						</div>
+
+  						<div class="col pSec9">
+  							<p>Orientação na Montagem da Estrutura</p>
+  						</div>
+  					</div> 
+  				</div>
+
+  				<div class="col pl-4 pr-5 tabuleiroAjuste" >
+					<div class="row">
+						<div class="col-md-2 h1Sec9">
+							<h1>3</h1>
+						</div>
+
+						<div class="col pSec9">
+							<p>Projeto Arquitetônico</p>
+						</div>
+					</div> 
+  				</div>
+  			</div>
+
+  			<div class="row" id="rowAjusteSec9">
+  				<div class="col offset-md-3 tabuleiroAjuste2" styl>
+  					<div class="row ml-5">
+
+  						<div class="col-md-2 h1Sec92">
+  							<h1>6</h1>
+  						</div>
+
+  						<div class="col pSec92 ml-3 mt-2">
+  							<p>Kit Material didático</p>
+  						</div>
+
+  					</div>
+  				</div>
+
+  				<div class="col tabuleiroAjuste2">
+  					<div class="row mt-2">
+
+  						<div class="col-md-2 h1Sec92">
+  							<h1>5</h1>
+  						</div>
+
+  						<div class="col pSec92">
+  							<p>Ações de Marketing para captação de alunos</p>
+  						</div>
+
+  					</div>
+  				</div>
+
+  				<div class="col tabuleiroAjuste2">
+  					<div class="row mt-2">
+
+  						<div class="col-md-2 h1Sec92">
+  							<h1>4</h1>
+  						</div>
+
+  						<div class="col pSec92">
+  							<p>Assistência na contratação da equipe</p>
+  						</div>
+
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="row justify-content-md-center" id="row3AjusteSec9">
+
+  				<div class="col-md-3 pr-5" >
+  					<div class="row">
+
+  						<div class="col-md-2 h1Sec93 mr-2">
+  							<h1>7</h1>
+  						</div>
+
+  						<div class="col pSec93 ml-n3">
+  							<p>Evento de Inauguração</p>
+  						</div>
+  						
+  					</div>
+  				</div>
+
+  				<div class="col-md-2 ml-n2" >
+  					<div class="row">
+
+  						<div class="col-md-2 h1Sec93 ml-n4 mr-4">
+  							<h1>8</h1>
+  						</div>
+
+  						<div class="col pSec93">
+  							<p>Suporte total da franqueadora</p>
+  						</div>
+  						
+  					</div>
+  				</div>
+
+  				<div class="col-md-3 pr-5 pl-5" >
+  					<div class="row">
+
+  						<div class="col-md-2 h1Sec93">
+  							<h1>9</h1>
+  						</div>
+
+  						<div class="col pSec93">
+  							<p>30 dias de consultoria na unidade</p>
+  						</div>
+  						
+  					</div>
+  				</div>
+
+  			</div>
+
+  		</div>
+  	</section>
+
+
 	<section class="namidia">
 		<div class='titlenamidia'>
 			<img src="<?php bloginfo( 'template_url' ); ?>/images/jumper-na-midia.png" class="mt-5 ml-5" alt="JIMPER NA MÍDIA" title="JIMPER NA MÍDIA">
