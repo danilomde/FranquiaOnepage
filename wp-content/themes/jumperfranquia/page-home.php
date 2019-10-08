@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-	
+	<!-- SECTION 2 e 3 -->
 	<section class="section2">
 		<div class="container">
 			<div class="row rowSection2Bg">
@@ -221,7 +221,7 @@ get_header();
 		</div>
 	</section>
 
-
+	<!-- SECTION 4 -->
 	<section class="section4">
 		<div class="container">
 			<div class="row" id="ajusteRow1Sec4">
@@ -263,10 +263,12 @@ get_header();
 		</div>
   	</section>
 
+  	<!-- SECTION 5 -->
   	<section class="section5">
   		<span style="display: none;">já transformamos a vida de mais de 600 mil pessoas</span>
   	</section>
 
+  	<!-- SECTION 6 -->	
   	<section class="section6">
   		<div class="container">
 
@@ -314,7 +316,52 @@ get_header();
 
   		</div>
   	</section>
+	
+	<!-- SECTION 7 -->
+  	<section class="section7">
+  		<div class="container">
+  			<div class="row justify-content-md-center">
+  				<div class="col-md-12 text-center" id="ajusteDivSec7">
+  					<h2 style="display: none;">Conheça a sua unidade</h2>
+  					<h1 style="display: none;">JUMPER<strong>!</strong></h1>
+  					<img src="<?php bloginfo( 'template_url' ); ?>/images/p7/conheca-a-jumper.png">
+  				</div>
+  			</div>
+  		</div>
+  	</section>
 
+  	<section class="section8">
+  			<div id="row1Sec8Bg">
+  				
+  			</div>
+  				<div class="row section8Imgs">
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/recepcao.jpg">
+  					</div>
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/idiomas.jpg">
+  					</div>
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/industrial.jpg">
+  					</div>
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/informatica.jpg">
+  					</div>
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/beleza.jpg">
+  					</div>
+
+  					<div class="col-md-2">
+  						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/mecanica.jpg">
+  					</div>
+
+  				</div>
+  	</section>
 
 	<section class="namidia">
 		<div class='titlenamidia'>
