@@ -268,7 +268,39 @@ get_header();
   	</section>
 
   	<section class="section6">
-  		
+  		<div class="container">
+
+  			<div class="row justify-content-md-left" id="ajusteRowSec6">
+  				<div class="col-md-4" id="div1Sec6">
+  					<p>Sabe como o aluno</p>
+  					<h2>estuda na Jumper</h2>
+  				</div>
+  				<div class="col-md-1" id="div2Sec6">
+  					<h1>?</h1>
+  				</div>
+  			</div>
+
+  			<div class="row justify-content-md-left" id="ajusteRow2Sec6">
+  				<div class="col-md-2 text-right" id="div3Sec6">
+  					<p>As aulas são:</p>
+  				</div>
+  				<div class="col-md-3">
+  					<h3><strong>Presencias, Práticas, Em grupo e Divertidas</strong></h3>
+  				</div>
+  			</div>
+
+  			<div class="row justify-content-md-left" id="ajusteRow3Sec6">
+  				<div class="col-md-2 text-right" id="div4Sec6">
+  					<p>O aluno aprende de</p>
+  					<h3><strong>verdade!</strong></h3>
+  				</div>
+
+  				<div class="col-md-4" id="div5Sec6">
+  					<p>Existem milhares de jovens na sua cidade esperando esta oportunidade de estudar na <strong>JUMPER!</strong></p>
+  				</div>
+  			</div>
+
+  		</div>
   	</section>
 
 
