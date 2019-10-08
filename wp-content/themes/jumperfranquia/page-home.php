@@ -300,6 +300,18 @@ get_header();
   				</div>
   			</div>
 
+  			<div class="row">
+  				<div class="col-md-6 text-center" id="div6Sec6">
+  					<div class="subDiv6">
+  						<h3>"</h3>
+  					</div>
+
+  					<div class="subDiv6">
+  						<p>Você pode ser um <strong>parceiro nesta Missão!</strong></p>
+  					</div>
+  				</div>
+  			</div>
+
   		</div>
   	</section>
 
