@@ -48,11 +48,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 600px;
-	max-width: 1000px;
+	max-width: 1185px;
 }
 
 .divH2Section1{
-	padding-top: 24%; 
+	padding-top: 24%;
+	    margin-left: 352px; 
 }
 
 .divBg2Section1{
@@ -79,7 +80,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 
 .divImageSection1 div{
 	margin-right: -50%;
-	margin-top: 39%;
+	margin-top: 33%;
 	color: white;
 }
 
@@ -96,18 +97,30 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 }
 
 #site-navigation div ul{
-	margin-left: -10%;
-	color: white;
-	font-size: 15px;
-	padding-top: 1.5%;
+	 margin-left: -10%;
+    color: white;
+    font-size: 18px;
+    padding-top: 1.5%;
+    font-weight: 600;
 }
 
 .phone span a{
 	color: #2E3A58;
+	text-decoration: none;
+	text-shadow: 1px solid #ffffff;
 }
 .phone span a strong{
-	font-size: 25px;
+	    font-size: 38px;
+    font-weight: 900;
 }
+
+
+.phone{
+    font-size: 21px;	
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 
 .section1ImgFundoEscola{
 	z-index: -1;
@@ -122,7 +135,7 @@ h2{
 	text-transform: uppercase; 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	font-size: 23px;
+	font-size: 32px;
 }
 h2 strong{
 	color: #BED62F;
@@ -871,3 +884,4 @@ h1 strong{
 .titlenamidia img{
 	width: 500px;
 }
+

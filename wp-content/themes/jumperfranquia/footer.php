@@ -123,7 +123,7 @@
 </div><!-- #page -->
 
 
-<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="btnwhats" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="btnwhats animated bounceInDown delay-2s	 " target="_blank">
 	<img src="<?php bloginfo( 'template_url' ); ?>/images/whats.png">
 </a>
 
