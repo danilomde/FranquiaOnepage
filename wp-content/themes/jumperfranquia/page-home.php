@@ -24,7 +24,7 @@ get_header();
 				</div>
 
 				<div class="col-md-6 section2AjusteTopo">
-					<h3>93% dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</h3>
+					<h3><span class="bignumber">93%</span> dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</h3>
 				</div>
 
 				<div class="col-md-12 text-center meninoCarteira"> 

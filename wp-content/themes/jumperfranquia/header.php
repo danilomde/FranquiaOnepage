@@ -113,7 +113,7 @@
 		</div>
 
 		<div class="divBg2Section1 text-center mt-n2">
-			<div class="animated bounceInUp">
+			<div class="animated bounceInUp slower">
 				<?php echo get_field( "texto_chamada" );?>
 			</div>
 		</div>
