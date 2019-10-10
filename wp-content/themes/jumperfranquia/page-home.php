@@ -48,7 +48,10 @@ get_header();
 
 				<div class="col-md-12 text-center" id="textMenino3">
 					<h1>Mas, se fizerem 1 curso, vão mudar essa situação?</h1>
-					<h3 style="background-color: yellow;">NÃO</h3>
+					<div class="divSuporteH3">
+						<h3>NÃO</h3>
+					</div>
+					
 					<h4>Somente com 1 curso o jovem ainda não se qualifica o suficiente. Para trabalhar ele precisa: </h4>
 				</div>
 				
@@ -234,7 +237,7 @@ get_header();
 				</div>
 			</div>
 
-			<div class="row justify-content-md-center">
+			<div class="row justify-content-md-center" id="ajusteRow2Sec4">
 
 				<div class="col-md-4" id="div3Sec4" >
 
@@ -365,7 +368,7 @@ get_header();
 
 
   	<section class="section9">
-  		<div class="container">
+  		<div class="container containerUM">
 
   			<div class="row">
   				<div class="col-md-12" id="ajusteDiv1Sec9">
@@ -505,8 +508,176 @@ get_header();
   			</div>
 
   		</div>
+
   	</section>
 
+  	<section class="section10">
+  		<div class="container">
+
+
+  			<div class="row justify-content-center">
+  				<div class="col-md-6 ajusteDiv1Sec10">
+  					<h1 id="h1Sec10">Eles <span>começaram</span> do <span>zero</span> ,</h1>
+  					<h1 id="h1Sec102"> e hoje são <span>referência</span>  na <span>rede!</span></h1>
+  				</div>
+  			</div>
+
+
+  			<div class="container containerFranqueados">
+  					<div class="row">
+
+		  				<div class="col-md-3 text-right divSec9Nome">
+		  					<h1><strong>Josemar</strong> Lopes</h1>
+		  					<p>7 unidades Jumper!</p>
+		  				</div>
+
+		  				<div class="col-md-2 text-center">
+		  					<img src="<?php bloginfo( 'template_url' ); ?>/images/p10/josemar.png" width="170px" height="170px">
+		  				</div>
+
+		  				<div class="col-md-4">
+
+		  					<div class="text-center">
+		  						<h1>"</h1>
+		  					</div>
+
+		  					<div class="text-left">
+		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  					</div>
+		  					
+		  					
+		  				</div>
+		  			</div>
+
+		  			<div class="row">
+
+		  				<div class="col-md-3 offset-md-2 text-right divSec9Nome">
+		  					<h1><strong>Helena</strong> Sato</h1>
+		  					<p>7 unidades Jumper!</p>
+		  				</div>
+
+		  				<div class="col-md-2 text-center">
+		  					<img src="<?php bloginfo( 'template_url' ); ?>/images/p10/sato.png" width="170px" height="170px">
+		  				</div>
+
+		  				<div class="col-md-4">
+
+		  					<div class="text-center">
+		  						<h1>"</h1>
+		  					</div>
+
+		  					<div class="text-left">
+		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  					</div>
+		  					
+		  					
+		  				</div>
+		  			</div>
+
+		  			<div class="row">
+
+		  				<div class="col-md-3 offset-md-3 text-right divSec9Nome">
+		  					<h1><strong>Edenilson</strong> Malheiros</h1>
+		  					<p>7 unidades Jumper!</p>
+		  				</div>
+
+		  				<div class="col-md-2 text-center">
+		  					<img src="<?php bloginfo( 'template_url' ); ?>/images/p10/edenilson.png" width="170px" height="170px">
+		  				</div>
+
+		  				<div class="col-md-4">
+
+		  					<div class="text-center">
+		  						<h1>"</h1>
+		  					</div>
+
+		  					<div class="text-left">
+		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  					</div>
+		  					
+		  					
+		  				</div>
+		  			</div>
+  			</div>
+
+
+  			<div class="row justify-content-center row1Sec10">
+  				<div class="col-md-3">
+  					<div class="text-center">
+  						<h1>"</h1>
+  					</div>
+  					
+  					<h1>Eles <strong>conseguiram, você</strong> também <strong>pode!</strong> </h1>
+  				</div>
+  			</div>
+
+  			<div class="row justify-content-left row2Sec10">
+  				<div class="col-md-3">
+  					<h1>Quantos eu <strong>preciso</strong> para <strong>investir</strong>?</h1>
+  				</div>
+  			</div>
+
+
+  			<div class="row row3Sec10">
+  				
+  				<div class="col-md-6" id="div1Row3Sec10">
+  					<h3>Investimento Total:</h3> 
+  					<h1>R$ <strong>159</strong> mil</h1>
+  					<p>(adesão + estrutura + inauguração)</p>
+  				</div>
+
+  				<div class="col-md-6">
+  					<h2>Não tenho todo o dinheiro, como faço?</h2>
+
+  					<p>Temos convênio de financiamento de franquia; com juros subsidiados (menores), e carência de 6 meses para começar a pagar</p>
+
+  					<p><strong>Você paga o financiamento com o próprio lucro da unidade.</strong></p>
+
+  					<div class="justify-content-right">
+  						<button>Fale com o consultor</button>	
+  					</div>
+
+  				</div>
+  			
+  			</div>
+
+  			<div class="row justify-content-left row4Sec10">
+  				<div class="col-md-12">
+  					<h1>Qual será o <strong>lucro?</strong></h1>
+  					<p>Em apenas <strong>6 meses,</strong> você vai ganhar mais de <strong>15 mil por mês,</strong> dentro do plano de negócio</p>
+
+  					<div>
+  						<button>Saiba mais</button>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="row">
+  				<div class="col-md-5 offset-md-7">
+  					<h1>A <strong>minha cidade</strong> está <strong>disponível?</strong></h1>
+  					<p>A <strong>JUMPER!</strong> abre apenas <strong>12 unidades por ano,</strong> para atender com excelência o novo parceiro.</p>
+  					<p>Entre em contato com o nosso consultor e consulte a disponibilidade.</p>
+  					<div>
+  						<button>Consultar Disponibilidade</button>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="row ro6Sec10 justify-content-left">
+  				<div class="col-md-5">
+  					<h1>Será que <strong>dá certo</strong> uma <strong>JUMPER!</strong> na <strong>minha cidade?</strong></h1>
+  					<p>A nossa equipe, fará um estudo de potencial da sua cidade, pois o seu sucesso é o nosso sucesso.</p>
+
+  					<p>Fale com o nosso consultor e solicite o estudo de viabilidade</p>
+
+  					<div>
+  						<button>Quero contato</button>
+  					</div>
+  				</div>
+  			</div>
+
+  		</div>
+  	</section>
 
 	<section class="namidia">
 		<div class='titlenamidia'>
