@@ -977,3 +977,15 @@ h1 strong{
 	width: 500px;
 }
 
+.bignumber{
+    font-family: 'Montserrat', sans-serif;
+    color: #2D3856;
+    font-size: 62px;
+    margin-left: -143px;
+    font-weight: 900;
+    position: absolute;
+}
+
+.section2AjusteTopo h3{
+	margin-left: 100px;
+}
