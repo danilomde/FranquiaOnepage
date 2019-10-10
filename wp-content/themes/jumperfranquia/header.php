@@ -52,7 +52,7 @@
 
 				<nav id="site-navigation" class="col-md-7 main-navigation navbar navbar-expand-lg">
 					
-					<div class="collapse navbar-collapse">
+					<div class="collapse navbar-collapse animated bounceInDown delay-1s">
 						<ul class='main-navigation navbar-nav mr-auto'>
 							<li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
 							<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
@@ -70,7 +70,7 @@
 
 				</nav><!-- #site-navigation -->
 
-				<div class="col-md-2 mt-3 ml-n2 phone">
+				<div class="col-md-2 mt-3 ml-n2 phone animated bounceInDown delay-1s">
 					<span itemprop="telephone"><a href="tel:4130813686">(41)<strong>3081-3686</strong> </a></span>
 				</div>
 
@@ -93,14 +93,14 @@
 
 		<div class="divBgSection1">
 
-			<div class="divH2Section1 col-6 col-sm-12 col-md-12 col-lg-4 col-xl-4 offset-md-4 animated bounceInLeft">
+			<div class="divH2Section1 col-6 col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-md-5 animated bounceInLeft">
 				<?php echo get_field( "texto_banner");?>
 			</div>
 
 			<div class="divImageSection1 col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
 				<img class="float-right animated bounceInRight" width="380" src="<?php echo get_field( "foto_everton" );?>">
 				<div class="float-right">
-					<div class="verticalLine">
+					<div class="verticalLine animated tada">
 						<span><strong>Everton Sabú</strong></span>
 						<br>
 						<span>Fundador</span>
@@ -113,7 +113,7 @@
 		</div>
 
 		<div class="divBg2Section1 text-center mt-n2">
-			<div class="animated bounceInUp h1TextoChamado">
+			<div class="animated bounceInUp h1TextoChamado slower">
 				<?php echo get_field( "texto_chamada" );?>
 			</div>
 		</div>

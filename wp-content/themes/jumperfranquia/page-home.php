@@ -24,16 +24,7 @@ get_header();
 				</div>
 
 				<div class="col-md-6 section2AjusteTopo">
-					<div class="row">
-						<div class="col-md-3" id="NoventaPorcent">
-							<h1>93%</h1>
-						</div>
-
-						<div class="col-md-9" id="pNoventaPorcent">
-							<p> dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</p>
-						</div>
-					</div>
-					
+					<h3><span class="bignumber">93%</span> dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</h3>
 				</div>
 
 				<div class="col-md-12 text-center meninoCarteira"> 
