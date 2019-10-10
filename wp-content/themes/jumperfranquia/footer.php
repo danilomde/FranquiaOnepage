@@ -23,7 +23,7 @@
 			<div class="col-md-12 footerLucre15Mil">
 				
 
-				<div>
+				<div id="divAjusteFooter">
 					<h2>Lucre R$ <strong> <span id="span15">15</span> Mil</strong></h2>
 
 					<div class="text-center footerLucreAjuste">

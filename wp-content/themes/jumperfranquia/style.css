@@ -34,6 +34,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 /*--------------------------------------------------------------
  *	@artur
  *--------------------------------------------------------------*/
+
+*{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+
 .header-top{
 	/*background-image: url('../../uploads/2019/10/background-pt1-1.png');*/
 	background-size: cover;
@@ -141,6 +147,10 @@ h1 strong{
 	font-weight: 900;
 }
 
+.h1TextoChamado h1{
+	font-size: 40px;
+}
+
 
 .section2{
 	background-image: url('images/p2/bg-p2-container.png');
@@ -185,12 +195,12 @@ h1 strong{
 }
 
 .section2AjusteTopo{
-	padding: 12%;
+	padding: 10%;
     padding-top: 18%;
 }
 
 .section2AjusteTopo h2{
-	font-size: 28px;
+	font-size: 33px;
 }
 
 .meninoCarteira{
@@ -198,7 +208,7 @@ h1 strong{
 }
 
 #textoMenino1{
-    margin-top: -21%;
+    margin-top: -23%;
     padding-left: 10%;
 }
 
@@ -206,9 +216,19 @@ h1 strong{
 	width: 71%;
 }
 
+.texto1Section2 h2{
+	font-size: 22px;
+}
+#NemNemNem{
+	font-size: 55px;
+}
+#NemNemNemP{
+	font-size: 17px;
+}
+
 #textoMenino2{
 	padding-left: 17%;
-    margin-top: -22%;
+    margin-top: -24%;
 }
 
 #textoMenino2 .texto2Section2{
@@ -341,7 +361,7 @@ h1 strong{
 .divBorderRightSec3 p{
     font-size: 20px;
 	font-weight: 900;
-	padding: 2%;
+	padding: 3%;
 	color: #B7CB21;
 }
 
@@ -349,6 +369,7 @@ h1 strong{
 	font-size: 30px;
 	font-weight: 900;
 	color: #B7CB21;
+	padding: 2%;
 }
 
 #h2AjusteSec3 span{
@@ -649,7 +670,7 @@ h1 strong{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 1100px;
+	min-height: 1115px;
 }
 .section9 .containerUM{
 	background-image: url('images/p9/tabuleiro-com-linha.png');
@@ -682,8 +703,12 @@ h1 strong{
     font-weight: 800;
 }
 
+.tabuleiroAjuste{
+	padding-top: 1%;
+}
+
 .tabuleiroAjuste .row div h1{
-	font-size: 50px;
+	font-size: 60px;
     font-weight: 900;
 }
 .tabuleiroAjuste .row div p{
@@ -704,15 +729,15 @@ h1 strong{
 	padding-right: 8%;
 }
 .tabuleiroAjuste2 div div h1{
-	font-size: 50px;
+	font-size: 60px;
     font-weight: 900;
 }
 .tabuleiroAjuste2 div div h1{
-	font-size: 50px;
+	font-size: 60px;
     font-weight: 900;
 }
 .tabuleiroAjuste2 div .h1Sec92{
-	margin-top: -10%;
+	margin-top: -16%;
 }
 .tabuleiroAjuste2 div .pSec92{
 	color: #C4CD18;
@@ -721,6 +746,19 @@ h1 strong{
 
 #row3AjusteSec9{
 	margin-top: 8.5%;
+}
+
+#ajusteTab4{
+	margin-left: -20%;
+}
+
+#ajusteTab42{
+	padding-right: 20%;
+}
+
+#rowTabAjuste1{
+	padding-left: 15%;
+    padding-right: 15%;
 }
 
 .pSec93{
@@ -732,7 +770,7 @@ h1 strong{
 	margin-top: -10%;
 }
 .h1Sec93 h1{
-	font-size: 50px;
+	font-size: 60px;
     font-weight: 900;
 }
 
@@ -767,40 +805,214 @@ h1 strong{
 	padding-top: 3%;
 }
 
+.divSec9Nome h1{
+	color: #252F49;
+}
+.divSec9Nome h1 strong{
+	color: #252F49;
+}
+.divSec9Nome p{
+	color: #252F49;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.aspasFranqueado h1{
+	font-size: 60px;
+	height: 0;
+	color: #252F49;
+}
+
+.depoFranqueado p{
+	color: #252F49;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 .row1Sec10{
 	margin-top: 2%;
+}    
+.row1Sec10 div div h1{
+	font-size: 60px;
+    height: 0;
+    color: #252F49;
+}      
+.row1Sec10 div h1{
+	/*font-size: 60px;*/
+    /*height: 0;*/
+    color: #252F49;
+}       
+.row1Sec10 div h1 strong{
+	background-color: #B1C81D;
+	color: #252F49;
+	font-size: 29px;
 }    
 
 .row2Sec10{
 	padding-top: 2%;
     padding-left: 7%;
 }
+.row2Sec10 div h1{
+	color: #252F49;
+	font-size: 30px;
+}
+.row2Sec10 div h1 strong{
+	color: #252F49;
+}
 
 .row3Sec10{
-	margin-top: 18%;
+	margin-top: 15%;
 }
 .row3Sec10 #div1Row3Sec10{
 	padding-top: 4%;
 }
+.row3Sec10 #div1Row3Sec10 h1{
+	font-size: 30px;
+	height: 70px;
+}
+.row3Sec10 #div1Row3Sec10 h1 strong{
+	font-size: 75px;
+}
+.row3Sec10 #div1Row3Sec10 h3{
+	color: #fff;
+	height: 20px;
+	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.row3Sec10 #div1Row3Sec10 p{
+	color: #fff;
+	font-size: 20px;
+}
 
 .row4Sec10{
-	margin-top: 15%;
-    padding-left: 10%;
+	margin-top: 8%;
+}
+.row4Sec10 div h1{
+	font-size: 42px;
+    color: #252F49;
+}
+.row4Sec10 div h1 strong{
+    color: #252F49;
+}
+.row4Sec10 div p{
+    color: #252F49;
+    font-size: 20px;
+}
+
+.botao2Sec10{
+    width: 200px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #A8C41A;
+    color: #252F49;
+    font-weight: 800;
+}
+
+#div1Row5Sec10 h1{
+	font-size: 42px;
+    color: #252F49;
+}
+#div1Row5Sec10 h1 strong{
+    color: #252F49;
+}
+#div1Row5Sec10 p{
+	color: #252F49;
+    font-size: 20px;
+}
+#div1Row5Sec10 p strong{
+    font-size: 25px;
+}
+
+.botao3Sec10{
+	width: 360px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 1%;
+    background-color: #A8C41A;
+    color: #252F49;
+    font-weight: 800;
+}
 }
 
 
-.ro6Sec10{
+#div2Row3Sec10{
+	padding-right: 10%;	
+}
+#div2Row3Sec10 h2{
+	font-size: 42px;
+	color: #252F49;
+}
+#div2Row3Sec10 p{
+	color: #252F49;
+	font-size: 20px;
+}
+#div2Row3Sec10 p strong{
+	color: #252F49;
+	font-size: 20px;
+}
 
+#div2Row3Sec10 h2 strong{
+	color: #252F49;
 }
 
 
+.botaoSec10{
+	width: 325px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 1%;
+    background-color: #A8C41A;
+    color: #252F49;
+    font-weight: 800;
+}
 
 
+.row6Sec10{
+	margin-top: -8%;
+}
+.row6Sec10 div h1{
+	font-size: 42px;
+    color: #252F49;
+}
+.row6Sec10 div h1 strong{
+	color: #252F49;
+}
+.row6Sec10 div p{
+	color: #252F49;
+	font-size: 20px;
+}
 
+.botao4Sec10{
+	width: 240px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 1%;
+    background-color: #A8C41A;
+    color: #252F49;
+    font-weight: 800;
+}
 
-
-
+#NoventaPorcent{
+	margin-top: 4%;
+}
+#NoventaPorcent h1 {
+    font-size: 65px;
+    height: 0;
+    margin-top: -10%;
+    color: #252F49 !important;
+    font-weight: 900;
+}
+#pNoventaPorcent p {
+	color: #252F49;
+	font-size: 22px;
+	font-weight: 500;
+}
 
 /*--------------------------------------------------------------
  *	@zeni
@@ -847,7 +1059,7 @@ h1 strong{
 }
 
 .footerLucreAjuste{
-	padding-left: 4%;
+	padding-right: 4%;
     margin-top: -1%;
 }
 .footerLucreAjuste span{
@@ -908,7 +1120,7 @@ h1 strong{
 
 .callfooter{
     padding-top: 263px;
-	padding-left: 18%;
+	padding-left: 23%;
     padding-right: 0%;
 
 }
@@ -962,4 +1174,8 @@ h1 strong{
 
 .titlenamidia img{
 	width: 500px;
+}
+
+#divAjusteFooter{
+	padding-left: 6%;
 }

@@ -24,7 +24,16 @@ get_header();
 				</div>
 
 				<div class="col-md-6 section2AjusteTopo">
-					<h3>93% dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</h3>
+					<div class="row">
+						<div class="col-md-3" id="NoventaPorcent">
+							<h1>93%</h1>
+						</div>
+
+						<div class="col-md-9" id="pNoventaPorcent">
+							<p> dos jovens  entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</p>
+						</div>
+					</div>
+					
 				</div>
 
 				<div class="col-md-12 text-center meninoCarteira"> 
@@ -33,7 +42,7 @@ get_header();
 
 				<div class="col-md-6" id="textoMenino1">
 					<div class="texto1Section2">
-						<h2>Os <strong>jovens sofrem</strong> para conseguir o <strong>primeiro emprego</strong>, é a famosa geração <strong>"NEM, NEM, NEM"</strong> nem estuda, nem trabalha, nem procura emprego.</h2>
+						<h2>Os <strong>jovens sofrem</strong> para conseguir o <strong>primeiro emprego</strong>, é a famosa geração <br /> <span id="NemNemNem"><strong>"NEM, NEM, NEM"</strong></span> <br /> <span id="NemNemNemP"> nem estuda, nem trabalha, nem procura emprego. </span></h2>
 					</div>
 					
 				</div>
@@ -377,11 +386,11 @@ get_header();
   				</div>
   			</div>
 
-  			<div class="row mt-n4">
+  			<div class="row mt-n5">
   				
   				<div class="col pl-4 pr-5 tabuleiroAjuste offset-md-4" >
-  					<div class="row">
-  						<div class="col-md-2 h1Sec9">
+  					<div class="row" id="rowTabAjuste1">
+  						<div class="col-md-2 h1Sec9 mt-n4">
   							<h1>1</h1>
   						</div>
 
@@ -398,7 +407,7 @@ get_header();
   							<h1>2</h1>
   						</div>
 
-  						<div class="col pSec9">
+  						<div class="col pSec9 mt-n2">
   							<p>Orientação na Montagem da Estrutura</p>
   						</div>
   					</div> 
@@ -439,7 +448,7 @@ get_header();
   							<h1>5</h1>
   						</div>
 
-  						<div class="col pSec92">
+  						<div class="col pSec92 mt-n2">
   							<p>Ações de Marketing para captação de alunos</p>
   						</div>
 
@@ -449,11 +458,11 @@ get_header();
   				<div class="col tabuleiroAjuste2">
   					<div class="row mt-2">
 
-  						<div class="col-md-2 h1Sec92">
+  						<div class="col-md-2 h1Sec92" id="ajusteTab4">
   							<h1>4</h1>
   						</div>
 
-  						<div class="col pSec92">
+  						<div class="col pSec92 mt-n2" id="ajusteTab42">
   							<p>Assistência na contratação da equipe</p>
   						</div>
 
@@ -464,9 +473,9 @@ get_header();
   			<div class="row justify-content-md-center" id="row3AjusteSec9">
 
   				<div class="col-md-3 pr-5" >
-  					<div class="row">
+  					<div class="row mt-n2">
 
-  						<div class="col-md-2 h1Sec93 mr-2">
+  						<div class="col-md-2 h1Sec93 mr-2 ml-5">
   							<h1>7</h1>
   						</div>
 
@@ -480,11 +489,11 @@ get_header();
   				<div class="col-md-2 ml-n2" >
   					<div class="row">
 
-  						<div class="col-md-2 h1Sec93 ml-n4 mr-4">
+  						<div class="col-md-2 h1Sec93 ml-n4 mr-4 mt-n5">
   							<h1>8</h1>
   						</div>
 
-  						<div class="col pSec93">
+  						<div class="col pSec93 mt-n2">
   							<p>Suporte total da franqueadora</p>
   						</div>
   						
@@ -492,13 +501,13 @@ get_header();
   				</div>
 
   				<div class="col-md-3 pr-5 pl-5" >
-  					<div class="row">
+  					<div class="row mt-n3">
 
   						<div class="col-md-2 h1Sec93">
   							<h1>9</h1>
   						</div>
 
-  						<div class="col pSec93">
+  						<div class="col pSec93 pr-5">
   							<p>30 dias de consultoria na unidade</p>
   						</div>
   						
@@ -537,11 +546,11 @@ get_header();
 
 		  				<div class="col-md-4">
 
-		  					<div class="text-center">
+		  					<div class="text-center aspasFranqueado mt-n5">
 		  						<h1>"</h1>
 		  					</div>
 
-		  					<div class="text-left">
+		  					<div class="text-left depoFranqueado">
 		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
 		  					</div>
 		  					
@@ -551,7 +560,7 @@ get_header();
 
 		  			<div class="row">
 
-		  				<div class="col-md-3 offset-md-2 text-right divSec9Nome">
+		  				<div class="col-md-3 offset-md-1 text-right divSec9Nome">
 		  					<h1><strong>Helena</strong> Sato</h1>
 		  					<p>7 unidades Jumper!</p>
 		  				</div>
@@ -562,11 +571,11 @@ get_header();
 
 		  				<div class="col-md-4">
 
-		  					<div class="text-center">
+		  					<div class="text-center aspasFranqueado mt-n5">
 		  						<h1>"</h1>
 		  					</div>
 
-		  					<div class="text-left">
+		  					<div class="text-left depoFranqueado">
 		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
 		  					</div>
 		  					
@@ -578,7 +587,7 @@ get_header();
 
 		  				<div class="col-md-3 offset-md-3 text-right divSec9Nome">
 		  					<h1><strong>Edenilson</strong> Malheiros</h1>
-		  					<p>7 unidades Jumper!</p>
+		  					<p>5 unidades Jumper!</p>
 		  				</div>
 
 		  				<div class="col-md-2 text-center">
@@ -587,11 +596,11 @@ get_header();
 
 		  				<div class="col-md-4">
 
-		  					<div class="text-center">
+		  					<div class="text-center aspasFranqueado mt-n5">
 		  						<h1>"</h1>
 		  					</div>
 
-		  					<div class="text-left">
+		  					<div class="text-left depoFranqueado">
 		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
 		  					</div>
 		  					
@@ -620,21 +629,21 @@ get_header();
 
   			<div class="row row3Sec10">
   				
-  				<div class="col-md-6" id="div1Row3Sec10">
+  				<div class="col-md-6 text-center" id="div1Row3Sec10">
   					<h3>Investimento Total:</h3> 
   					<h1>R$ <strong>159</strong> mil</h1>
   					<p>(adesão + estrutura + inauguração)</p>
   				</div>
 
-  				<div class="col-md-6">
-  					<h2>Não tenho todo o dinheiro, como faço?</h2>
+  				<div class="col-md-6" id="div2Row3Sec10">
+  					<h2>Não tenho todo o dinheiro, <strong>como faço?</strong></h2>
 
   					<p>Temos convênio de financiamento de franquia; com juros subsidiados (menores), e carência de 6 meses para começar a pagar</p>
 
   					<p><strong>Você paga o financiamento com o próprio lucro da unidade.</strong></p>
 
-  					<div class="justify-content-right">
-  						<button>Fale com o consultor</button>	
+  					<div class="float-right">
+  						<button class="botaoSec10">Fale com o consultor</button>	
   					</div>
 
   				</div>
@@ -647,23 +656,23 @@ get_header();
   					<p>Em apenas <strong>6 meses,</strong> você vai ganhar mais de <strong>15 mil por mês,</strong> dentro do plano de negócio</p>
 
   					<div>
-  						<button>Saiba mais</button>
+  						<button class="botao2Sec10">Saiba mais</button>
   					</div>
   				</div>
   			</div>
 
   			<div class="row">
-  				<div class="col-md-5 offset-md-7">
+  				<div class="col-md-6 offset-md-6 mt-n4" id="div1Row5Sec10">
   					<h1>A <strong>minha cidade</strong> está <strong>disponível?</strong></h1>
   					<p>A <strong>JUMPER!</strong> abre apenas <strong>12 unidades por ano,</strong> para atender com excelência o novo parceiro.</p>
   					<p>Entre em contato com o nosso consultor e consulte a disponibilidade.</p>
-  					<div>
-  						<button>Consultar Disponibilidade</button>
+  					<div class="float-right">
+  						<button class="botao3Sec10">Consultar Disponibilidade</button>
   					</div>
   				</div>
   			</div>
 
-  			<div class="row ro6Sec10 justify-content-left">
+  			<div class="row row6Sec10 justify-content-left">
   				<div class="col-md-5">
   					<h1>Será que <strong>dá certo</strong> uma <strong>JUMPER!</strong> na <strong>minha cidade?</strong></h1>
   					<p>A nossa equipe, fará um estudo de potencial da sua cidade, pois o seu sucesso é o nosso sucesso.</p>
@@ -671,7 +680,7 @@ get_header();
   					<p>Fale com o nosso consultor e solicite o estudo de viabilidade</p>
 
   					<div>
-  						<button>Quero contato</button>
+  						<button class="botao4Sec10">Quero contato</button>
   					</div>
   				</div>
   			</div>
