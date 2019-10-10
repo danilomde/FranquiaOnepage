@@ -171,10 +171,10 @@ h1 strong{
 
 .rowSection3Bg{
 	background-image: url('images/p3/fundo-sec3.png');
-	background-size: auto;
+	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
-	min-height: 2400px;
+	min-height: 2800px;
 	margin-top: -83%;
 
 	padding: 0;
@@ -198,7 +198,7 @@ h1 strong{
 }
 
 #textoMenino1{
-    margin-top: -24%;
+    margin-top: -21%;
     padding-left: 10%;
 }
 
@@ -208,7 +208,7 @@ h1 strong{
 
 #textoMenino2{
 	padding-left: 17%;
-    margin-top: -25%;
+    margin-top: -22%;
 }
 
 #textoMenino2 .texto2Section2{
@@ -219,6 +219,21 @@ h1 strong{
 	margin-top: -5%;     
 	padding-right: 30%;
     padding-left: 16%;
+}
+#textMenino3 h4{
+	color: white;
+}
+#textMenino3 .divSuporteH3{
+	background-image: url('images/p2/bg-teste.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 70px;
+	padding-top: 2.5%;
+	margin-bottom: 2%;
+}
+#textMenino3 .divSuporteH3 h3{
+
 }
 
 #rowAjusteSec2{
@@ -372,17 +387,21 @@ h1 strong{
 	background-repeat: no-repeat;
 	margin-top: -20%;
 	
-	min-height: 905px;
+	min-height: 1088px;
 	z-index: 10;
     position: relative;
 }
 
 #ajusteRow1Sec4{
-    padding-top: 15.8%;
+    padding-top: 17%;
     /* width: 10px; */
     padding-left: 42%;
     padding-right: 40%;
 }
+#ajusteRow2Sec4{
+	margin-top: 3%;
+}
+
 
 #div1Sec4{
 	margin-top: -16%;
@@ -477,20 +496,20 @@ h1 strong{
 	
 	background-size: cover;
 	margin-top: -10%;
-	min-height: 700px;
+	min-height: 1000px;
 }
 
 .section6{
 	background-image: url('images/p6/bg-s6.png');
 	background-size: contain;
-	background-position: center;
+	background-position: cover;
 	background-repeat: no-repeat;
 
 	position: relative;
 	z-index: 10;
 
-	margin-top: -11%;
-	min-height: 788px;
+	margin-top: -18%;
+	min-height: 946px;
 }
 
 #ajusteRowSec6{
@@ -499,7 +518,6 @@ h1 strong{
 }
 
 #div1Sec6{
-    margin-top: -1%;
 }
 
 #div1Sec6 p {
@@ -509,22 +527,22 @@ h1 strong{
 }
 
 #div1Sec6 h2 {
-    font-size: 31px;
+    font-size: 35px;
     color: #CAD52A;
 }
 
 #div2Sec6{
-	margin-top: -11.5%;
+	margin-top: -10%;
     margin-left: -8%;
 }
 #div2Sec6 h1{
-    font-size: 140px;
+    font-size: 150px;
     font-weight: 900;
     color: #DEE2E5;
 }
 
 #ajusteRow2Sec6{
-	margin-top: -7.5%;
+	margin-top: -5%;
 }
 
 #div3Sec6{
@@ -565,7 +583,7 @@ h1 strong{
 }
 
 #div6Sec6{
-	padding: 0% 15% 0% 15%;
+	padding: 2% 15% 0% 15%;
 }
 
 .subDiv6 h3{
@@ -586,27 +604,27 @@ h1 strong{
 	position: relative;
 	z-index: 0;
 	
-	margin-top: -10%;
+	margin-top: -12%;
 
-	min-height: 515px;
+	min-height: 800px;
 }
 
 #ajusteDivSec7{
-	padding-top: 15%;
+	padding-top: 17%;
 }
 
 
 #row1Sec8Bg{
 	background-image: url('images/p8/video-bg.png');
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 	position: relative;
 	z-index: 10;
 
-	margin-top: -8.5%;
-	min-height: 717px;
+	margin-top: -14%;
+	min-height: 860px;
 
 	cursor: pointer;
 }
@@ -619,29 +637,37 @@ h1 strong{
 .section8Imgs div{
 	padding: 0;
     margin: 0;
-    margin-bottom: -3%;
 }
 .section8Imgs div img{
-	height: 86%;
+	height: 100%;
 	cursor: pointer;
 }
 
 
 .section9{
 	background-image: url('images/p9/bg-3.png');
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 914px;
+	min-height: 1100px;
+}
+.section9 .containerUM{
+	background-image: url('images/p9/tabuleiro-com-linha.png');
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 1000px;;
 }
 
-.section9 .container{
-	background-image: url('images/p9/tabuleiro-com-linha.png');
-	background-size: contain;
+.section10{
+	background-image: url('images/p10/fundo-10.png');
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 900px;
+	min-height: 2685px;
 }
+
+
 
 #ajusteDiv1Sec9{
 	padding-left: 20.5%;
@@ -709,6 +735,72 @@ h1 strong{
 	font-size: 50px;
     font-weight: 900;
 }
+
+.ajusteDiv1Sec10{
+	padding-top: 8%;
+    padding-left: 2%;
+}
+
+#h1Sec10{
+    font-size: 35px;
+    height: 28px;
+    font-weight: 700;
+}
+
+#h1Sec102{
+	font-size: 35px;
+    margin-left: 6%;
+    font-weight: 700;
+}
+#h1Sec10 span{
+    font-weight: 900;
+}
+
+#h1Sec102 span{
+    font-weight: 900;
+}
+
+.containerFranqueados .row{
+	margin-top: 3%;
+}
+.containerFranqueados .row .divSec9Nome{
+	padding-top: 3%;
+}
+
+
+.row1Sec10{
+	margin-top: 2%;
+}    
+
+.row2Sec10{
+	padding-top: 2%;
+    padding-left: 7%;
+}
+
+.row3Sec10{
+	margin-top: 18%;
+}
+.row3Sec10 #div1Row3Sec10{
+	padding-top: 4%;
+}
+
+.row4Sec10{
+	margin-top: 15%;
+    padding-left: 10%;
+}
+
+
+.ro6Sec10{
+
+}
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
  *	@zeni
