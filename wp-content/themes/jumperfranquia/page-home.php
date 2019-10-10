@@ -126,7 +126,7 @@ get_header();
 					<div class="ajusteSomenteUmaFormacao">
 						<h2>"Somente uma <strong>formação completa</strong> muda a vida das pessoas"</h2>
 
-						<div class="text-right">
+						<div class="text-right txtEverton">
 							<p>- Everton Sabú</p>
 						</div>
 						
@@ -159,28 +159,47 @@ get_header();
 				<div class="container">
 					<div class="row rowContainerSec3 ">
 						<div class="col-md-2 text-left">
-							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-1.png" width="125px" height="125px">
+							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-1.png" width="125px" height="125px">
 							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
-							
+
+							<div class="pt-2">
+								<h3>Mecânica</h3>								
+							</div>
 						</div>
 
 						<div class="col-md-2 text-center">
-							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-2.png" width="125px" height="125px">
+							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-2.png" width="125px" height="125px">
 							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+
+							<div class="pr-5 pt-2">
+								<h3>Beleza</h3>								
+							</div>
 						</div>
 
 						<div class="col-md-2 text-center">
-							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-3.png" width="125px" height="125px">
+							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-3.png" width="125px" height="125px">
 							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+
+							<div class="pr-5 pt-2">
+								<h3>Inglês e Espanhol</h3>								
+							</div>
 						</div>
 
 						<div class="col-md-2 text-center">
-							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-4.png" width="125px" height="125px">
+							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-4.png" width="125px" height="125px">
 							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+
+							<div class="pr-5 pt-2">
+								<h3>Rotinas Administrativas</h3>								
+							</div>
 						</div>
 
 						<div class="col-md-2 text-center" id="ultimoIcon">
 							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-5.png" width="125px" height="125px">
+
+							<div class="pt-2">
+								<h3>Tecnologia</h3>								
+							</div>
 						</div>
 					</div>
 				</div>
@@ -253,7 +272,7 @@ get_header();
 				</div>
 			</div>
 
-			<div class="row justify-content-md-center">
+			<div class="row justify-content-md-center" id="ajusteRow3Sec4">
 				<div class="col-md-4" id="div5Sec4">
 					<p>Na <strong>JUMPER!</strong>, estamos comprometidos em transformar a vida das pessoas. Por isso, criamos o programa <strong>FORMATEC,</strong> que oferece condições acessíveis a todos.</p>
 				</div>
