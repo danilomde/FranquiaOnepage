@@ -10,10 +10,16 @@ body{
 .bg-logo{
 	background: url(images/mobile/bg-header.png) top center no-repeat;
 	background-size: 100%;
-	height: 108px;
+	height: 112px;
 	
 }
 
+.bg-s1{
+	background: url(images/mobile/bg-s1.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 220px;
+    margin-top: -30%;
+}
 
 .logotopo{
 	width: 160px !important;
@@ -21,4 +27,154 @@ body{
 
 .imgeverton{
 	width: 320px;
+}
+
+
+.float-rightname {
+    float: right!important;
+   color: #ffffff;
+   margin-top: -83px;
+   margin-left: 20px;
+   position: absolute;
+   right: 0px;
+   width: 140px;
+}
+
+.s1TextoBanner h2{
+	font-size: 20px; 
+}
+.s1TextoBanner{
+	padding-top: 15%;
+}
+
+
+.s1TextoChamada{
+	padding-top: 4%;
+}
+.s1TextoChamada h1{
+	font-size: 22px;
+	color: #273047;
+}
+.s1TextoChamada h1 strong{
+	color: #273047;
+}
+
+.section2Mobile{
+	background: url(images/mobile/bg-s2.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 875px;
+	padding-top: 5%;
+	position: relative;
+	z-index: 0;
+}
+.section2Mobile .container{
+	background: url(images/mobile/menino-setas.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 875px;
+
+}
+
+
+.row1Sec2Mobile div h2{
+	font-size: 18px;
+}
+.row1Sec2Mobile div{
+	padding-top: 5%;
+}
+
+
+.row2Sec2Mobile{
+	margin-left: -6%;
+	padding-top: 90%;
+}
+.row2Sec2Mobile div h1{
+	font-size: 50px;
+    font-weight: 900;
+    color: #273047;
+}
+.row2Sec2Mobile div p{
+	font-size: 12px;
+    font-weight: 600;
+    color: #273047;
+}
+
+#Sec2-93{
+	margin-top: -10%;
+}
+
+
+
+.row3Sec2Mobile{
+	padding-top: 8%;
+}
+.row3Sec2Mobile div h2{
+	font-size: 11px;
+	font-weight: 600;
+	color: #273047;
+}
+.row3Sec2Mobile div strong{
+	color: #273047;
+}
+.row3Sec2Mobile div h2 #nemNem{
+	font-size: 28px;
+	font-weight: 900;
+	color: #273047;
+}
+.row3Sec2Mobile div h2 #nemEstuda{
+	font-size: 9px;
+	font-weight: 600;
+	color: #273047;
+}
+
+
+.row4Sec2Mobile{
+	padding-top: 15%;
+    margin-left: -11%;
+}
+.row4Sec2Mobile div h2 strong{
+	font-size: 16px;
+	color: #273047;
+}
+.row4Sec2Mobile div h2{
+	font-size: 11px;
+	color: #273047;
+	font-weight: 600;
+}
+
+
+.section3Mobile{
+	background: url(images/mobile/bg-s3.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 1055px;
+	z-index: 10;
+	margin-top: -25%;
+}
+
+.row1Sec3Mobile{
+	padding-top: 22%;
+}
+.row1Sec3Mobile div h2 {
+	font-size: 20px;
+}
+
+
+.row2Sec3Mobile{
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+
+.row2Sec3Mobile div h1{
+	font-size: 28px;
+    font-weight: 800;
+    color: #273047;
+}
+.row3Sec3Mobile div p{
+	color: white;
+	font-size: 15px;
+}
+
+
+.row4Sec3Mobile div p{
+	color: #AEBF23;
 }

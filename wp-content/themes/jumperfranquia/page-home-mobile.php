@@ -73,11 +73,10 @@
 		<div class="section1ImgFundoEscola  col-sm-12" >
 
 			<div class="mt-5 col-12">
-
 				<img class=" animated bounceInRight imgeverton" src="<?php echo get_field( "foto_everton" );?>">
 
 
-				<div class="float-right">
+				<div class="float-rightname">
 					<div class="verticalLine animated tada">
 						<span><strong>Everton Sabú</strong></span>
 						<br>
@@ -86,9 +85,9 @@
 					
 				</div>
 			</div>
-
-			
 		</div>
+
+		
 <?php 
 /*
 		<div class="divBgSection1">
@@ -122,6 +121,126 @@
 		</div>
 */
 ?>
+	</section>
+
+
+	<div class="row justify-content-center bg-s1">
+		<div class="col-8 text-center s1TextoBanner">
+			<?php echo get_field( "texto_banner");?>
+		</div>
+		
+		<div class="col-12 s1TextoChamada text-center">
+			<?php echo get_field( "texto_chamada" );?>
+		</div>
+	</div>
+
+	<section class="section2Mobile">
+		<div class="container">
+
+			<div class="row row1Sec2Mobile">
+				<div class="col-6">
+					<h2>Como está a situação dos <strong>jovens</strong> no <strong>mercado de trabalho?</strong></h2>
+				</div>
+			</div>
+
+			<div class="row row2Sec2Mobile">
+
+				<div class="col-4" id="Sec2-93">
+					<h1>93%</h1>
+				</div>
+
+				<div class="col-8">
+					<p>dos jovens entre 13 e 18 anos, não sabem o que irão fazer no futuro profissional.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec2Mobile">
+				<div class="col-10">
+					<h2>Os <strong>Jovens sofrem</strong> para conseguir o <strong>primeiro emprego,</strong> é a famosa geração <br /> <span id="nemNem">"Nem , Nem, Nem"</span> <br/> <span id="nemEstuda">nem estuda, nem trabalha, nem procura emprego.</span></h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec2Mobile">
+				<div class="col-10 text-center">
+					 <h2><strong>Sabe por que isso acontece?</strong> <br /> Estão completamente desqualificados para trabalhar, e por isso, não conseguem emprego.</h2>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section3Mobile"> 
+		<div class="container">
+			
+			<div class="row justify-content-center row1Sec3Mobile">
+				<div class="col-12 text-center">
+					<h2><strong>Mas, se fizerem 1 curso, vão mudar essa situação?</strong></h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec3Mobile">
+				<div class="col-4">
+					<h1>NÃO!</h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec3Mobile">
+				<div class="col-10 text-center">
+					<p>Somente com 1 curso o jovem ainda não se qualifica o suficiente.</p>
+					<p>Para trabalhar, ele precisa:</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec3Mobile">
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-1.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="100px" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-2.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-3.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-4.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-5.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-6.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-7.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-6 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-8.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+				
+				<div class="col-12 text-center">					
+					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-9.png">
+					<p>Oi Ola Tudo Bemm</p>
+				</div>
+
+			</div>
+
+		</div>
 	</section>
 
 </div>
