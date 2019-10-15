@@ -158,10 +158,10 @@ get_header();
 
 				<div class="container">
 					<div class="row rowContainerSec3 ">
-						<div class="col-md-2 text-left">
+						<div class="col-md-2 text-center">
 							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-1.png" width="125px" height="125px">
-							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
-
+							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+ -->
 							<div class="pt-2">
 								<h3>Mecânica</h3>								
 							</div>
@@ -169,27 +169,27 @@ get_header();
 
 						<div class="col-md-2 text-center">
 							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-2.png" width="125px" height="125px">
-							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
-
-							<div class="pr-5 pt-2">
+							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+ -->
+							<div class="pt-2">
 								<h3>Beleza</h3>								
 							</div>
 						</div>
 
 						<div class="col-md-2 text-center">
 							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-3.png" width="125px" height="125px">
-							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
-
-							<div class="pr-5 pt-2">
+							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+ -->
+							<div class="pt-2">
 								<h3>Inglês e Espanhol</h3>								
 							</div>
 						</div>
 
 						<div class="col-md-2 text-center">
 							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-4.png" width="125px" height="125px">
-							<img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
-
-							<div class="pr-5 pt-2">
+							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
+ -->
+							<div class="pt-2">
 								<h3>Rotinas Administrativas</h3>								
 							</div>
 						</div>
@@ -353,32 +353,32 @@ get_header();
   	</section>
 
   	<section class="section8">
-  			<div id="row1Sec8Bg">
+  			<div id="row1Sec8Bg" data-toggle="modal" data-target=".modal-video">
   				
   			</div>
   				<div class="row section8Imgs">
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto1">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/recepcao.jpg">
   					</div>
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto2">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/idiomas.jpg">
   					</div>
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto3">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/industrial.jpg">
   					</div>
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto4">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/informatica.jpg">
   					</div>
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto5">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/beleza.jpg">
   					</div>
 
-  					<div class="col-md-2">
+  					<div class="col-md-2" data-toggle="modal" data-target=".modal-foto6">
   						<img src="<?php bloginfo( 'template_url' ); ?>/images/p8/mecanica.jpg">
   					</div>
 
@@ -705,6 +705,89 @@ get_header();
 	</section>
 	
 	
+
+
+
+
+
+	<!-------------------------------------------------------------------------------------------------------------------------------------------
+																		*** MODALS ***
+	--------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+	<div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl ">
+	    <div class="modal-content">
+	      <iframe width="1150" height="800" src="https://www.youtube.com/embed/7ApjSL0SahU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/recepção.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_0548.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_3449.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4963.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4971.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_5002 (1).jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+<<!-- style type="text/css">
+	.parallax-mirror{
+		width: 75% !important;
+	}
+	.parallax-slider{
+		width: 100% !important;
+	}
+</style> -->
+
+
 <?php
 
 get_footer();
