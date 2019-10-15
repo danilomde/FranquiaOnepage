@@ -166,7 +166,7 @@ h1 strong{
 
 
 .section2{
-	background-image: url('images/p2/bg-p2-container.png');
+	background-image: url('images/p2/bg-p2-container2.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -444,6 +444,7 @@ h1 strong{
 
 #rowListaMeninaApontandoSec3{
 	margin-top: -34%;
+	color: #252F49;
 }
 #rowListaMeninaApontandoSec3 ul{
 	list-style: none;
@@ -679,6 +680,7 @@ h1 strong{
 .subDiv6 h3{
 	font-size: 65px;
     height: 40px;
+    color: #252F48;
 }
 
 .subDiv6 p{
@@ -751,7 +753,7 @@ h1 strong{
 }
 
 .section10{
-	background-image: url('images/p10/fundo-10.png');
+	background-image: url('images/p10/fundo-101.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -904,7 +906,7 @@ h1 strong{
 .row1Sec10 div div h1{
 	font-size: 60px;
     height: 0;
-    color: #252F49;
+    color: #252F48;;
 }      
 .row1Sec10 div h1{
 	/*font-size: 60px;*/

@@ -327,7 +327,7 @@ get_header();
   			<div class="row">
   				<div class="col-md-6 text-center" id="div6Sec6">
   					<div class="subDiv6">
-  						<h3>"</h3>
+  						<h3>”</h3>
   					</div>
 
   					<div class="subDiv6">
@@ -557,7 +557,7 @@ get_header();
 		  				<div class="col-md-4">
 
 		  					<div class="text-center aspasFranqueado mt-n5">
-		  						<h1>"</h1>
+		  						<h1>”</h1>
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
@@ -582,7 +582,7 @@ get_header();
 		  				<div class="col-md-4">
 
 		  					<div class="text-center aspasFranqueado mt-n5">
-		  						<h1>"</h1>
+		  						<h1>”</h1>
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
@@ -607,7 +607,7 @@ get_header();
 		  				<div class="col-md-4">
 
 		  					<div class="text-center aspasFranqueado mt-n5">
-		  						<h1>"</h1>
+		  						<h1>”</h1>
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
@@ -623,7 +623,7 @@ get_header();
   			<div class="row justify-content-center row1Sec10">
   				<div class="col-md-3">
   					<div class="text-center">
-  						<h1>"</h1>
+  						<h1>”</h1>
   					</div>
   					
   					<h1>Eles <strong>conseguiram, você</strong> também <strong>pode!</strong> </h1>
