@@ -62,7 +62,7 @@
 				</div>
 
 				<div class="col-md-6 offset-md-3 text-center">
-					<h2>Preencha o formulário que entraremos em contato.</h2>
+					<h2 id="h2FooterAjuste">Preencha o formulário que entraremos em contato.</h2>
 				</div>
 
 				<form>

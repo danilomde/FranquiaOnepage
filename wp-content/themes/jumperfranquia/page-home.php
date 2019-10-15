@@ -396,7 +396,7 @@ get_header();
   				</div>
   			</div>
 
-  			<div class="row mt-n5">
+  			<div class="row mt-n5" id="ajusteResponseRow1ContainerUM">
   				
   				<div class="col pl-4 pr-5 tabuleiroAjuste offset-md-4" >
   					<div class="row" id="rowTabAjuste1">
@@ -483,9 +483,9 @@ get_header();
   			<div class="row justify-content-md-center" id="row3AjusteSec9">
 
   				<div class="col-md-3 pr-5" >
-  					<div class="row mt-n2">
+  					<div class="row mt-n2" id="ajusteTab7">
 
-  						<div class="col-md-2 h1Sec93 mr-2 ml-5">
+  						<div class="col-md-2 h1Sec93 mr-2 ml-5" >
   							<h1>7</h1>
   						</div>
 
@@ -510,7 +510,7 @@ get_header();
   					</div>
   				</div>
 
-  				<div class="col-md-3 pr-5 pl-5" >
+  				<div class="col-md-3 pr-5 pl-5" id="divSec9Ajuste">
   					<div class="row mt-n3">
 
   						<div class="col-md-2 h1Sec93">
