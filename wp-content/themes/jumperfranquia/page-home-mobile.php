@@ -20,7 +20,7 @@ get_header();
 			<div class="row rowSection2Bg">
 				
 				<div class="col-md-6 section2AjusteTopo">
-					<h2>Como está a situação dos <strong>jovens</strong> no <strong>mercado de trabalho?</strong></h2>
+					<h2>Comsadasdasdasaso está a situação dos <strong>jovens</strong> no <strong>mercado de trabalho?</strong></h2>
 				</div>
 
 				<div class="col-md-6 section2AjusteTopo">
