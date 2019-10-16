@@ -195,49 +195,422 @@
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-1.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Ser empreendedor e diferenciado</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="100px" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-2.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Falar outro idioma</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-3.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Dominar a tecnologia utilizada nas empresas</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-4.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Atender bem o cliente</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-5.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Conhecer sobre as rotinas administrativas</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-6.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Falar em público</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-7.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Saber negociar e vender</p>
 				</div>
 				
 				<div class="col-6 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-8.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Saber trabalhar em equipe</p>
 				</div>
 				
-				<div class="col-12 text-center">					
+				<div class="col-8 text-center">					
 					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-9.png">
-					<p>Oi Ola Tudo Bemm</p>
+					<p>Estar preparado para uma entrevista de emprego</p>
 				</div>
 
+			</div>
+
+			<div class="row justify-content-center row5Sec3Mobile">
+				<div class="col-10 text-center">
+					<p>Quando o jovem possui todas estas <strong>qualificações,</strong> se destaca em um processo seletivo, e consegue o seu <strong>primeiro emprego.</strong></p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section4Mobile">
+		<div class="container">
+
+			<div class="row justify-content-center row1Sec4Mobile">
+				<div class="col-10 text-center">
+					<h2>"Somente uma <strong>formação completa</strong> muda a vida das pessoas" <br/> <p>(Everton Sabú)</p></h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec4Mobile">
+				<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/escada.png">
+
+			</div>
+
+			<div class="row justify-content-center row3Sec4Mobile">
+				<div class="col-12 text-center">
+					<p>O salário desse primeiro emprego, transforma não somente a vida desse jovem, mas de toda a família.</p>
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/seta-1.png">
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec4Mobile">
+				<div class="col-10 text-center">
+					<p>E as classes <strong>C e D,</strong> conseguem pagar todos esses cursos?</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row5Sec4Mobile">
+				<div class="col-12 text-center">
+					<p>Na concorrência, não. Pois, os cursos necessários, são cobrados separadamente.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row6Sec4Mobile">
+				<div class="col-12 text-center">
+					<p>Mas, se vier na <strong>JUMPER!,</strong> terá <strong>FORMAÇÃO COMPLETA,</strong> irá fazer cursos, com valor único e acessível, nas áreas de:</p>
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/seta-2.png">
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section5Mobile">
+		<div class="container">
+
+			<div class="row justify-content-center row1Sec5Mobile">
+				<div class="col-5 text-center">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/empresa.png">
+					<p>Mecânica</p>
+				</div>
+
+				<div class="col-2 text-center maisSec5">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/mais.png">
+				</div>
+
+				<div class="col-5 text-center">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/beleza.png">
+					<p>Beleza</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec5Mobile">
+				<div class="col-5 text-center">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/idiomas.png">
+					<p>Inglês ou espanhol</p>
+				</div>
+
+				<div class="col-2 text-center maisSec5">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/mais.png">
+				</div>
+
+				<div class="col-5 text-center">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/informatica.png">
+					<p>Tecnologia</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec5Mobile">
+				<div class="col-12 text-center">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/adm.png">
+					<p>Rotinas administrativas</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec5Mobile">
+				<div class="col-10 text-center">
+					<h2>Além disso, durante sua formação, receberá <br/> <span>12 Treinamentos</span> <br/> Complementares Gratuitos</h2>
+				</div>
+			</div>
+
+			<div class="row row5Sec5Mobile">
+				<div class="col-12 text-left">
+					<ul>
+						<li>1. Liderança</li>
+						<li>2. Elaboração de Currículo</li>
+						<li>3. Comunicação</li>
+						<li>4. Expressão Corporal</li>
+						<li>5. Marketing Pessoal</li>
+						<li>6. Trabalho em Equipe</li>
+						<li>7. Solução de Conflitos no Trabalho</li>
+						<li>8. Finanças Pessoais</li>
+						<li>9. Atendimento ao Cliente</li>
+						<li>10. Auxiliar de Escritório</li>
+						<li>11. Telemarketing</li>
+						<li>12. Técnicas de Entrevistas de Emprego</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section6Mobile">
+		<div class="container">
+			<div class="row justify-content-center row1Sec6Mobile">
+				<div class="col-8 div1Row1Sec6">
+					<h2>Mas, <p>e o preço</p></h2>
+				</div>
+
+				<div class="col-4 div2Row1Sec6">
+					<h1>?</h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec6Mobile">
+				<div class="col-12 text-center div1Row2Sec6">
+					<p><strong>Toda essa formação</strong> custaria:</p>
+					<h1>R$ <span>697</span>,00 / mês</h1>
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/x.png">
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec6Mobile">
+				<div class="col-12 text-center">
+					<p>Sabemos que esse valor, não cabe no orçamento das famílias das <strong>classes C e D.</strong></p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec6Mobile">
+				<div class="col-12 text-center">
+					<p>Na <strong>JUMPER!,</strong> estamos comprometidos em transformar a vida das pessoas. Por isso, criamos o programa <strong>FORMATEC,</strong> que oferece condições acessíveis a todos.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row5Sec6Mobile">
+				<div class="col-12 text-center">
+					<p>O aluno faz todos os cursos <strong>(Formação Completa)</strong> por:</p>
+					<h1>R$ <span>249</span>,90 / mês</h1>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section7Mobile">
+		<span style="display: none;">já transformamos a vida de mais de 600 mil pessoas</span>
+	</section>
+
+	<section class="section8Mobile">
+	</section>
+
+	<section class="section9Mobile">
+		<div class="container">
+
+			<div class="row justify-content-center row1Sec9Mobile">
+				<p>Sabe como o aluno <br/> <span>estuda na Jumper</span></p>
+			</div>
+
+			<div class="row justify-content-center row2Sec9Mobile">
+				
+				<div class="col-4 text-right">
+					<p>As aulas são: </p>
+				</div>
+		
+				<div class="col-8">
+					<h3>Presenciais, Práticas em grupo e Divertidas</h3>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec9Mobile">
+
+				<div class="col-12 text-center">
+					<p>O aluno aprende de <h2>verdade!</h2></p>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>Existem milhares de jovens na sua cidade esperando esta oportunidade de estudar na <strong>JUMPER!</strong></p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec9Mobile">
+				<div class="col-8 text-center">
+					<p>Você pode ser um <strong>parceiro nessa missão!</strong></p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section10Mobile">
+		<div class="container">
+			<div class="row justify-content-center row1Sec10Mobile">
+				<div class="col-12">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/conheca-a-jumper.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section11Mobile">
+		<div class="container-fluid">
+			
+			<div class="row row1Sec11Mobile">
+			</div>
+
+			<div class="row">
+
+				<div class="col-6 bg1Sec11Mobile">
+					
+				</div>
+				
+				<div class="col-6 bg2Sec11Mobile">
+					
+				</div>
+
+			</div>
+
+			<div class="row">
+				
+				<div class="col-6 bg3Sec11Mobile">
+					
+				</div>
+				
+				<div class="col-6 bg4Sec11Mobile">
+					
+				</div>
+			</div>
+
+			<div class="row">
+				
+				<div class="col-6 bg5Sec11Mobile">
+					
+				</div>
+				
+				<div class="col-6 bg6Sec11Mobile">
+					
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section12Mobile">
+		<div class="container">
+
+			<div class="row justify-content-left row1Sec12Mobile">
+				<div class="col-8">
+					<h2>Estaremos com</h2>
+					<h1>Você</h1>
+				</div>
+			</div>	
+
+			<div class="row row2Sec12Mobile">
+
+				<div class="col-5 text-left div1Row2Sec12">
+					<p>Auxílio na escola do imóvel</p>
+				</div>
+
+				<div class="col-7 text-left div2Row2Sec12">
+					<p>Orientação na montagem da estrutura</p>
+				</div>
+			</div>	
+
+			<div class="row row3Sec12Mobile">
+
+				<div class="col-5 text-left div1Row3Sec12">
+					<p>Projeto Arquitetônico</p>
+				</div>
+
+				<div class="col-7 text-left div2Row3Sec12">
+					<p>Assistência na contratação da equipe</p>
+				</div>
+			</div>
+
+			<div class="row row4Sec12Mobile">
+
+				<div class="col-7 text-left div1Row4Sec12">
+					<p>Ações de Marketing para captação de alunos</p>
+				</div>
+
+				<div class="col-5 text-left div2Row4Sec12">
+					<p>Kit Material didático</p>
+				</div>
+			</div>
+
+			<div class="row row5Sec12Mobile">
+
+				<div class="col-7 text-left div1Row5Sec12">
+					<p>Evento de Inauguração</p>
+				</div>
+
+				<div class="col-5 text-left div2Row5Sec12">
+					<p>Suporte total da franqueadora</p>
+				</div>
+			</div>
+
+			<div class="row row6Sec12Mobile">
+				<div class="col-12 text-center">
+					<p>30 dias de consultoria na unidade</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section13Mobile">
+		<div class="container">
+			
+			<div class="row justify-content-center row1Sec13Mobile">
+				<div class="col-10">
+					<h1>Eles <strong>começaram</strong> do <strong>zero,</strong></h1>
+					<h1 class="ml-3">E hoje são <strong>referência</strong> na <strong>rede</strong></h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec13Mobile">
+				<div class="col-5">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
+				</div>
+
+				<div class="col-7">
+					<h1><strong>Josemar</strong> Lopes</h1>
+					<p>10 unidades Jumper!</p>
+				</div>
+
+				<div class="col-12 text-center textoSec13">
+					<h1>”</h1>
+					<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje já abri minha 10° escola e possuo o maior faturamento de toda a rede."</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec13Mobile">
+				<div class="col-5">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
+				</div>
+
+				<div class="col-7">
+					<h1><strong>Josemar</strong> Lopes</h1>
+					<p>10 unidades Jumper!</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row4Sec13Mobile">
+				<div class="col-5">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
+				</div>
+
+				<div class="col-7">
+					<h1><strong>Josemar</strong> Lopes</h1>
+					<p>10 unidades Jumper!</p>
+				</div>
 			</div>
 
 		</div>

@@ -65,7 +65,7 @@ body{
 	min-height: 875px;
 	padding-top: 5%;
 	position: relative;
-	z-index: 0;
+	z-index: 25;
 }
 .section2Mobile .container{
 	background: url(images/mobile/menino-setas.png) top center no-repeat;
@@ -146,7 +146,8 @@ body{
 	background: url(images/mobile/bg-s3.png) top center no-repeat;
 	background-size: 100%;	
 	min-height: 1055px;
-	z-index: 10;
+	z-index: 20;
+	position: relative;
 	margin-top: -25%;
 }
 
@@ -177,4 +178,527 @@ body{
 
 .row4Sec3Mobile div p{
 	color: #AEBF23;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.row5Sec3Mobile div p{
+	color: white;
+	font-size: 15px;
+}
+.row5Sec3Mobile div p strong{
+	color: #AEBF23;
+}
+
+
+.section4Mobile{
+	background: url(images/mobile/bg-s4.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 1100px;
+	z-index: 15;
+	position: relative;
+	margin-top: -14%;
+}
+
+.row1Sec4Mobile{
+	padding-top: 20%;
+}
+
+.row1Sec4Mobile div h2{
+	font-size: 18px;
+	color: #273047;
+	font-weight: 500;
+}
+.row1Sec4Mobile div h2 strong{
+	color: #273047;
+}
+.row1Sec4Mobile div h2 p{
+	font-size: 15px;
+}
+
+.row2Sec4Mobile{
+	margin-top: -10%;
+}
+
+.row3Sec4Mobile{
+	padding-top: 3%;
+}
+.row3Sec4Mobile div img{
+	margin-top: -10%;
+    margin-left: 50%;
+}
+.row3Sec4Mobile div p{
+	font-size: 14px;
+    font-weight: 600;
+}
+
+.row4Sec4Mobile div p{
+	font-size: 20px;
+    font-weight: 500;
+	color: #273047;
+}
+.row4Sec4Mobile div p strong{
+	color: #273047;
+}
+
+.row5Sec4Mobile div p{
+	color: #273047;
+	font-weight: 500;
+}
+
+.row6Sec4Mobile div p{
+	font-size: 15px;
+	color: #273047;
+	font-weight: 500;
+}
+.row6Sec4Mobile div p strong{
+	color: #273047;
+}
+.row6Sec4Mobile div img{
+    margin-top: -10%;
+    margin-left: 75%;
+}
+
+
+.section5Mobile{
+	background: url(images/mobile/bg-s5.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 1260px;
+	margin-top: -16%;
+	z-index: 10;
+	position: relative;
+}
+
+.row1Sec5Mobile{
+	padding-top: 25%;
+}
+
+.maisSec5{
+	padding-top: 10%;
+}
+
+.row1Sec5Mobile div p{
+	font-weight: bold;
+	color: #273047;
+}
+.row2Sec5Mobile div p{
+	font-weight: bold;
+	color: #273047;
+}
+.row3Sec5Mobile div p{
+	font-weight: bold;
+	color: #273047;
+}
+
+.row4Sec5Mobile{
+	background: url(images/mobile/bg-title.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 240px;
+
+	padding-top: 20%;
+}
+
+.row4Sec5Mobile div h2{
+	font-size: 15px;
+	font-weight: 600;
+	color: #AEBF23;
+}
+
+.row4Sec5Mobile div h2 span{
+	font-size: 28px;
+	color: #AEBF23;
+}
+
+.row5Sec5Mobile div ul{
+	list-style: none;
+}
+.row5Sec5Mobile div ul li{
+	color: #273047;
+	font-weight: 900;
+}
+
+
+.section6Mobile{
+	background: url(images/mobile/bg-s6.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 615px;
+	margin-top: -9%;
+	position: relative;
+	z-index: 9;
+}
+
+.section6Mobile .container{
+	padding-top: 10%;
+}
+
+.row1Sec6Mobile{
+	background: url(images/mobile/bg-title-2.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 240px;
+}
+
+.row1Sec6Mobile div h2{
+	font-size: 45px;
+}
+.row1Sec6Mobile div h2 p{
+	font-size: 20px;
+}
+.row1Sec6Mobile div h1{
+	font-size: 90px;
+}
+
+.row1Sec6Mobile .div1Row1Sec6{
+    padding-left: 25%;
+    padding-top: 6%;
+}
+.row1Sec6Mobile .div2Row1Sec6{
+	margin-top: -14%;
+    margin-left: -17%;
+}
+
+
+.row2Sec6Mobile{
+	margin-top: -30%;	
+}
+
+.row3Sec6Mobile{
+	margin-top: -8%;
+}
+
+.row3Sec6Mobile div p{
+	color: #273047;
+	font-weight: 500;
+}
+
+.row4Sec6Mobile div p{
+	color: #273047;
+	font-weight: 500;
+}
+
+.row5Sec6Mobile div p{
+	color: #273047;
+	font-weight: 500;
+}
+.row5Sec6Mobile div h1{
+	color: #273047;
+	font-weight: 900;
+	margin-top: -5%;
+}
+.row5Sec6Mobile div h1 span{
+	font-size: 50px;
+	font-weight: 00;
+}
+
+
+.div1Row2Sec6 h1{
+	font-weight: 900;
+	color: #273047;
+}
+.div1Row2Sec6 img{
+	width: 160px;
+    margin-top: -35%;
+    margin-left: -25%;
+}
+.div1Row2Sec6 p{
+	height: 0;
+}
+.div1Row2Sec6 h1 span{
+	font-size: 50px;
+}
+
+
+.section7Mobile{
+	background: url(images/mobile/600-mil-pessoas.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 370px;
+	margin-top: -9%;
+	z-index: 8;
+	position: relative;
+}
+
+.section8Mobile{
+	background: url(images/mobile/jovens.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 370px;
+	margin-top: -12%;
+	z-index: 7;
+	position: relative;
+}
+
+.section9Mobile{
+	background: url(images/mobile/bg-s7.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 500px;
+	margin-top: -17%;
+	z-index: 6;
+	position: relative;
+	padding-top: 13%;
+}
+
+.row1Sec9Mobile{
+	background: url(images/mobile/bg-title-3.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 240px;
+	padding-top: 10%;
+}
+
+.row1Sec9Mobile p{
+	font-size: 18px;
+	color: #AEBF23;
+}
+.row1Sec9Mobile p span{
+	font-size: 24px;
+	color: #AEBF23;
+	font-weight: 700;
+}
+
+.row2Sec9Mobile{
+	margin-top: -35%;
+}
+
+.row2Sec9Mobile div p{
+	font-size: 14px;
+	color: #273047;
+}
+.row2Sec9Mobile div h3{
+	font-size: 18px;
+    font-weight: 800;
+    color: #273047;
+}
+
+.row3Sec9Mobile{
+	padding-top: 5%;
+}
+.row3Sec9Mobile div p{
+	height: 0;
+	color: #273047;
+}
+.row3Sec9Mobile div h2{
+	color: #273047;
+	font-weight: 700;
+}
+
+.row4Sec9Mobile{
+	padding-top: 20%;
+}
+.row4Sec9Mobile div p{
+	font-size: 15px;
+	color: #273047;
+}
+
+
+.section10Mobile{
+	background: url(images/mobile/unidade-jumper.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 300px;
+    margin-top: -7%;
+}
+
+.row1Sec10Mobile{
+	padding-top: 25%;
+}
+
+
+.row1Sec11Mobile{
+	background: url(images/mobile/bg-video.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 240px;
+	z-index: 10;
+    margin-top: -20%;
+}
+
+
+.bg1Sec11Mobile{
+	background: url(images/mobile/recepcao.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+.bg2Sec11Mobile{
+	background: url(images/mobile/idiomas.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+.bg3Sec11Mobile{
+	background: url(images/mobile/industrial.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+.bg4Sec11Mobile{
+	background: url(images/mobile/informatica.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+.bg5Sec11Mobile{
+	background: url(images/mobile/beleza.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+.bg6Sec11Mobile{
+	background: url(images/mobile/mecanica.jpg) top center no-repeat;
+	background-size: 100%;	
+	min-height: 205px;
+}
+
+
+
+.section12Mobile{
+	background: url(images/mobile/bg2-s12.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 825px;
+}
+
+.row1Sec12Mobile{
+	padding-top: 28%;
+    padding-left: 8%;
+}
+
+.row1Sec12Mobile div h2{
+	font-size: 12px;
+    height: 0;
+}
+.row1Sec12Mobile div h1{
+	height: 0;
+    margin-top: 8%;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.row2Sec12Mobile{
+	padding-top: 19%;
+	color: white;
+}
+.row2Sec12Mobile div p{
+	font-size: 10px;
+}
+
+.div1Row2Sec12{
+	padding-left: 8%;
+}
+
+.div2Row2Sec12{
+	padding-left: 15%;
+}
+
+.row3Sec12Mobile{
+	color: white;
+	margin-top: 27%;
+}
+.row3Sec12Mobile div p{
+	font-size: 10px;
+}
+
+.div1Row3Sec12{
+	padding-left: 10%;
+}
+.div2Row3Sec12{
+	padding-left: 17%;
+}
+
+
+.row4Sec12Mobile{
+	color: white;
+	margin-top: 23%;
+}
+.row4Sec12Mobile div p{
+	font-size: 10px;
+}
+.div1Row4Sec12{
+	padding-left: 10%;
+}
+.div2Row4Sec12{
+	padding-left: 20%;
+}
+
+.row5Sec12Mobile{
+	color: white;
+	margin-top: 25%;
+}
+.row5Sec12Mobile div p{
+	font-size: 10px;
+}
+.div1Row5Sec12{
+	padding-left: 10%;
+}
+.div2Row5Sec12{
+	padding-left: 12%;
+}
+
+.row6Sec12Mobile{
+	color: white;
+	margin-top: 25%;
+}
+.row6Sec12Mobile div p{
+	font-size: 10px;
+}
+
+
+
+.section13Mobile{
+	background: url(images/mobile/bg-s13.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 2300px;
+	margin-top: -10%;
+}
+
+
+.row1Sec13Mobile{
+	padding-top: 5%;
+}
+.row1Sec13Mobile div h1{
+	font-size: 14px;
+}
+
+
+.row2Sec13Mobile{
+	padding-top: 10%;
+}
+.row2Sec13Mobile div h1{
+	font-size: 20px;
+	height: 10px;
+	color: #273047;
+}
+.row2Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row2Sec13Mobile div p{
+	color: #273047;
+}
+
+.row3Sec13Mobile div h1{
+	font-size: 20px;
+	height: 10px;
+	color: #273047;
+}
+.row3Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row3Sec13Mobile div p{
+	color: #273047;
+}
+
+
+.row4Sec13Mobile div h1{
+	font-size: 20px;
+	height: 10px;
+	color: #273047;
+}
+.row4Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row4Sec13Mobile div p{
+	color: #273047;
+}
+
+
+.textoSec13{
+	margin-top: -25%;
+}
+.textoSec13 h1{
+	font-size: 100px !important;
+    font-weight: 600;
 }
