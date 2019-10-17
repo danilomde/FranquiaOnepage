@@ -19,6 +19,7 @@ body{
 	background-size: 100%;	
 	min-height: 220px;
     margin-top: -30%;
+    width: 103.6%;
 }
 
 .logotopo{
@@ -49,11 +50,12 @@ body{
 
 
 .s1TextoChamada{
-	padding-top: 4%;
+	padding-top: 3.5%;
 }
 .s1TextoChamada h1{
 	font-size: 22px;
 	color: #273047;
+	height: 16px;
 }
 .s1TextoChamada h1 strong{
 	color: #273047;
@@ -230,6 +232,7 @@ body{
 .row3Sec4Mobile div p{
 	font-size: 14px;
     font-weight: 600;
+    color: #273047;
 }
 
 .row4Sec4Mobile div p{
@@ -300,7 +303,7 @@ body{
 
 .row4Sec5Mobile div h2{
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 900;
 	color: #AEBF23;
 }
 
@@ -667,6 +670,7 @@ body{
 }
 .row2Sec13Mobile div p{
 	color: #273047;
+	font-size: 14px;
 }
 
 .row3Sec13Mobile div h1{
@@ -679,11 +683,12 @@ body{
 }
 .row3Sec13Mobile div p{
 	color: #273047;
+	font-size: 14px;
 }
 
 
 .row4Sec13Mobile div h1{
-	font-size: 20px;
+	font-size: 14px;
 	height: 10px;
 	color: #273047;
 }
@@ -692,13 +697,292 @@ body{
 }
 .row4Sec13Mobile div p{
 	color: #273047;
+	font-size: 14px;
 }
 
 
 .textoSec13{
-	margin-top: -25%;
+	margin-top: -20%;
 }
 .textoSec13 h1{
-	font-size: 100px !important;
+	font-size: 70px !important;
     font-weight: 600;
+}
+
+.row2Sec13Mobile .nomeFranqueadoSec13{
+	padding-top: 5%;
+}
+.row3Sec13Mobile .nomeFranqueadoSec13{
+	padding-top: 5%;
+}
+.row4Sec13Mobile .nomeFranqueadoSec13{
+	padding-top: 5%;
+}
+
+.row5Sec13Mobile{
+    margin-top: -12%;
+}
+.row5Sec13Mobile div div h1{
+	font-size: 70px;
+	font-weight: 600;
+	height: 10px;
+
+	color: #273047;
+}
+.row5Sec13Mobile div h1{
+	font-size: 24px;
+
+	color: #273047;
+}
+.row5Sec13Mobile div h1 strong{
+	background-color: #B3C224;
+	color: #273047;
+	font-size: 22px;
+}
+
+
+.row6Sec13Mobile{
+	padding-top: 10%;
+}
+.row6Sec13Mobile div h2{
+	font-size: 22px;
+	color: #273047;
+}
+.row6Sec13Mobile div h2 strong{
+	color: #273047;
+}
+
+
+.row7Sec13Mobile{
+	background: url(images/mobile/mans-jump-clap.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 400px;
+	padding-top: 60%;
+}
+.row7Sec13Mobile div h2{
+	font-size: 15px;
+	height: 5px;
+	color: white;
+	font-weight: 600;
+}
+.row7Sec13Mobile div h1{
+	font-size: 20px;
+	height: 35px;
+	color: #AEBF23;
+	font-weight: 800;
+}
+.row7Sec13Mobile div h1 span{
+	font-size: 40px;
+	color: #AEBF23;
+}
+.row7Sec13Mobile div p{
+	font-size: 12px;
+	color: white;
+}
+
+
+.row8Sec13Mobile{
+	margin-top: -10%;
+}
+.row8Sec13Mobile div h1{
+	font-size: 18px;
+	color: #273047;
+}
+.row8Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row8Sec13Mobile div p{
+	font-size: 12px;
+	font-weight: 500;
+	color: #273047;
+}
+.row8Sec13Mobile div button{
+	width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    background-color: #B3C224;
+    color: #273047;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.row9Sec13Mobile div h1{
+	font-size: 18px;
+	color: #273047;
+}
+.row9Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row9Sec13Mobile div p{
+	font-size: 12px;
+	font-weight: 500;
+	color: #273047;
+}
+.row9Sec13Mobile div button{
+	width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    background-color: #B3C224;
+    color: #273047;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.row10Sec13Mobile div h1{
+	font-size: 18px;
+	color: #273047;
+}
+.row10Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row10Sec13Mobile div p{
+	font-size: 12px;
+	font-weight: 500;
+	color: #273047;
+}
+.row10Sec13Mobile div button{
+	width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    background-color: #B3C224;
+    color: #273047;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.row11Sec13Mobile div h1{
+	font-size: 18px;
+	color: #273047;
+}
+.row11Sec13Mobile div h1 strong{
+	color: #273047;
+}
+.row11Sec13Mobile div p{
+	font-size: 12px;
+	font-weight: 500;
+	color: #273047;
+}
+.row11Sec13Mobile div button{
+	width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    background-color: #B3C224;
+    color: #273047;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.section14Mobile{
+	background: url(images/mobile/fundoFooter.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 2222px;
+    margin-top: -12%;
+    padding-top: 210%;
+}
+
+.row1Sec14Mobile{
+	background: url(images/mobile/man.png) top center no-repeat;
+	background-size: 100%;	
+	min-height: 440px;
+	padding-top: 97%;
+    padding-left: 18%;
+    padding-right: 12%;
+}
+.row1Sec14Mobile div h1{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+.row1Sec14Mobile div h1 strong{
+	color: #273047;
+	font-size: 26px;
+}
+
+.row2Sec14Mobile div div{
+	padding-right: 6%;
+}
+.row2Sec14Mobile div h2{
+	height: 55px;
+}
+.row2Sec14Mobile div h2 strong span{
+	font-size: 60px;
+}
+.row2Sec14Mobile div div p{
+	color: white;
+}
+.row2Sec14Mobile div div p strong{
+	font-size: 16px;
+}
+
+
+.row3Sec14Mobile{
+	background-color: black;
+    min-height: 300px;
+}
+
+.row4Sec14Mobile div h1{
+	height: 15px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.row4Sec14Mobile div p{
+	color: white;
+	font-weight: 500;
+}
+
+
+.row5Sec14Mobile form{
+	width: 100%;
+	color: white;
+}
+.row5Sec14Mobile form div input{
+	height: 50%;
+	font-size: 14px;
+}
+.row5Sec14Mobile form div label{
+	font-size: 12px;
+}
+.row5Sec14Mobile form div button{
+	width: 50%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: #B3C224;
+    color: #B3C224;
+    background: transparent;
+}
+
+.row6Sec14Mobile img{
+	width: 25px;
+    height: 25px;
+}
+.row6Sec14Mobile p{
+	color: #fff;
+	font-size: 14px;
+}
+
+
+
+.artTeste{
+	
+}
+.btnwhatsMobile{
+	position: fixed !important;
+	bottom: 0 !important;
+    z-index: 9999999999 !important;
+}
+.btnwhatsMobile img{
+	
 }
