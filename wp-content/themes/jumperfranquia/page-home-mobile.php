@@ -580,7 +580,7 @@
 					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
 				</div>
 
-				<div class="col-7">
+				<div class="col-7 nomeFranqueadoSec13">
 					<h1><strong>Josemar</strong> Lopes</h1>
 					<p>10 unidades Jumper!</p>
 				</div>
@@ -593,31 +593,216 @@
 
 			<div class="row justify-content-center row3Sec13Mobile">
 				<div class="col-5">
-					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/sato.png">
 				</div>
 
-				<div class="col-7">
-					<h1><strong>Josemar</strong> Lopes</h1>
-					<p>10 unidades Jumper!</p>
+				<div class="col-7 nomeFranqueadoSec13">
+					<h1><strong>Helena</strong> Sato</h1>
+					<p>7 unidades Jumper!</p>
+				</div>
+
+				<div class="col-12 text-center textoSec13">
+					<h1>”</h1>
+					<p>A JUMPER! Profissões e Idiomas mudou a nossa vida em todos os sentidos: como empresária, como professora, como profissional e como pessoa."</p>
 				</div>
 			</div>
 
 			<div class="row justify-content-center row4Sec13Mobile">
 				<div class="col-5">
-					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/josemar.png">
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/edenilson.png">
 				</div>
 
-				<div class="col-7">
-					<h1><strong>Josemar</strong> Lopes</h1>
-					<p>10 unidades Jumper!</p>
+				<div class="col-7 nomeFranqueadoSec13">
+					<h1><strong>Edenilson</strong> Malheiros</h1>
+					<p>5 unidades Jumper!</p>
+				</div>
+
+				<div class="col-12 text-center textoSec13">
+					<h1>”</h1>
+					<p>Hoje somos líder de mercado em nossa cidade. Isso nos trouxe muita satisfação de ter acertado na escolha. Atualmente faturamos 3 vezes mais que há um ano atrás."</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row5Sec13Mobile">
+				<div class="col-10">
+					<div class="text-center">
+						<h1>”</h1>
+					</div>
+					<h1>Eles <strong>conseguiram, você</strong> também <strong>pode!</strong></h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row6Sec13Mobile">
+				<div class="col-10 text-center">
+					<h2>Quantos eu <strong>preciso</strong> para <strong>investir?</strong></h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row7Sec13Mobile">
+				<div class="col-10 text-center">
+					<h2>Investimento total:</h2>
+					<h1>R$ <span>159</span> mil</h1>
+					<p>(Adesão + Estrutura + Inauguração)</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row8Sec13Mobile">
+				<div class="col-10 text-center">
+					<h1>Não tenho todo o dinheiro, <strong>como faço?</strong></h1>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>Temos convênio de financiamento de franquia; com juros subsidiados (menores), e carência de 6 meses para começar a pagar</p>
+				</div>
+
+				<div class="col-10 text-center">
+					<p><strong>Você paga o financiamento com o próprio lucro da unidade.</strong></p>
+				</div>
+
+				<div class="col-12 text-center">
+					<button>Fale com o Consultor</button>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row9Sec13Mobile">
+				<div class="col-10 text-center">
+					<h1>Qual será o <strong>lucro?</strong></h1>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>Em apenas <strong>6 meses,</strong> você vai ganahr mais de <strong>15 mil por mês,</strong> dentro do plano de negócio.</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<button>Saiba Mais</button>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row10Sec13Mobile">
+				<div class="col-10 text-center">
+					<h1>A <strong>minha cidade</strong> está <strong>disponível?</strong></h1>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>A <strong>JUMPER!</strong> abre apenas <strong>12 unidades por ano,</strong> para atender com excelência o novo parceiro.</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>Entre em contato com o nosso consultor e consulte a disponibilidade.</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<button>Consultar Disponibilidade</button>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row11Sec13Mobile">
+				<div class="col-12 text-center">
+					<h1>Será que <strong>dá certo</strong> uma <strong>JUMPER!</strong> na <strong>Minha cidade?</strong></h1>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>A nossa equipe, fará um estudo potencial da sua cidade, pois o seu sucesso é o nosso sucesso.</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<p>Fale com o nosso consultor e solicite o estudo de viabilidade</p>
+				</div>
+
+				<div class="col-12 text-center">
+					<button>Quero Contato</button>
 				</div>
 			</div>
 
 		</div>
 	</section>
 
+	<section class="section14Mobile">
+		<div class="container">
+			<div class="row justify-content-center row1Sec14Mobile">
+				<div class="col-12">
+					<h1><strong>Multiplique</strong> o seu <strong>dinheiro</strong></h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row2Sec14Mobile">
+				<div class="col-12 text-center">
+					<h2>Lucre R$ <strong><span>15</span> mil</strong></h2>
+					
+					<div class="text-right">
+						<p><strong>Mensal</strong> <br/> * a partir do 6° mês</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row3Sec14Mobile">
+			</div>
+
+			<div class="row justify-content-center row4Sec14Mobile">
+				<div class="col-10 text-center">
+					<h1>Vamos conversar?</h1>
+					<p>Preencha o formulário que entraremos em contato.</p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center row5Sec14Mobile">
+
+				<form>
+					<div class="row">
+
+						<div class="form-group col-12">
+							<label for="nome">Nome</label>
+							<input type="text" name="" class="form-control" id="nome">
+						</div>
+
+						<div class="form-group col-6">
+							<label for="telefone">Telefone</label>
+							<input type="text" name="" class="form-control" id="telefone">
+						</div>
+
+						<div class="form-group col-6">
+							<label for="cidade">Cidade</label>
+							<input type="text" name="" class="form-control" id="cidade">
+						</div>
+
+						<div class="form-group col-12">
+							<label for="estado">Estado</label>
+							<input type="text" name="" class="form-control" id="estado">
+						</div>
+
+						<div class="form-group col-12">
+							<label for="email">Email</label>
+							<input type="text" name="" class="form-control" id="email">
+						</div>
+
+						<div class="form-group col-12 text-center">
+							<button>Enviar formulário</button>
+						</div>
+
+					</div>
+				</form>
+			</div>
+
+			<div class="row justify-content-center row6Sec14Mobile">
+				<img style="margin-right: 1%;" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/footer-wpp.png">
+				<img style="margin-right: 1%;" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/footer-face.png">
+				<img style="margin-right: 2%;" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/footer-insta.png">
+
+				<p>@ Jumper! Profissões e Idiomas2019</p>
+			</div>
+		</div>
+	</section>
+
 </div>
 
+
+<!-- <a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="btnwhats animated bounceInDown delay-2s	 " target="_blank">
+	<img src="<?php bloginfo( 'template_url' ); ?>/images/whats.png">
+</a> -->
+
+<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="artTeste" id="whatsMobile" target="_blank" >
+	<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
+</a>
 
 <?php wp_footer(); ?>
 
@@ -638,7 +823,14 @@
 <!-- scripts -->
 <script src="<?php bloginfo( 'template_url' ); ?>/js/scripts-mobile.js"></script>
 
-
 </body>
 </html>
 
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		$('#whatsMobile').removeClass("artTeste");
+		$('#whatsMobile').addClass("btnwhatsMobile");
+	});
+</script>
