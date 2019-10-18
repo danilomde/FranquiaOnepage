@@ -13,6 +13,21 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+
+	<script type="text/javascript">
+		var url = "<?php bloginfo( 'url' ); ?>";
+		var template_url = "<?php bloginfo( 'template_url' ); ?>";
+
+		console.log(screen.width + '-' + url);
+
+		if (screen.width < 640 ) {
+		    window.location.href = "<?php bloginfo( 'url' ); ?>/home-mobile/"; 
+		} 
+
+
+	</script>
+
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -30,10 +45,7 @@
 
 
 
-	<script type="text/javascript">
-		var url = "<?php bloginfo( 'url' ); ?>";
-		var template_url = "<?php bloginfo( 'template_url' ); ?>";
-	</script>
+	
 </head>
 
 <body <?php body_class(); ?>>

@@ -16,6 +16,20 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+	<script type="text/javascript">
+		var url = "<?php bloginfo( 'url' ); ?>";
+		var template_url = "<?php bloginfo( 'template_url' ); ?>";
+			
+			console.log(screen.width + '-' + url);
+
+		if (screen.width > 640 ) {
+		    window.location.href = "<?php bloginfo( 'url' ); ?>"; 
+		} 
+
+		
+	</script>
+
+
 	<script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
 
 
@@ -29,6 +43,8 @@
 
     <!-- Animate JS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/animatejs-3.7.2/animate.css" />
+		
+	<link rel="canonical" href="<?php bloginfo( 'url' ); ?>" />
 
 
 	<?php wp_head(); ?>
