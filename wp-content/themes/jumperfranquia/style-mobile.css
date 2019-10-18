@@ -973,11 +973,6 @@ body{
 	font-size: 14px;
 }
 
-
-
-.artTeste{
-	
-}
 .btnwhatsMobile{
 	position: fixed !important;
 	bottom: 0 !important;
@@ -985,4 +980,32 @@ body{
 }
 .btnwhatsMobile img{
 	
+}
+
+
+
+.site-header .container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+.site-header .container-fluid nav{
+	padding-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5%;
+	background-color: #2C3855;
+}
+.site-header .container-fluid nav div{
+	background-color: #39496F;
+	margin-top: 5%;
+	margin-bottom: -5%;
+
+}
+.site-header .container-fluid nav div ul li a{
+	color: #fff !important;
+	
+}
+
+.logotopo{
+	margin-left: 28%;
 }

@@ -69,14 +69,48 @@
 
 	<header id="masthead" class="site-header">
 		<div class="container-fluid">
-			<div class="row bg-logo">
-				
+
+			<!-- .site-branding -->
+			<!-- div class="row bg-logo">
 				<div class="col-md-3 site-branding text-center">
 					<img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" class="logotopo" alt="Logo JUMPER!" />
-				</div><!-- .site-branding -->
+				</div>
+			</div> -->
 
 
-			</div>
+			<!--Navbar-->
+		      <nav class="navbar navbar-light light-blue lighten-4">
+
+		        <!-- Navbar brand -->
+		       <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" class="logotopo" alt="Logo JUMPER!" />
+
+		        <!-- Collapse button -->
+		        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+		          aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span><img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/hamburg.png"></span></button>
+
+		        <!-- Collapsible content -->
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+		          <!-- Links -->
+		          <ul class="navbar-nav mr-auto">
+		            <li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
+					<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+					<li class='menu-item nav-item'>
+						<a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
+					</li>
+		          </ul>
+		          <!-- Links -->
+
+		        </div>
+		        <!-- Collapsible content -->
+
+		      </nav>
+		      <!--/.Navbar-->
+
+
+
 
 		</div>
 	</header><!-- #masthead -->
