@@ -827,6 +827,10 @@
 		</div>
 	</section>
 
+
+	
+
+
 </div>
 
 
@@ -834,9 +838,12 @@
 	<img src="<?php bloginfo( 'template_url' ); ?>/images/whats.png">
 </a> -->
 
-<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="artTeste" id="whatsMobile" target="_blank" >
-	<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
-</a>
+<div class="artTeste" id="whatsMobile">
+	<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" >
+		<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
+	</a>
+</div>
+
 
 <?php wp_footer(); ?>
 
@@ -858,13 +865,19 @@
 <script src="<?php bloginfo( 'template_url' ); ?>/js/scripts-mobile.js"></script>
 
 </body>
-</html>
 
+
+</html>
 
 <script type="text/javascript">
 
 	$(document).ready(function() {
 		$('#whatsMobile').removeClass("artTeste");
 		$('#whatsMobile').addClass("btnwhatsMobile");
+
+
+	// 	$("#whatsMobile").append('<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" > <img src="<?php bloginfo( "template_url" ); ?>/images/mobile/whatsapp.jpg"> </a>');
 	});
+
+
 </script>
