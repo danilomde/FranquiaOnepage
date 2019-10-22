@@ -1353,12 +1353,12 @@
  		}
 
  		.bg-s1{
- 			margin-top: -35%;
- 			min-height: 208px;
+ 			margin-top: -42%;
+ 			min-height: 199px;
  		}
 
  		.s1TextoChamada h1{
- 		    font-size: 20px;
+ 		    font-size: 18px;
  		}
 
  		.row1Sec2Mobile div h2{
@@ -1374,27 +1374,27 @@
  		}
 
  		.row3Sec2Mobile div h2 #nemNem{
- 			font-size: 25px;
+ 			font-size: 23px;
  		}
 
  		.row3Sec2Mobile div h2 #nemEstuda{
- 			font-size: 8px;
+ 			font-size: 7px;
  		}
 
  		.row4Sec2Mobile div h2{
- 			font-size: 10px;
+ 			font-size: 9px;
  		}
 
  		.row4Sec2Mobile div h2 strong{
- 			font-size: 15px;
+ 			font-size: 14px;
  		}
 
  		.section3Mobile{
- 			margin-top: -47%;
+ 			margin-top: -57%;
  		}
 
  		.row1Sec3Mobile div h2{
- 			font-size: 17px;
+ 			font-size: 15px;
  		}
 
  		.row3Sec3Mobile div p{
@@ -1406,15 +1406,25 @@
  		}
 
  		.row5Sec3Mobile div p{
- 			font-size: 12px;
+ 			font-size: 10px;
+ 		}
+
+ 		.row2Sec3Mobile{
+ 			padding-top: 7%;
+ 		}
+ 		.row2Sec3Mobile div h1{
+ 			font-size: 24px;
  		}
 
  		.section4Mobile{
- 			margin-top: -40%;
+ 			margin-top: -52%;
  		}
 
  		.row1Sec4Mobile div h2{
- 			font-size: 15px;
+ 			font-size: 13px;
+ 		}
+ 		.row1Sec4Mobile div h2 p{
+ 			font-size: 13px;
  		}
 
  		.row3Sec4Mobile div p{
@@ -1434,7 +1444,7 @@
  		}
 
  		.section5Mobile{
- 			margin-top: -45%;
+ 			margin-top: -55%;
  		}
 
  		.row4Sec5Mobile div h2{
@@ -1446,11 +1456,15 @@
  		}
 
  		.row5Sec5Mobile div ul li{
- 			font-size: 13px;
+ 			font-size: 12px;
  		}
 
  		.section6Mobile{
- 			margin-top: -42%;
+ 			margin-top: -55%;
+ 		}
+
+ 		.row1Sec6Mobile{
+ 			min-height: 207px;
  		}
 
  		.row1Sec6Mobile .div1Row1Sec6{
@@ -1479,15 +1493,15 @@
  		}
 
  		.section7Mobile{
- 			margin-top: -25%;
+ 			margin-top: -31%;
  		}
 
  		.section8Mobile{
- 			margin-top: -21%;
+ 			margin-top: -25%;
  		}
 
  		.section9Mobile{
- 			margin-top: -26%;
+ 			margin-top: -30%;
  		}
 
  		.row1Sec9Mobile p span{
@@ -1495,15 +1509,19 @@
  		}
 
  		.row2Sec9Mobile div p{
- 			font-size: 13px;
+ 			font-size: 12px;
  		}
 
  		.row2Sec9Mobile div h3{
- 			font-size: 15px;
+ 			font-size: 14px;
  		}
 
  		.row3Sec9Mobile div p{
- 			font-size: 12px;
+ 			font-size: 11px;
+ 		}
+
+ 		.row3Sec9Mobile div h2{
+ 			font-size: 23px;
  		}
 
  		.row4Sec9Mobile{
@@ -1511,36 +1529,40 @@
  		}
 
  		.section10Mobile{
- 			margin-top: -20%;
+ 			margin-top: -25%;
  		}
 
  		.row1Sec11Mobile{
- 			margin-top: -30%;
- 			min-height: 217px;
+    		margin-top: -31%;
+    		min-height: 209px;
  		}
 
  		.bg1Sec11Mobile{
- 			background-size: 107%;
- 		}
-
- 		.bg2Sec11Mobile{
- 			background-size: 109%;
- 		}
-
- 		.bg3Sec11Mobile{
  			background-size: 111%;
  		}
 
+ 		.bg2Sec11Mobile{
+ 			background-size: 114%;
+ 		}
+
+ 		.bg3Sec11Mobile{
+ 			background-size: 115%;
+ 		}
+
  		.bg4Sec11Mobile{
- 			background-size: 110%;
+ 			background-size: 114%;
  		}
 
  		.bg5Sec11Mobile{
- 			background-size: 110%;
+ 			background-size: 114%;
  		}
 
  		.bg6Sec11Mobile{
- 			background-size: 109%;
+ 			background-size: 114%;
+ 		}
+
+ 		.row2Sec12Mobile{
+ 			padding-top: 17%;
  		}
 
  		.row4Sec12Mobile{
@@ -1548,11 +1570,15 @@
  		}
 
  		.row5Sec12Mobile{
+ 			margin-top: 19%;
+ 		}
+
+ 		.row6Sec12Mobile{
  			margin-top: 23%;
  		}
 
  		.section13Mobile{
- 			margin-top: -31%;
+ 			margin-top: -40%;
  		}
 
  		.row1Sec13Mobile{
@@ -1564,36 +1590,40 @@
  		}
 
 		.row2Sec13Mobile div h1{
-			font-size: 18px;
+			font-size: 15px;
 		} 		
 
  		.row2Sec13Mobile div p{
- 			font-size: 12px;
+ 			font-size: 11px;
  		}
 
  		.row3Sec13Mobile div h1{
- 			font-size: 18px;
+ 			font-size: 15px;
  		}
 
  		.row3Sec13Mobile div p{
- 			font-size: 12px;
+ 			font-size: 11px;
  		}
 
 
  		.row4Sec13Mobile div h1{
- 			font-size: 13px;
+ 			font-size: 11px;
  		}
 
  		.row4Sec13Mobile div p{
- 			font-size: 12px;
+ 			font-size: 11px;
  		}
 
  		.row5Sec13Mobile div h1{
+ 			font-size: 18px;
+ 		}
+
+ 		.row5Sec13Mobile div h1 strong{
  			font-size: 20px;
  		}
 
  		.row6Sec13Mobile div h2{
- 			font-size: 20px;
+ 			font-size: 18px;
  		}
 
  		.section14Mobile{
@@ -1604,20 +1634,474 @@
  			font-size: 22px;
  		}
 
+ 		.row4Sec14Mobile div h1{
+ 			font-size: 20px;
+ 		}
+
+ 		.row4Sec14Mobile div p{
+ 			font-size: 13px;	
+ 		}
+
  		.row5Sec14Mobile form div button{
- 			font-size: 15px;
+ 			font-size: 14px;
+ 		}
+
+ 		.row1Sec14Mobile div h1 strong{
+ 			font-size: 25px;
  		}
 
  		.row6Sec14Mobile p{
  			font-size: 12px;
  		}
 
+ 		.row2Sec14Mobile div h2{
+ 			font-size: 26px;
+ 		}
+
  		.btnwhatsMobile img{
  			width: 375px;
  		}
 
+ 		.row2Sec14Mobile div div p{
+ 			font-size: 12px;
+ 		}
+
  		.btnwhatsMobile{
  			width: 375px;
+ 		}
+ 	}
+/**/
+
+
+/*		Iphone 5/SE - 320x568
+ *
+ */
+
+ 	@media only screen and (max-width: 320px) and (min-width: 0px){
+ 		
+ 		.logotopo{
+ 			margin-left: 20%;
+ 		}
+
+ 		.s1TextoBanner h2{
+ 			font-size: 15px;
+ 		}
+
+ 		.bg-s1{
+ 			margin-top: -64%;
+ 			min-height: 180px;
+ 		}
+
+ 		.s1TextoChamada h1{
+ 		    font-size: 16px;
+ 		}
+
+ 		.section2Mobile{
+ 			margin-top: -1%;
+ 		}
+
+ 		.row2Sec2Mobile div h1{
+ 			font-size: 40px;
+ 		}
+
+ 		.row1Sec2Mobile div h2{
+ 			font-size: 14px;
+ 		}
+
+ 		.row2Sec2Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.row3Sec2Mobile div h2{
+ 			font-size: 10px;
+ 		}
+
+ 		.row3Sec2Mobile div h2 #nemNem{
+ 			font-size: 21px;
+ 		}
+
+ 		.row3Sec2Mobile div h2 #nemEstuda{
+ 			font-size: 6.5px;
+ 		}
+
+ 		.row4Sec2Mobile div h2{
+ 			font-size: 8px;
+ 		}
+
+ 		.row4Sec2Mobile div h2 strong{
+ 			font-size: 12px;
+ 		}
+
+ 		.section3Mobile{
+ 			margin-top: -87%;
+ 		}
+
+ 		.row1Sec3Mobile div h2{
+ 			font-size: 15px;
+ 		}
+
+ 		.row3Sec3Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row4Sec3Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.row5Sec3Mobile div p{
+ 			font-size: 10px;
+ 		}
+
+ 		.row2Sec3Mobile{
+ 			padding-top: 5%;
+ 		}
+ 		.row2Sec3Mobile div h1{
+ 			font-size: 24px;
+ 		}
+
+ 		.row4Sec3Mobile div img{
+ 			width: 50px;
+ 		}
+
+ 		.section4Mobile{
+ 			margin-top: -88.5%;
+ 		}
+
+ 		.row1Sec4Mobile div h2{
+ 			font-size: 13px;
+ 		}
+ 		.row1Sec4Mobile div h2 p{
+ 			font-size: 13px;
+ 		}
+
+ 		.row3Sec4Mobile div p{
+ 			font-size: 10px;
+ 		}
+
+ 		.row4Sec4Mobile div p{
+ 			font-size: 12px;
+ 		}
+
+ 		.row5Sec4Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row6Sec4Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.section5Mobile{
+ 			margin-top: -93%;
+ 		}
+
+ 		.row4Sec5Mobile div h2{
+ 			font-size: 12px;
+ 		}
+
+ 		.row4Sec5Mobile div h2 span{
+ 			font-size: 20px;
+ 		}
+
+
+ 		.row5Sec5Mobile{
+ 			margin-top: -26%;
+ 		}
+
+ 		.row5Sec5Mobile div ul li{
+ 			font-size: 11px;
+ 		}
+
+ 		.section6Mobile{
+ 			margin-top: -99%;
+ 		}
+
+ 		.row1Sec6Mobile{
+ 			min-height: 185px;
+ 		}
+
+ 		.row1Sec6Mobile div h2{
+ 			font-size: 40px;
+ 		}
+
+ 		.row1Sec6Mobile div h2 p{
+ 			font-size: 17px;
+ 		}
+
+ 		.row1Sec6Mobile .div1Row1Sec6{
+ 			padding-left: 21%;
+    		padding-top: 5%;
+ 		}
+
+ 		.row1Sec6Mobile .div2Row1Sec6{
+ 			margin-top: -22%;
+ 		}
+
+ 		.div1Row2Sec6 h1 span{
+ 			font-size: 40px;
+ 		}
+
+ 		.row5Sec6Mobile div h1 span{
+ 			font-size: 40px;
+ 		}
+
+ 		.div1Row2Sec6 p{
+ 			font-size: 15px;
+ 		}
+
+ 		.row3Sec6Mobile div p{
+ 			font-size: 12px;
+ 		}
+
+ 		.row4Sec6Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row5Sec6Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.section7Mobile{
+ 			margin-top: -52%;
+ 		}
+
+ 		.section8Mobile{
+ 			margin-top: -38%;
+ 		}
+
+ 		.section9Mobile{
+ 			margin-top: -43%;
+ 		}
+
+ 		.row1Sec9Mobile{
+ 			min-height: 185px;
+ 		}
+
+ 		.row1Sec9Mobile p{
+ 			font-size: 16px;
+ 		}
+
+ 		.row1Sec9Mobile p span{
+ 			font-size: 18px;
+ 		}
+
+ 		.row2Sec9Mobile div p{
+ 			font-size: 10px;
+ 		}
+
+ 		.row2Sec9Mobile div h3{
+ 			font-size: 11px;
+ 		}
+
+ 		.row3Sec9Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row3Sec9Mobile div h2{
+ 			font-size: 23px;
+ 		}
+
+ 		.row4Sec9Mobile{
+ 			padding-top: 15%;
+ 		}
+
+ 		.row4Sec9Mobile div p{
+ 			font-size: 13px;
+ 		}
+
+ 		.section10Mobile{
+ 			margin-top: -43%;
+ 		}
+
+ 		.row1Sec11Mobile{
+    		margin-top: -45%;
+    		min-height: 185px;
+ 		}
+
+ 		.bg1Sec11Mobile{
+ 			background-size: 125%;
+ 		}
+
+ 		.bg2Sec11Mobile{
+ 			background-size: 128%;
+ 		}
+
+ 		.bg3Sec11Mobile{
+ 			background-size: 130%;
+ 		}
+
+ 		.bg4Sec11Mobile{
+ 			background-size: 129%;
+ 		}
+
+ 		.bg5Sec11Mobile{
+ 			background-size: 128%;
+ 		}
+
+ 		.bg6Sec11Mobile{
+ 			background-size: 128%;
+ 		}
+
+ 		.row1Sec12Mobile{
+ 			padding-left: 7%;
+ 		}
+
+ 		.row1Sec12Mobile div h2{
+ 			font-size: 10px;
+ 		}
+
+ 		.row2Sec12Mobile div p{
+ 			font-size: 9px; 
+ 		}
+
+ 		.row3Sec12Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.row4Sec12Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.row5Sec12Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.row1Sec12Mobile div h1{
+ 			font-size: 30px;
+ 		}
+
+ 		.row2Sec12Mobile{
+ 			padding-top: 17%;
+ 		}
+
+ 		.row4Sec12Mobile{
+ 			margin-top: 20%;
+ 		}
+
+ 		.row5Sec12Mobile{
+ 			margin-top: 19%;
+ 		}
+
+ 		.row6Sec12Mobile{
+ 			margin-top: 22%;
+ 		}
+
+ 		.row6Sec12Mobile div p{
+ 			font-size: 9px;
+ 		}
+
+ 		.section13Mobile{
+ 			margin-top: -69%;
+ 		}
+
+ 		.row1Sec13Mobile{
+ 			padding-top: 6%;
+ 		}
+
+ 		.row1Sec13Mobile div h1{
+ 			font-size: 10px;
+ 		}
+
+		.row2Sec13Mobile div h1{
+			font-size: 15px;
+		} 		
+
+ 		.row2Sec13Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row3Sec13Mobile div h1{
+ 			font-size: 15px;
+ 		}
+
+ 		.row3Sec13Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+
+ 		.row4Sec13Mobile div h1{
+ 			font-size: 10px;
+ 		}
+
+ 		.row4Sec13Mobile div p{
+ 			font-size: 11px;
+ 		}
+
+ 		.row5Sec13Mobile div h1{
+ 			font-size: 15px;
+ 		}
+
+ 		.row5Sec13Mobile div h1 strong{
+ 			font-size: 16px;
+ 		}
+
+ 		.row6Sec13Mobile div h2{
+ 			font-size: 16px;
+ 		}
+
+ 		.row7Sec13Mobile div h2{
+ 			font-size: 12px;
+ 			height: 0;
+ 		}
+
+ 		.row7Sec13Mobile div p{
+ 			font-size: 10px;
+ 		}
+
+ 		.row7Sec13Mobile{
+ 			min-height: 310px;
+ 		}
+
+ 		.row8Sec13Mobile div h1{
+ 			font-size: 16px;
+ 		}
+
+ 		.section14Mobile{
+ 			margin-top: -97%;
+ 		}
+
+ 		.row1Sec14Mobile{
+ 			padding-top: 99%;
+ 			min-height: 347px;
+ 		}
+
+ 		.row4Sec14Mobile div h1{
+ 			font-size: 22px;
+ 		}
+
+ 		.row4Sec14Mobile div h1{
+ 			font-size: 18px;
+ 		}
+
+ 		.row4Sec14Mobile div p{
+ 			font-size: 13px;	
+ 		}
+
+ 		.row5Sec14Mobile form div button{
+ 			font-size: 12px;
+ 		}
+
+ 		.row1Sec14Mobile div h1 strong{
+ 			font-size: 20px;
+ 		}
+
+ 		.row6Sec14Mobile p{
+ 			font-size: 12px;
+ 		}
+
+ 		.row2Sec14Mobile div h2{
+ 			font-size: 23px;
+ 		}
+
+ 		.row2Sec14Mobile div div p{
+ 			font-size: 12px;
+ 		}
+
+ 		.btnwhatsMobile img{
+ 			width: 320px;
+ 		}
+
+ 		.btnwhatsMobile{
+ 			width: 320px;
  		}
  	}
 /**/
