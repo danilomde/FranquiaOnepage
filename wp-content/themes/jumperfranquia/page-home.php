@@ -718,7 +718,7 @@ get_header();
 	<div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl ">
 	    <div class="modal-content">
-	      <iframe width="1150" height="800" src="https://www.youtube.com/embed/7ApjSL0SahU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	      <iframe width="1150" height="800" src="https://www.youtube.com/embed/YDuE2CcREMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	    </div>
 	  </div>
 	</div>
