@@ -51,7 +51,7 @@
 		<div class="row" id="row2Footer">
 			<div class="col-md-6" >
 				<div class="box" style="    background-color: black; min-height: 500px;">
-					
+					<iframe width="1150" height="500" src="https://www.youtube.com/embed/tFWcekMtn0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 
