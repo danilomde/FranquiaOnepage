@@ -63,6 +63,13 @@
 
 <body <?php body_class(); ?>>
 
+	<div class="artTeste animated bounceInDown delay-2s" id="whatsMobile">
+		<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" >
+			<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
+		</a>
+	</div>
+
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jumperfranquia' ); ?></a>
 
@@ -244,47 +251,47 @@
 			<div class="row justify-content-center row4Sec3Mobile">
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-1.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-1.png">
 					<p>Ser empreendedor e diferenciado</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="100px" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-2.png">
+					<img width="100" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-2.png">
 					<p>Falar outro idioma</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-3.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-3.png">
 					<p>Dominar a tecnologia utilizada nas empresas</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-4.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-4.png">
 					<p>Atender bem o cliente</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-5.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-5.png">
 					<p>Conhecer sobre as rotinas administrativas</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-6.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-6.png">
 					<p>Falar em público</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-7.png">
+					<img width="60" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-7.png">
 					<p>Saber negociar e vender</p>
 				</div>
 				
 				<div class="col-6 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-8.png">
+					<img width="60" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-8.png">
 					<p>Saber trabalhar em equipe</p>
 				</div>
 				
 				<div class="col-8 text-center">					
-					<img width="60px" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-9.png">
+					<img width="60" height="" src="<?php bloginfo( 'template_url' ); ?>/images/mobile/icon-pt2-9.png">
 					<p>Estar preparado para uma entrevista de emprego</p>
 				</div>
 
@@ -854,11 +861,7 @@
 	<img src="<?php bloginfo( 'template_url' ); ?>/images/whats.png">
 </a> -->
 
-<div class="artTeste" id="whatsMobile">
-	<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" >
-		<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
-	</a>
-</div>
+
 
 
 <?php wp_footer(); ?>
