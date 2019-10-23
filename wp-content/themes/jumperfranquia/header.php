@@ -39,6 +39,10 @@
     <!-- Animate JS -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/animatejs-3.7.2/animate.css" />
 
+    <!-- Alert JS -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.min.css" />
+	<script src="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js"></script>
+
 
 	<?php wp_head(); ?>
 
