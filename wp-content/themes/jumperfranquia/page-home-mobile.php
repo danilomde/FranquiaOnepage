@@ -519,16 +519,16 @@
 	<section class="section11Mobile">
 		<div class="container-fluid">
 			
-			<div class="row row1Sec11Mobile">
+			<div class="row row1Sec11Mobile" data-toggle="modal" data-target=".modal-video">
 			</div>
 
 			<div class="row">
 
-				<div class="col-6 bg1Sec11Mobile">
+				<div class="col-6 bg1Sec11Mobile" data-toggle="modal" data-target=".modal-foto1">
 					
 				</div>
 				
-				<div class="col-6 bg2Sec11Mobile">
+				<div class="col-6 bg2Sec11Mobile" data-toggle="modal" data-target=".modal-foto2">
 					
 				</div>
 
@@ -536,22 +536,22 @@
 
 			<div class="row">
 				
-				<div class="col-6 bg3Sec11Mobile">
+				<div class="col-6 bg3Sec11Mobile" data-toggle="modal" data-target=".modal-foto3">
 					
 				</div>
 				
-				<div class="col-6 bg4Sec11Mobile">
+				<div class="col-6 bg4Sec11Mobile" data-toggle="modal" data-target=".modal-foto4">
 					
 				</div>
 			</div>
 
 			<div class="row">
 				
-				<div class="col-6 bg5Sec11Mobile">
+				<div class="col-6 bg5Sec11Mobile" data-toggle="modal" data-target=".modal-foto5">
 					
 				</div>
 				
-				<div class="col-6 bg6Sec11Mobile">
+				<div class="col-6 bg6Sec11Mobile" data-toggle="modal" data-target=".modal-foto6">
 					
 				</div>
 			</div>
@@ -851,6 +851,72 @@
 	</section>
 
 
+	<!-------------------------------------------------------------------------------------------------------------------------------------------
+																		*** MODALS ***
+	--------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+	<div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl ">
+	    <div class="modal-content">
+	      <iframe width="1150" height="300" src="https://www.youtube.com/embed/YDuE2CcREMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/recepção.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_0548.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_3449.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4963.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4971.jpg">
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade modal-foto6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-xl">
+	    <div class="modal-content">
+	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_5002 (1).jpg">
+	    </div>
+	  </div>
+	</div>
 	
 
 
