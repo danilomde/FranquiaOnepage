@@ -875,7 +875,7 @@
 	--------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-	<div class="modal fade modal-video" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-video" id="modalVideo" onclick="modalVideo()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl ">
 	    <div class="modal-content">
 	      <iframe width="1150" height="300" src="https://www.youtube.com/embed/YDuE2CcREMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -884,7 +884,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto1" id="modalFoto1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto1" id="modalFoto1" onclick="modalFoto1()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/recepção.jpg">
@@ -893,7 +893,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto2" id="modalFoto2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto2" id="modalFoto2" onclick="modalFoto2()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_0548.jpg">
@@ -902,7 +902,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto3" id="modalFoto3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto3" id="modalFoto3" onclick="modalFoto3()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_3449.jpg">
@@ -911,7 +911,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto4" id="modalFoto4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto4" id="modalFoto4" onclick="modalFoto4()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4963.jpg">
@@ -920,7 +920,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto5" id="modalFoto5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto5" id="modalFoto5" onclick="modalFoto5()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4971.jpg">
@@ -929,7 +929,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto6" id="modalFoto6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto6" id="modalFoto6" onclick="modalFoto6()" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_5002 (1).jpg">
@@ -983,13 +983,43 @@
 	// 	$("#whatsMobile").append('<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" > <img src="<?php bloginfo( "template_url" ); ?>/images/mobile/whatsapp.jpg"> </a>');
 	});
 
-	$('#modalVideo').modal('show');
-	$('#modalFoto1').modal('show');
-	$('#modalFoto2').modal('show');
-	$('#modalFoto3').modal('show');
-	$('#modalFoto4').modal('show');
-	$('#modalFoto5').modal('show');
-	$('#modalFoto6').modal('show');
+
+
+
+
+
+
+
+
+
+
+	function modalVideo() {
+		$('#modalVideo').modal('show');
+	}
+
+	function modalFoto1() {
+		$('#modalFoto1').modal('show');
+	}
+
+	function modalFoto2() {
+		$('#modalFoto2').modal('show');
+	}
+
+	function modalFoto3() {
+		$('#modalFoto3').modal('show');
+	}
+
+	function modalFoto4() {
+		$('#modalFoto4').modal('show');
+	}
+
+	function modalFoto5() {
+		$('#modalFoto5').modal('show');
+	}
+
+	function modalFoto6() {
+		$('#modalFoto6').modal('show');
+	}
 
 
 </script>
