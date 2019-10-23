@@ -50,7 +50,11 @@
 	<?php wp_head(); ?>
 
 	<!-- Animate JS -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/style-mobile.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/style-mobile.css" />
+	
+	<!-- Alert JS -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.min.css" />
 
 
 

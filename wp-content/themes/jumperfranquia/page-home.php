@@ -14,6 +14,23 @@
 
 get_header();
 ?>
+
+<?php
+
+	$urlEmailSend = $_GET['email'];
+
+	if($urlEmailSend == 'true'){
+		echo "<script> 
+					Swal.fire(
+						'Email enviado com Sucesso!',
+						'Aguarde o contato do nosso consultor!',
+						'success'
+					) 
+			  </script>";
+	}
+
+?>
+
 	<!-- SECTION 2 e 3 -->
 	<section class="section2">
 		<div class="container">
