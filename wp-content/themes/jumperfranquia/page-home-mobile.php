@@ -49,12 +49,12 @@
 
 	<?php wp_head(); ?>
 
-	<!-- Animate JS -->
+	<!-- Mobile CSS -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/style-mobile.css" />
 	
 	<!-- Alert JS -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.min.css" />
+	<script src="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js"></script>
 
 
 
@@ -64,6 +64,7 @@
 		var template_url = "<?php bloginfo( 'template_url' ); ?>";
 	</script>
 </head>
+
 
 <body <?php body_class(); ?>>
 
@@ -126,7 +127,20 @@
 		</div>
 	</header><!-- #masthead -->
 
+	<?php
 
+		$urlEmailSend = $_GET['email'];
+
+		if($urlEmailSend == 'true'){
+			echo "<script> 
+						Swal.fire(
+							'Email enviado com Sucesso!',
+							'Aguarde o contato do nosso consultor!',
+							'success'
+						) 
+				</script>";
+		}
+	?>
 
 	<section class='header-top  mt-n5'>
 
@@ -797,6 +811,7 @@
 			</div>
 
 			<div class="row justify-content-center row3Sec14Mobile">
+				<iframe width="250" height="200" src="https://www.youtube.com/embed/tFWcekMtn0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 
 			<div class="row justify-content-center row4Sec14Mobile">
@@ -808,36 +823,36 @@
 
 			<div class="row justify-content-center row5Sec14Mobile">
 
-				<form>
+				<form method="POST" action="<?php bloginfo( 'template_url' ); ?>/inc/mailSend.php" id="formularioFooterMobile">
 					<div class="row">
 
 						<div class="form-group col-12">
 							<label for="nome">Nome</label>
-							<input type="text" name="" class="form-control" id="nome">
+							<input type="text" name="nome" class="form-control" id="nome">
 						</div>
 
 						<div class="form-group col-6">
 							<label for="telefone">Telefone</label>
-							<input type="text" name="" class="form-control" id="telefone">
+							<input type="text" name="telefone" class="form-control" id="telefone">
 						</div>
 
 						<div class="form-group col-6">
 							<label for="cidade">Cidade</label>
-							<input type="text" name="" class="form-control" id="cidade">
+							<input type="text" name="cidade" class="form-control" id="cidade">
 						</div>
 
 						<div class="form-group col-12">
 							<label for="estado">Estado</label>
-							<input type="text" name="" class="form-control" id="estado">
+							<input type="text" name="estado" class="form-control" id="estado">
 						</div>
 
 						<div class="form-group col-12">
 							<label for="email">Email</label>
-							<input type="text" name="" class="form-control" id="email">
+							<input type="text" name="email" class="form-control" id="email">
 						</div>
 
 						<div class="form-group col-12 text-center">
-							<button>Enviar formulário</button>
+							<button type="submit">Enviar formulário</button>
 						</div>
 
 					</div>

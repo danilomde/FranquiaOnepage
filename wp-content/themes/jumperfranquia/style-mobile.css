@@ -350,7 +350,8 @@
 		font-size: 20px;
 	}
 	.row1Sec6Mobile div h1{
-		font-size: 90px;
+		font-size: 95px;
+		font-weight: 900;
 	}
 
 	.row1Sec6Mobile .div1Row1Sec6{
@@ -929,11 +930,6 @@
 	}
 
 
-	.row3Sec14Mobile{
-		background-color: black;
-	    min-height: 300px;
-	}
-
 	.row4Sec14Mobile div h1{
 		height: 15px;
 		font-size: 24px;
@@ -1473,7 +1469,7 @@
  		}
 
  		.row1Sec6Mobile .div2Row1Sec6{
- 			margin-top: -17%;
+ 			margin-top: -20%;
  		}
 
  		.div1Row2Sec6 p{
@@ -1679,6 +1675,11 @@
 
  	@media only screen and (max-width: 320px) and (min-width: 0px){
  		
+ 		.row1Sec6Mobile div h1{
+ 			font-size: 88px;
+ 		}
+
+
  		.logotopo{
  			margin-left: 20%;
  		}

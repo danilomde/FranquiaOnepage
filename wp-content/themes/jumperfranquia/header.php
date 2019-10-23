@@ -21,7 +21,17 @@
 		console.log(screen.width + '-' + url);
 
 		if (screen.width < 640 ) {
-		    window.location.href = "<?php bloginfo( 'url' ); ?>/home-mobile/"; 
+
+			<?php $verifyGET = $_GET['email']; ?>
+			var verifyGETScrpt = "<?php echo $verifyGET; ?>";
+
+			if(verifyGETScrpt == 'true'){
+				window.location.href = "<?php bloginfo( 'url' ); ?>/home-mobile/?email=true"; 
+			}else{
+				window.location.href = "<?php bloginfo( 'url' ); ?>/home-mobile/"; 
+			}
+
+		    
 		} 
 
 
