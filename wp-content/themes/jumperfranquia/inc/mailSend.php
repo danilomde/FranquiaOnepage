@@ -9,8 +9,8 @@
     $estado     =   $_POST['estado'     ];
 
 
-    // $unidade_email = 'expansao2@jumpercursos.com.br';
-    $unidade_email = 'info@jumpercursos.com.br';
+    $unidade_email = 'expansao2@jumpercursos.com.br';
+    // $unidade_email = 'info@jumpercursos.com.br';
     $nome_email = 'Rogério';
    
     $mail = new PHPMailer();
