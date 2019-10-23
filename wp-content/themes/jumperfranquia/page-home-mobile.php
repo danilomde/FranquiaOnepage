@@ -49,12 +49,12 @@
 
 	<?php wp_head(); ?>
 
-	<!-- Animate JS -->
+	<!-- Mobile CSS -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/style-mobile.css" />
 	
 	<!-- Alert JS -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.min.css" />
+	<script src="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js"></script>
 
 
 
@@ -64,6 +64,7 @@
 		var template_url = "<?php bloginfo( 'template_url' ); ?>";
 	</script>
 </head>
+
 
 <body <?php body_class(); ?>>
 
@@ -126,7 +127,20 @@
 		</div>
 	</header><!-- #masthead -->
 
+	<?php
 
+		$urlEmailSend = $_GET['email'];
+
+		if($urlEmailSend == 'true'){
+			echo "<script> 
+						Swal.fire(
+							'Email enviado com Sucesso!',
+							'Aguarde o contato do nosso consultor!',
+							'success'
+						) 
+				</script>";
+		}
+	?>
 
 	<section class='header-top  mt-n5'>
 
@@ -797,6 +811,7 @@
 			</div>
 
 			<div class="row justify-content-center row3Sec14Mobile">
+				<iframe width="250" height="200" src="https://www.youtube.com/embed/tFWcekMtn0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 
 			<div class="row justify-content-center row4Sec14Mobile">
@@ -808,36 +823,36 @@
 
 			<div class="row justify-content-center row5Sec14Mobile">
 
-				<form>
+				<form method="POST" action="<?php bloginfo( 'template_url' ); ?>/inc/mailSend.php" id="formularioFooterMobile">
 					<div class="row">
 
 						<div class="form-group col-12">
 							<label for="nome">Nome</label>
-							<input type="text" name="" class="form-control" id="nome">
+							<input type="text" name="nome" class="form-control" id="nome">
 						</div>
 
 						<div class="form-group col-6">
 							<label for="telefone">Telefone</label>
-							<input type="text" name="" class="form-control" id="telefone">
+							<input type="text" name="telefone" class="form-control" id="telefone">
 						</div>
 
 						<div class="form-group col-6">
 							<label for="cidade">Cidade</label>
-							<input type="text" name="" class="form-control" id="cidade">
+							<input type="text" name="cidade" class="form-control" id="cidade">
 						</div>
 
 						<div class="form-group col-12">
 							<label for="estado">Estado</label>
-							<input type="text" name="" class="form-control" id="estado">
+							<input type="text" name="estado" class="form-control" id="estado">
 						</div>
 
 						<div class="form-group col-12">
 							<label for="email">Email</label>
-							<input type="text" name="" class="form-control" id="email">
+							<input type="text" name="email" class="form-control" id="email">
 						</div>
 
 						<div class="form-group col-12 text-center">
-							<button>Enviar formulário</button>
+							<button type="submit">Enviar formulário</button>
 						</div>
 
 					</div>
@@ -860,7 +875,7 @@
 	--------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-	<div class="modal fade modal-video" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-video" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl ">
 	    <div class="modal-content">
 	      <iframe width="1150" height="300" src="https://www.youtube.com/embed/YDuE2CcREMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -869,7 +884,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto1" id="modalFoto1" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/recepção.jpg">
@@ -878,7 +893,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto2" id="modalFoto2" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_0548.jpg">
@@ -887,7 +902,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto3" id="modalFoto3" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_3449.jpg">
@@ -896,7 +911,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto4" id="modalFoto4" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4963.jpg">
@@ -905,7 +920,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto5" id="modalFoto5" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_4971.jpg">
@@ -914,7 +929,7 @@
 	</div>
 
 
-	<div class="modal fade modal-foto6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+	<div class="modal fade modal-foto6" id="modalFoto6" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-xl">
 	    <div class="modal-content">
 	      <img width="1150px" height="800px" src="<?php bloginfo( 'template_url' ); ?>/images/fotos_modal/IMG_5002 (1).jpg">
@@ -967,6 +982,14 @@
 
 	// 	$("#whatsMobile").append('<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" > <img src="<?php bloginfo( "template_url" ); ?>/images/mobile/whatsapp.jpg"> </a>');
 	});
+
+	$('#modalVideo').modal('show');
+	$('#modalFoto1').modal('show');
+	$('#modalFoto2').modal('show');
+	$('#modalFoto3').modal('show');
+	$('#modalFoto4').modal('show');
+	$('#modalFoto5').modal('show');
+	$('#modalFoto6').modal('show');
 
 
 </script>
