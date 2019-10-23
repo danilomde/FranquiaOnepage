@@ -537,16 +537,16 @@
 	<section class="section11Mobile">
 		<div class="container-fluid">
 			
-			<div class="row row1Sec11Mobile" data-toggle="modal" data-target=".modal-video">
+			<div class="row row1Sec11Mobile" data-toggle="modal" data-target=".modal-video" style='cursor:pointer'>
 			</div>
 
 			<div class="row">
 
-				<div class="col-6 bg1Sec11Mobile" data-toggle="modal" data-target=".modal-foto1">
+				<div class="col-6 bg1Sec11Mobile" data-toggle="modal" data-target=".modal-foto1"  style='cursor:pointer'>
 					
 				</div>
 				
-				<div class="col-6 bg2Sec11Mobile" data-toggle="modal" data-target=".modal-foto2">
+				<div class="col-6 bg2Sec11Mobile" data-toggle="modal" data-target=".modal-foto2"  style='cursor:pointer'>
 					
 				</div>
 
@@ -554,22 +554,22 @@
 
 			<div class="row">
 				
-				<div class="col-6 bg3Sec11Mobile" data-toggle="modal" data-target=".modal-foto3">
+				<div class="col-6 bg3Sec11Mobile" data-toggle="modal" data-target=".modal-foto3"  style='cursor:pointer'>
 					
 				</div>
 				
-				<div class="col-6 bg4Sec11Mobile" data-toggle="modal" data-target=".modal-foto4">
+				<div class="col-6 bg4Sec11Mobile" data-toggle="modal" data-target=".modal-foto4"  style='cursor:pointer'>
 					
 				</div>
 			</div>
 
 			<div class="row">
 				
-				<div class="col-6 bg5Sec11Mobile" data-toggle="modal" data-target=".modal-foto5">
+				<div class="col-6 bg5Sec11Mobile" data-toggle="modal" data-target=".modal-foto5"  style='cursor:pointer'>
 					
 				</div>
 				
-				<div class="col-6 bg6Sec11Mobile" data-toggle="modal" data-target=".modal-foto6">
+				<div class="col-6 bg6Sec11Mobile" data-toggle="modal" data-target=".modal-foto6"  style='cursor:pointer'>
 					
 				</div>
 			</div>
