@@ -975,23 +975,11 @@
 
 <script type="text/javascript">
 
-	$(document).ready(function() {
+	window.onload = function() {
 		$('#whatsMobile').removeClass("artTeste");
 		$('#whatsMobile').addClass("btnwhatsMobile");
-
-
-	// 	$("#whatsMobile").append('<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" > <img src="<?php bloginfo( "template_url" ); ?>/images/mobile/whatsapp.jpg"> </a>');
-	});
-
-
-
-
-
-
-
-
-
-
+		// console.log('Oi de novo');	
+	};
 
 	function modalVideo() {
 		$('#modalVideo').modal('show');
