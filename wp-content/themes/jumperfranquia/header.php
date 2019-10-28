@@ -96,9 +96,7 @@
 
 				</nav><!-- #site-navigation -->
 
-				<div class="col-md-2 mt-3 ml-n2 phone animated bounceInDown delay-1s">
-					<span itemprop="telephone"><a href="tel:4130813686">(41)<strong>3081-3686</strong> </a></span>
-				</div>
+				
 
 
 
