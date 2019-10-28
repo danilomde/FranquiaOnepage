@@ -31,6 +31,10 @@ get_header();
 
 ?>
 
+	<div class="col-md-2 mt-3 ml-n2 phone animated bounceInDown delay-1s">
+		<span itemprop="telephone"><a href="tel:4130813686">41 <strong>3081-3686</strong> </a></span>
+	</div>
+
 	<!-- SECTION 2 e 3 -->
 	<section class="section2">
 		<div class="container">
@@ -66,7 +70,7 @@ get_header();
 				<div class="col-md-12 text-center" id="textMenino3">
 					<h1>Mas, se fizerem 1 curso, vão mudar essa situação?</h1>
 					<div class="divSuporteH3">
-						<h3>NÃO</h3>
+						<h3>NÃO!</h3>
 					</div>
 					
 					<h4>Somente com 1 curso o jovem ainda não se qualifica o suficiente. Para trabalhar ele precisa: </h4>
@@ -99,26 +103,19 @@ get_header();
 						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-6.png">
 						<p>Saber negociar e vender</p>
 					</div>
-
-					<div class="col-md-3 text-center">
 						
-						<div class="row">
-							<div class="col-md-6">
-								<img width="100px" height="100px"  src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-7.png">
-								<p>Saber trabalhar em equipe</p>
-							</div>
+					<div class="col-md text-center sec2DivNoMax">
+						<img width="100px" height="100px"  src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-7.png">
+						<p>Saber trabalhar em equipe</p>
+					</div>
 
-							<div class="col-md-6">
-								<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-8.png">
-								<p>Falar em público</p>
-							</div>
-						</div>
-						
-
+					<div class="col-md text-center sec2DivNoMax sec2DivAjuste">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-8.png">
+						<p>Falar em público</p>
 					</div>
 
 
-					<div class="col-md-3 text-center sec2DivNoMax">
+					<div class="col-md text-center sec2DivNoMax">
 						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-9.png">
 						<p>Estar preparado para uma entrevista de emprego</p>
 					</div>
@@ -174,50 +171,35 @@ get_header();
 				</div>
 
 				<div class="container">
+					
+
 					<div class="row rowContainerSec3 ">
-						<div class="col-md-2 text-center">
-							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-1.png" width="125px" height="125px">
-							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
- -->
-							<div class="pt-2">
-								<h3>Mecânica</h3>								
+						<div class="col-md-12">
+							<img src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/icones cursos2.png">
+						</div>
+
+						<div class="row">
+							<div class="col-md-2 text-center">
+								Mecânica
+							</div>
+	
+							<div class="col-md-2 text-center">
+								Beleza
+							</div>
+	
+							<div class="col-md-2 text-center">
+								Inglês ou Espanhol
+							</div>
+	
+							<div class="col-md-2 text-center">
+								Rotinas administrativas
+							</div>
+	
+							<div class="col-md-2 text-center">
+								Tecnologia
 							</div>
 						</div>
 
-						<div class="col-md-2 text-center">
-							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-2.png" width="125px" height="125px">
-							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
- -->
-							<div class="pt-2">
-								<h3>Beleza</h3>								
-							</div>
-						</div>
-
-						<div class="col-md-2 text-center">
-							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-3.png" width="125px" height="125px">
-							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
- -->
-							<div class="pt-2">
-								<h3>Inglês e Espanhol</h3>								
-							</div>
-						</div>
-
-						<div class="col-md-2 text-center">
-							<img class="mr-2" src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-4.png" width="125px" height="125px">
-							<!-- <img class="iconMais" src="<?php bloginfo( 'template_url' ); ?>/images/p3/mais.png" width="50px" height="50px">
- -->
-							<div class="pt-2">
-								<h3>Rotinas Administrativas</h3>								
-							</div>
-						</div>
-
-						<div class="col-md-2 text-center" id="ultimoIcon">
-							<img src="<?php bloginfo( 'template_url' ); ?>/images/p3/icon-sec3-5.png" width="125px" height="125px">
-
-							<div class="pt-2">
-								<h3>Tecnologia</h3>								
-							</div>
-						</div>
 					</div>
 				</div>
 
@@ -404,143 +386,16 @@ get_header();
 
 
   	<section class="section9">
-  		<div class="container containerUM">
+  		<div class="container ">
 
   			<div class="row">
   				<div class="col-md-12" id="ajusteDiv1Sec9">
   					<h2>Estaremos com </h2>
   					<h1>Você</h1>
-  				</div>
-  			</div>
-
-  			<div class="row mt-n5" id="ajusteResponseRow1ContainerUM">
-  				
-  				<div class="col pl-4 pr-5 tabuleiroAjuste offset-md-4" >
-  					<div class="row" id="rowTabAjuste1">
-  						<div class="col-md-2 h1Sec9 mt-n4">
-  							<h1>1</h1>
-  						</div>
-
-  						<div class="col pSec9">
-  							<p>Auxílio na escolha do imóvel</p>
-  						</div>
-  					</div> 
-  					
-  				</div>
-
-  				<div class="col pl-4 pr-5 tabuleiroAjuste" >
-  					<div class="row">
-  						<div class="col-md-2 h1Sec9">
-  							<h1>2</h1>
-  						</div>
-
-  						<div class="col pSec9 mt-n2">
-  							<p>Orientação na Montagem da Estrutura</p>
-  						</div>
-  					</div> 
-  				</div>
-
-  				<div class="col pl-4 pr-5 tabuleiroAjuste" >
-					<div class="row">
-						<div class="col-md-2 h1Sec9">
-							<h1>3</h1>
-						</div>
-
-						<div class="col pSec9">
-							<p>Projeto Arquitetônico</p>
-						</div>
-					</div> 
-  				</div>
-  			</div>
-
-  			<div class="row" id="rowAjusteSec9">
-  				<div class="col offset-md-3 tabuleiroAjuste2" styl>
-  					<div class="row ml-5">
-
-  						<div class="col-md-2 h1Sec92">
-  							<h1>6</h1>
-  						</div>
-
-  						<div class="col pSec92 ml-3 mt-2">
-  							<p>Kit Material didático</p>
-  						</div>
-
-  					</div>
-  				</div>
-
-  				<div class="col tabuleiroAjuste2">
-  					<div class="row mt-2">
-
-  						<div class="col-md-2 h1Sec92">
-  							<h1>5</h1>
-  						</div>
-
-  						<div class="col pSec92 mt-n2">
-  							<p>Ações de Marketing para captação de alunos</p>
-  						</div>
-
-  					</div>
-  				</div>
-
-  				<div class="col tabuleiroAjuste2">
-  					<div class="row mt-2">
-
-  						<div class="col-md-2 h1Sec92" id="ajusteTab4">
-  							<h1>4</h1>
-  						</div>
-
-  						<div class="col pSec92 mt-n2" id="ajusteTab42">
-  							<p>Assistência na contratação da equipe</p>
-  						</div>
-
-  					</div>
-  				</div>
-  			</div>
-
-  			<div class="row justify-content-md-center" id="row3AjusteSec9">
-
-  				<div class="col-md-3 pr-5" >
-  					<div class="row mt-n2" id="ajusteTab7">
-
-  						<div class="col-md-2 h1Sec93 mr-2 ml-5" >
-  							<h1>7</h1>
-  						</div>
-
-  						<div class="col pSec93 ml-n3">
-  							<p>Evento de Inauguração</p>
-  						</div>
-  						
-  					</div>
-  				</div>
-
-  				<div class="col-md-2 ml-n2" >
-  					<div class="row">
-
-  						<div class="col-md-2 h1Sec93 ml-n4 mr-4 mt-n5">
-  							<h1>8</h1>
-  						</div>
-
-  						<div class="col pSec93 mt-n2">
-  							<p>Suporte total da franqueadora</p>
-  						</div>
-  						
-  					</div>
-  				</div>
-
-  				<div class="col-md-3 pr-5 pl-5" id="divSec9Ajuste">
-  					<div class="row mt-n3">
-
-  						<div class="col-md-2 h1Sec93">
-  							<h1>9</h1>
-  						</div>
-
-  						<div class="col pSec93 pr-5">
-  							<p>30 dias de consultoria na unidade</p>
-  						</div>
-  						
-  					</div>
-  				</div>
-
+				  </div>
+				  
+				  <div class="col-md-12 containerUM">
+				  </div>
   			</div>
 
   		</div>
@@ -560,7 +415,7 @@ get_header();
 
 
   			<div class="container containerFranqueados">
-  					<div class="row">
+  					<div class="row" id="divJosemar">
 
 		  				<div class="col-md-3 text-right divSec9Nome">
 		  					<h1><strong>Josemar</strong> Lopes</h1>
@@ -585,7 +440,7 @@ get_header();
 		  				</div>
 		  			</div>
 
-		  			<div class="row">
+		  			<div class="row" id="divHelena">
 
 		  				<div class="col-md-3 offset-md-1 text-right divSec9Nome">
 		  					<h1><strong>Helena</strong> Sato</h1>
@@ -610,10 +465,10 @@ get_header();
 		  				</div>
 		  			</div>
 
-		  			<div class="row">
+		  			<div class="row" id="divEdenilson">
 
 		  				<div class="col-md-3 offset-md-3 text-right divSec9Nome">
-		  					<h1><strong>Edenilson</strong> Malheiros</h1>
+		  					<h1><strong>Edenilson</strong> M.</h1>
 		  					<p>5 unidades Jumper!</p>
 		  				</div>
 
@@ -638,7 +493,7 @@ get_header();
 
 
   			<div class="row justify-content-center row1Sec10">
-  				<div class="col-md-3">
+  				<div class="col-md-3 text-center">
   					<div class="text-center">
   						<h1>”</h1>
   					</div>

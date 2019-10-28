@@ -59,7 +59,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 
 .divH2Section1{
 	padding-top: 24%;
-	    margin-left: 352px; 
+	margin-left: 330px; 
 }
 
 .divBg2Section1{
@@ -85,7 +85,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 }
 
 .divImageSection1 div{
-	margin-right: -50%;
+	margin-right: -42%;
 	margin-top: 33%;
 	color: white;
 }
@@ -103,7 +103,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 }
 
 #site-navigation div ul{
-	 margin-left: -10%;
+	margin-left: -21%;
     color: white;
     font-size: 18px;
     padding-top: 1.5%;
@@ -112,19 +112,28 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 
 .phone span a{
 	color: #2E3A58;
+	font-weight: 900;
 	text-decoration: none;
 	text-shadow: 1px solid #ffffff;
 }
 .phone span a strong{
-	    font-size: 38px;
+	    font-size: 30px;
     font-weight: 900;
 }
 
 
 .phone{
-    font-size: 21px;	
-    font-family: 'Montserrat', sans-serif;
-
+    font-size: 21px;
+    background-color: #B3C224;
+    border-radius: 10px;
+    position: fixed;
+    top: -17px;
+    right: -4px;
+    height: 50px;
+    width: 260px;
+	padding-right: 30px;
+    padding-left: 30px;
+    z-index: 99999;
 }
 
 
@@ -166,11 +175,12 @@ h1 strong{
 
 
 .section2{
-	background-image: url('images/p2/bg-p2-container2.png');
+	background-image: url('images/p2/bg-p2-container-Novo.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 3480px;
+	margin-top: -1%;
 }
 .section2 .container{
 	padding: 0;
@@ -272,7 +282,12 @@ h1 strong{
 }
 #textMenino3 .divSuporteH3 h3{
 	font-size: 50px;
-    font-weight: 900;
+	font-weight: 900;
+	color: #2D3856;
+}
+
+.sec2DivAjuste{
+	margin-right: -5%;
 }
 
 #rowAjusteSec2{
@@ -370,7 +385,7 @@ h1 strong{
     margin-right: 0;
 }
 .rowContainerSec3 div{
-	margin-right: 3%;
+	margin-right: 2.5%;
 }
 .rowContainerSec3 div h3{
 	font-size: 21px;
@@ -379,6 +394,18 @@ h1 strong{
 }
 .rowContainerSec3 div .iconMais{
 	margin-right: -1%;
+}
+.rowContainerSec3 div img{
+	width: 72%;
+}
+.rowContainerSec3 .row{
+	width: 78%;
+	margin-left: 0%;
+	padding-top: 0.5%;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #28334D;
 }
 #ultimoIcon{
 	margin-left: -2.5%;
@@ -470,10 +497,10 @@ h1 strong{
     padding-top: 17%;
     /* width: 10px; */
     padding-left: 42%;
-    padding-right: 40%;
+    padding-right: 38%;
 }
 #ajusteRow2Sec4{
-	margin-top: 3%;
+	margin-top: 1%;
 	color: #252F48;
 }
 
@@ -499,14 +526,13 @@ h1 strong{
 }
 
 #div2Sec4{
-	margin-top: -35%;
-    margin-left: -25%;
+	margin-top: -39%;
+    margin-left: -35%;
 }
 
 #h1Div2Sec4{
-	font-size: 126px;
-    font-weight: bold;
-     /*margin-top: -16%;*/
+	font-size: 150px;
+    font-weight: 900;
 }
 
 #div3Sec4{
@@ -531,8 +557,8 @@ h1 strong{
 }
 
 #div3Sec4 div img{
-    margin-bottom: -30%;
-    width: 61%;
+    margin-bottom: -24%;
+    width: 45%;
     z-index: 10;
     position: relative;
 }
@@ -628,11 +654,12 @@ h1 strong{
 }
 
 #ajusteRow2Sec6{
-	margin-top: -5%;
+	margin-top: -5.5%;
 	color: #252F48;
 }
 #ajusteRow2Sec6 div h3{
 	font-weight: 600;
+    font-size: 30px;
 }
 
 #div3Sec6{
@@ -647,12 +674,12 @@ h1 strong{
 }
 
 #ajusteRow3Sec6{
-	padding-top: 1%;
+	padding-top: 1.3%;
 	color: #252F48;
 }
 
 #div4Sec6 {
-	border-right: 4px solid black;
+	border-right: 4px solid #252F48;
     border-radius: 2px;
     height: 66px;
 }
@@ -663,6 +690,10 @@ h1 strong{
 
 #div4Sec6 h3{
 	font-size: 34px;
+}
+
+#div4Sec6 h3 strong{
+	font-weight: 900;
 }
 
 #div5Sec6{
@@ -679,6 +710,7 @@ h1 strong{
 
 .subDiv6 h3{
 	font-size: 65px;
+	font-weight: 900;
     height: 40px;
     color: #252F48;
 }
@@ -738,25 +770,27 @@ h1 strong{
 
 .section9{
 	background-image: url('images/p9/bg-3.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 1115px;
-}
-.section9 .containerUM{
-	background-image: url('images/p9/tabuleiro-com-linha.png');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 1000px;;
+	min-height: 1115px;
+	margin-top: -1%;
+}
+.section9 .containerUM{
+	background-image: url('images/ajuste/Estaremos com você.png');
+	background-size: contain;
+	background-position: right;
+    background-repeat: no-repeat;
+    min-height: 855px;
+    margin-top: -9.5%;
+    margin-left: -6%;
 }
 
 .section10{
 	background-image: url('images/p10/fundo-101.png');
-	background-size: cover;
-	background-position: center;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	min-height: 2685px;
+	margin-top: -0.6%;
 }
 
 
@@ -877,6 +911,7 @@ h1 strong{
 
 .divSec9Nome h1{
 	color: #252F49;
+	height: 10px;
 }
 .divSec9Nome h1 strong{
 	color: #252F49;
@@ -889,6 +924,7 @@ h1 strong{
 
 .aspasFranqueado h1{
 	font-size: 60px;
+	font-weight: 900;
 	height: 0;
 	color: #252F49;
 }
@@ -899,14 +935,23 @@ h1 strong{
     font-weight: 500;
 }
 
+#divHelena{
+	margin-left: 7%;
+}
+
+#divEdenilson{
+	margin-left: 3%;
+}
+
 
 .row1Sec10{
 	margin-top: 2%;
 }    
 .row1Sec10 div div h1{
 	font-size: 60px;
-    height: 0;
-    color: #252F48;;
+    font-weight: 900;
+    height: 10px;
+    color: #252F48;
 }      
 .row1Sec10 div h1{
 	/*font-size: 60px;*/
@@ -921,7 +966,7 @@ h1 strong{
 
 .row2Sec10{
 	padding-top: 2%;
-    padding-left: 7%;
+    padding-left: 4%;
 }
 .row2Sec10 div h1{
 	color: #252F49;
@@ -932,7 +977,7 @@ h1 strong{
 }
 
 .row3Sec10{
-	margin-top: 15%;
+	margin-top: 13%;
 }
 .row3Sec10 #div1Row3Sec10{
 	padding-top: 4%;
@@ -1043,7 +1088,7 @@ h1 strong{
 
 
 .row6Sec10{
-	margin-top: -8%;
+	margin-top: -10%;
 }
 .row6Sec10 div h1{
 	font-size: 42px;
@@ -1082,6 +1127,11 @@ h1 strong{
 	color: #252F49;
 	font-size: 22px;
 	font-weight: 500;
+}
+
+.texto2Section2 h3 strong{
+	text-transform: uppercase;
+	font-size: 22px;
 }
 
 /*--------------------------------------------------------------
@@ -1123,9 +1173,10 @@ h1 strong{
     padding-left: 112px;
 }
 .footerLucre15Mil h2 {
-	margin-left: 18.5%;
+	margin-left: 17%;
     margin-top: 3%;
-    font-size: 66px;
+	font-size: 66px;
+	font-weight: 900;
 }
 .footerLucre15Mil h3{
 	color: white;
@@ -1196,7 +1247,7 @@ h1 strong{
     padding-top: 263px;
 	padding-left: 23%;
     padding-right: 0%;
-
+	margin-left: 1%;
 }
 
 .callfooter h2{
@@ -1227,6 +1278,9 @@ h1 strong{
     z-index: 9999999999;
 
 }
+.btnwhats img{
+	width: 120px;
+}
 
 
 .nav-link{
@@ -1237,7 +1291,23 @@ h1 strong{
 
 .namidia{
 	height: 700px;
+	margin-top: -0.1%;
+}
 
+#formularioFooter div div input {
+	background: transparent;
+    border: 2px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+}
+
+#row2Footer div div h1{
+	font-weight: 900;
+    font-size: 40px;
+}
+
+#row2Footer div div h2{
+	font-size: 23px;
 }
 
 .titlenamidia{
@@ -1247,7 +1317,7 @@ h1 strong{
 }
 
 .titlenamidia img{
-	width: 500px;
+	width: 680px;
 }
 
 
@@ -1333,6 +1403,10 @@ h1 strong{
 		margin-top: -12%;
 	}
 
+	#ajusteRow2Sec6 div h3{
+		font-size: 26px;
+	}
+
 	#ajusteRow2Sec6{
 		margin-top: -7%;
 	}
@@ -1374,16 +1448,24 @@ h1 strong{
 		margin-top: 8%;
 	}
 
+	.section8Imgs div img{
+		height: 89%;
+	}
+
 	.section9{
-		min-height: 1100px;
+		margin-top: -6.9%;
+	}
+
+	.section9 .containerUM{
+		min-height: 715px;
 	}
 
 	.ajusteDiv1Sec10{
-		padding-top: 10%;
+		padding-top: 7.5%;
 	}
 
 	.containerFranqueados .row{
-		margin-top: 5%;
+		margin-top: 4%;
 	}
 
 	.divSec9Nome h1{
@@ -1392,6 +1474,22 @@ h1 strong{
 
 	.divSec9Nome p{
 		font-size: 15px;
+	}
+
+	.section10{
+		margin-top: -4.8%;
+	}
+
+	.titlenamidia img{
+		width: 640px;
+	}
+
+	.depoFranqueado p{
+		font-size: 17px;;
+	}
+
+	.containerFranqueados div div img{
+		width: 125px;
 	}
 
 	.row2Sec10 div h1{
@@ -1436,19 +1534,19 @@ h1 strong{
 	}
 
 	.row2Sec10{
-		margin-top: -5%;
+		margin-top: -1%;
 	}
 
 	.row3Sec10{
-		margin-top: 19%;
+		margin-top: 12.5%;
 	}
 
 	.row4Sec10{
-		margin-top: 13%;
+		margin-top: 9%;
 	}
 
 	.row6Sec10{
-		margin-top: -5%;
+		margin-top: -6.5%;
 	}
 
 	.callfooter{
@@ -1476,6 +1574,10 @@ h1 strong{
 @media only screen and (max-width: 1600px) and (min-width: 1441px){
  	.header-top{
 		margin-top: -8%;
+	}
+
+	#site-navigation div ul{
+		margin-left: -18%;
 	}
 
 	.phone span a strong{
@@ -1512,15 +1614,52 @@ h1 strong{
 	}
 
 	#bgMeninaApontandoSec3{
-		margin-top: -34%;
+		margin-top: -45%;
+	}
+
+	#rowListaMeninaApontandoSec3{
+		margin-top: -38%;
+	}
+
+	.rowContainerSec3{
+		margin-left: 22%;
+	}
+
+	.rowContainerSec3 div{
+		font-size: 15px;
+	}
+
+	.ajusteLinha3RowAjuste4{
+		margin-left: 13%;
+		margin-top: -5%;
+		position: absolute;
+	}
+
+	.ajusteLinha3RowAjuste4 img{
+		width: 83%;
+		height: 215px;
+	}
+
+	.section4{
+		margin-top: -31%;
 	}
 
 	#ajusteRow1Sec4{
-		padding-top: 19%;
+		padding-top: 20%;
+	}
+
+	#div2Sec4 {
+		margin-top: -44%;
+		margin-left: -30%;
 	}
 
 	#ajusteRow2Sec4{
-		margin-top: 5%;
+		margin-top: 1.5%;
+	}
+
+	#div3Sec4 div img {
+		margin-bottom: -27%;
+		margin-left: 6%;
 	}
 
 	#ajusteRow3Sec4{
@@ -1541,6 +1680,7 @@ h1 strong{
 
 	#ajusteRow3Sec6{
 		padding-left: 2%;
+		padding-top: 0.5%;
 	}
 
 	#div5Sec6{
@@ -1552,7 +1692,7 @@ h1 strong{
 	}
 
 	#ajusteRow2Sec6 div h3{
-		font-size: 23px;
+		font-size: 25px;
 	}
 
 	#div5Sec6 p{
@@ -1561,7 +1701,7 @@ h1 strong{
 
 	.section7{
 		min-height: 1000px;
-		margin-top: -20%;
+		margin-top: -22%;
 	}
 
 	#row1Sec8Bg{
@@ -1593,11 +1733,19 @@ h1 strong{
 	}
 
 	.section9{
-		min-height: 1100px;
+		margin-top: -6.5%;
+	}
+
+	.section9 .containerUM{
+		min-height: 670px;
+	}
+
+	.section10{
+		margin-top: -6.4%;
 	}
 
 	.ajusteDiv1Sec10{
-		padding-top: 10%;
+		padding-top: 7.5%;
 	}
 
 	#h1Sec10{
@@ -1610,6 +1758,24 @@ h1 strong{
 
 	.containerFranqueados .row{
 		margin-top: 5%;
+	}
+
+	.containerFranqueados div div img{
+		width:125px;
+	}
+
+	.depoFranqueado p{
+		font-size: 15px;
+	}
+
+	#divHelena {
+		margin-left: 7%;
+		width: 100%;
+	}
+
+	#divEdenilson {
+		width: 100%;
+		margin-left: 5%;
 	}
 
 	.divSec9Nome h1{
@@ -1662,20 +1828,17 @@ h1 strong{
 	}
 
 	.row2Sec10{
-		margin-top: -5%;
+		margin-top: 0%;
 	}
 
 	.row3Sec10{
-		margin-top: 22%;
+		margin-top: 12%;
 	}
 
 	.row4Sec10{
-		margin-top: 14%;
+		margin-top: 9%;
 	}
 
-	.row6Sec10{
-		margin-top: -5%;
-	}
 
 	.callfooter{
 		padding-top: 235px;
