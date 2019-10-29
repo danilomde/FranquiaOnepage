@@ -65,41 +65,8 @@
 					<h2 id="h2FooterAjuste">Preencha o formulário que entraremos em contato.</h2>
 				</div>
 			
-				<form method="POST" action="<?php bloginfo( 'template_url' ); ?>/inc/mailSend.php" id="formularioFooter">
-					<div class="row">
-						
-					
-						<div class="form-group col-md-12">
-							<label for="nome">Nome</label>
-							<input type="text" name="nome" class="form-control" id="nome">
-						</div>
-
-						<div class="form-group col-md-4">
-							<label for="telefone">Telefone</label>
-							<input type="text" name="telefone" class="form-control" id="telefone">
-						</div>
-
-						<div class="form-group col-md-4">
-							<label for="cidade">Cidade</label>
-							<input type="text" name="cidade" class="form-control" id="cidade">
-						</div>
-
-						<div class="form-group col-md-4">
-							<label for="estado">Estado</label>
-							<input type="text" name="estado" class="form-control" id="estado">
-						</div>
-
-						<div class="form-group col-md-12">
-							<label for="email">Email</label>
-							<input type="text" name="email" class="form-control" id="email">
-						</div>
-
-						<div class="form-group col-md-12 text-center">
-							<button type="submit" id="btnFormFooter">Enviar formulário</button>
-						</div>
-
-					</div>
-				</form>
+				
+				<?php echo  do_shortcode('[contact-form-7 id="14330" title="Contato" html_id="formularioFooter"]') ?>
 
 			</div>
 		</div>
