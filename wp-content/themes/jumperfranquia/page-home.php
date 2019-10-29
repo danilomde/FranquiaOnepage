@@ -78,45 +78,45 @@ get_header();
 				
 				<div class="row" id="rowAjusteSec2">
 					<div class="col-md-3 text-center sec2DivNoMax">
-						<img width="100px" height="100px" style="width: 26%;" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-1.png" >
+						<img width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/ser empreendedor.png" >
 						<p>Ser empreendedor e diferenciado</p>
 					</div>
 					<div class="col-md-3 text-center sec2DivNoMax" style="padding-top: 1%;">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-2.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/Falar outro idioma.png">
 						<p>Falar outro idioma</p>
 					</div>
 					<div class="col-md-3 text-center sec2DivNoMax">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-3.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/dominar as tecnologias.png">
 						<p>Dominar a tecnologia ultilizada pelas empresas</p>
 					</div>
 					<div class="col-md-3 text-center sec2DivNoMax">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-4.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/conhcer sobre as rotinas adm.png">
 						<p>Conhecer sobre as rotinas administrativas</p>
 					</div>
 
 
 					<div class="col-md-3 text-center sec2DivNoMax">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-5.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/atender bem o cliente.png">
 						<p>Atender bem o cliente</p>
 					</div>
 					<div class="col-md-3 text-center sec2DivNoMax">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-6.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/saber negociar e vender.png">
 						<p>Saber negociar e vender</p>
 					</div>
 						
 					<div class="col-md text-center sec2DivNoMax">
-						<img width="100px" height="100px"  src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-7.png">
+						<img width="100px" height="100px"  src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/saber trabalhar em equipe.png">
 						<p>Saber trabalhar em equipe</p>
 					</div>
 
 					<div class="col-md text-center sec2DivNoMax sec2DivAjuste">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-8.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/falar bem em publico.png">
 						<p>Falar em público</p>
 					</div>
 
 
 					<div class="col-md text-center sec2DivNoMax">
-						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/p2/icon-pt2-9.png">
+						<img  width="100px" height="100px" src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/estar preparado para uma entrevista de emprego.png">
 						<p>Estar preparado para uma entrevista de emprego</p>
 					</div>
 
