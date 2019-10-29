@@ -1222,16 +1222,16 @@ h1 strong{
 	color: white;
 }
 
-#btnFormFooter{
-    border-radius: 9px;
-    width: 38%;
-    padding: 2%;
-    font-size: 16px;
-    color: #A2BC05;
-    background-color: transparent;
-    border: 1px solid #A2BC05;
-    font-weight: bold;
-    text-transform: uppercase;
+#btnFormFooter,.wpcf7-submit {
+    border-radius: 9px !important;
+    width: 38% !important;
+    padding: 2% !important;
+    font-size: 16px !important;
+    color: #A2BC05 !important;
+    background-color: rgba(0,0,0,0) !important;
+    border: 1px solid #A2BC05 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
 }
 
 #row3Fotter{
