@@ -23,6 +23,7 @@
 		if (screen.width < 640 ) {
 
 			<?php $verifyGET = $_GET['email']; ?>
+			
 			var verifyGETScrpt = "<?php echo $verifyGET; ?>";
 
 			if(verifyGETScrpt == 'true'){
