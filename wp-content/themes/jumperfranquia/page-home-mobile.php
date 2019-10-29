@@ -16,6 +16,16 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+<style>
+
+html, body {
+  overflow-x: hidden !important;
+}
+body {
+  position: relative !important;
+}
+
+</style>
 	<script type="text/javascript">
 		var url = "<?php bloginfo( 'url' ); ?>";
 		var template_url = "<?php bloginfo( 'template_url' ); ?>";
@@ -27,6 +37,16 @@
 		} 
 
 		
+		window.onload = function() {
+	
+				$('#whatsMobile').removeClass("artTeste");
+				$('#whatsMobile').addClass("btnwhatsMobile");
+			
+		
+			
+			// console.log('Oi de novo');	
+		};
+		
 	</script>
 
 
@@ -34,7 +54,9 @@
 
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 
@@ -70,7 +92,10 @@
 
 	<div class="artTeste animated bounceInDown delay-2s" id="whatsMobile">
 		<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!"  target="_blank" >
-			<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp.jpg">
+			<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/whatsapp-1.jpg">
+		</a>
+		<a href="tel:4130813686"  target="_blank" >
+			<img src="<?php bloginfo( 'template_url' ); ?>/images/mobile/phone.jpg">
 		</a>
 	</div>
 
@@ -104,7 +129,7 @@
 		        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
 		          <!-- Links -->
-		          <ul class="navbar-nav mr-auto">
+		          <ul class="navbar-nav mr-auto" style="width:100%" >
 		            <li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
 					<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
 					<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
@@ -329,7 +354,7 @@
 
 			<div class="row justify-content-center row1Sec4Mobile">
 				<div class="col-10 text-center">
-					<h2>"Somente uma <strong>formação completa</strong> muda a vida das pessoas" <br/> <p>(Everton Sabú)</p></h2>
+					<h2>"Somente uma <strong>formação completa</strong> muda a vida das pessoas" <br/> <p class='nomeverton'>(Everton Sabú)</p></h2>
 				</div>
 			</div>
 
@@ -661,7 +686,7 @@
 				</div>
 
 				<div class="col-12 text-center textoSec13">
-					<h1>”</h1>
+					<h1>ʻʻ</h1>
 					<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje já abri minha 10° escola e possuo o maior faturamento de toda a rede."</p>
 				</div>
 			</div>
@@ -677,7 +702,7 @@
 				</div>
 
 				<div class="col-12 text-center textoSec13">
-					<h1>”</h1>
+					<h1>ʻʻ</h1>
 					<p>A JUMPER! Profissões e Idiomas mudou a nossa vida em todos os sentidos: como empresária, como professora, como profissional e como pessoa."</p>
 				</div>
 			</div>
@@ -693,7 +718,7 @@
 				</div>
 
 				<div class="col-12 text-center textoSec13">
-					<h1>”</h1>
+					<h1>ʻʻ</h1>
 					<p>Hoje somos líder de mercado em nossa cidade. Isso nos trouxe muita satisfação de ter acertado na escolha. Atualmente faturamos 3 vezes mais que há um ano atrás."</p>
 				</div>
 			</div>
@@ -701,7 +726,7 @@
 			<div class="row justify-content-center row5Sec13Mobile">
 				<div class="col-10">
 					<div class="text-center">
-						<h1>”</h1>
+						<h1>ʻʻ</h1>
 					</div>
 					<h1>Eles <strong>conseguiram, você</strong> também <strong>pode!</strong></h1>
 				</div>
@@ -975,11 +1000,7 @@
 
 <script type="text/javascript">
 
-	window.onload = function() {
-		$('#whatsMobile').removeClass("artTeste");
-		$('#whatsMobile').addClass("btnwhatsMobile");
-		// console.log('Oi de novo');	
-	};
+	
 
 	function modalVideo() {
 		$('#modalVideo').modal('show');

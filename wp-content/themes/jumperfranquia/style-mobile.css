@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
+@import url("https://use.typekit.net/jdv7grg.css"); 
+
+
 /*
  * @zeni
  */
 
+html, body {
+  overflow-x: hidden !important;
+}
+body {
+  position: relative !important;
+}
+
+*{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.nomeverton{
+	font-size: 14px !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
 
 
 
@@ -30,7 +51,9 @@
 	}
 
 	.imgeverton{
-		width: 320px;
+		width: 245px;
+		margin-top: 100px;
+		margin-left: 32px;
 	}
 
 
@@ -1074,7 +1097,8 @@
  		}
 
  		.s1TextoChamada h1{
- 		    font-size: 20px;
+			font-size: 16px;
+			margin-top: 18px;
  		}
 
  		.row1Sec2Mobile div h2{
