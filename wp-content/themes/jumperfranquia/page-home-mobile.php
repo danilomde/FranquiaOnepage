@@ -612,54 +612,8 @@ body {
 				</div>
 			</div>	
 
-			<div class="row row2Sec12Mobile">
-
-				<div class="col-5 text-left div1Row2Sec12">
-					<p>Auxílio na escola do imóvel</p>
-				</div>
-
-				<div class="col-7 text-left div2Row2Sec12">
-					<p>Orientação na montagem da estrutura</p>
-				</div>
-			</div>	
-
-			<div class="row row3Sec12Mobile">
-
-				<div class="col-5 text-left div1Row3Sec12">
-					<p>Projeto Arquitetônico</p>
-				</div>
-
-				<div class="col-7 text-left div2Row3Sec12">
-					<p>Assistência na contratação da equipe</p>
-				</div>
-			</div>
-
-			<div class="row row4Sec12Mobile">
-
-				<div class="col-7 text-left div1Row4Sec12">
-					<p>Ações de Marketing para captação de alunos</p>
-				</div>
-
-				<div class="col-5 text-left div2Row4Sec12">
-					<p>Kit Material didático</p>
-				</div>
-			</div>
-
-			<div class="row row5Sec12Mobile">
-
-				<div class="col-7 text-left div1Row5Sec12">
-					<p>Evento de Inauguração</p>
-				</div>
-
-				<div class="col-5 text-left div2Row5Sec12">
-					<p>Suporte total da franqueadora</p>
-				</div>
-			</div>
-
-			<div class="row row6Sec12Mobile">
-				<div class="col-12 text-center">
-					<p>30 dias de consultoria na unidade</p>
-				</div>
+			<div class="row justify-content-left row2Sec12Mobile">
+				<!-- <img src="<?php bloginfo( 'template_url' ); ?>/images/ajuste/estaremos com vocÊ mobile.png" /> -->
 			</div>
 
 		</div>
@@ -713,7 +667,7 @@ body {
 				</div>
 
 				<div class="col-7 nomeFranqueadoSec13">
-					<h1><strong>Edenilson</strong> Malheiros</h1>
+					<h1><strong>Edenilson</strong> M.</h1>
 					<p>5 unidades Jumper!</p>
 				</div>
 
@@ -848,6 +802,9 @@ body {
 
 			<div class="row justify-content-center row5Sec14Mobile">
 
+				
+			<?php echo  do_shortcode('[contact-form-7 id="14330" title="Contato" html_id="formularioFooterMobile"]') ?>
+<!-- 			
 				<form method="POST" action="<?php bloginfo( 'template_url' ); ?>/inc/mailSend.php" id="formularioFooterMobile">
 					<div class="row">
 
@@ -881,7 +838,7 @@ body {
 						</div>
 
 					</div>
-				</form>
+				</form> -->
 			</div>
 
 			<div class="row justify-content-center row6Sec14Mobile">
@@ -1000,8 +957,6 @@ body {
 
 <script type="text/javascript">
 
-	
-
 	function modalVideo() {
 		$('#modalVideo').modal('show');
 	}
@@ -1029,6 +984,15 @@ body {
 	function modalFoto6() {
 		$('#modalFoto6').modal('show');
 	}
+</script>
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71266454-6"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-71266454-6');
 </script>
