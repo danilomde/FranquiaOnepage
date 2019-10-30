@@ -52,7 +52,7 @@ body {
 
 	.imgeverton{
 		width: 245px;
-		margin-top: 100px;
+		margin-top: 105px;
 		margin-left: 32px;
 	}
 
@@ -262,7 +262,7 @@ body {
 	}
 
 	.row4Sec4Mobile div p{
-		font-size: 20px;
+		font-size: 17px;
 	    font-weight: 500;
 		color: #273047;
 	}
@@ -293,7 +293,7 @@ body {
 		background: url(images/mobile/bg-s5.png) top center no-repeat;
 		background-size: 100%;	
 		min-height: 1260px;
-		margin-top: -16%;
+		margin-top: -19%;
 		z-index: 10;
 		position: relative;
 	}
@@ -340,6 +340,7 @@ body {
 
 	.row5Sec5Mobile div ul{
 		list-style: none;
+		padding: 0 15px;
 	}
 	.row5Sec5Mobile div ul li{
 		color: #273047;
@@ -368,22 +369,24 @@ body {
 
 	.row1Sec6Mobile div h2{
 		font-size: 45px;
+		font-weight: 900;
+		color:#B7CB21;
 	}
 	.row1Sec6Mobile div h2 p{
 		font-size: 20px;
 	}
 	.row1Sec6Mobile div h1{
-		font-size: 95px;
+		font-size: 100px;
 		font-weight: 900;
 	}
 
 	.row1Sec6Mobile .div1Row1Sec6{
-	    padding-left: 25%;
-	    padding-top: 6%;
+		padding-left: 14%;
+		padding-top: 6%;
 	}
 	.row1Sec6Mobile .div2Row1Sec6{
-		margin-top: -14%;
-	    margin-left: -17%;
+		margin-top: -18%;
+		margin-left: -26%;
 	}
 
 
@@ -469,12 +472,13 @@ body {
 		background: url(images/mobile/bg-title-3.png) top center no-repeat;
 		background-size: 100%;	
 		min-height: 240px;
-		padding-top: 10%;
+		padding-top: 12%;
 	}
 
 	.row1Sec9Mobile p{
 		font-size: 18px;
 		color: #AEBF23;
+		line-height: 20px;
 	}
 	.row1Sec9Mobile p span{
 		font-size: 24px;
@@ -505,7 +509,8 @@ body {
 	}
 	.row3Sec9Mobile div h2{
 		color: #273047;
-		font-weight: 700;
+		font-weight: 900;
+		text-transform: lowercase;
 	}
 
 	.row4Sec9Mobile{
@@ -577,7 +582,7 @@ body {
 
 
 	.section12Mobile{
-		background: url(images/mobile/bg2-s12.png) top center no-repeat;
+		background: url(images/mobile/bg-s12-2.png) top center no-repeat;
 		background-size: 100%;	
 		min-height: 825px;
 	}
@@ -595,7 +600,7 @@ body {
 		height: 0;
 	    margin-top: 8%;
 	    font-size: 37px;
-	    font-weight: 700;
+	    font-weight: 900;
 	}
 
 	.row2Sec12Mobile{
@@ -715,7 +720,7 @@ body {
 
 
 	.row4Sec13Mobile div h1{
-		font-size: 14px;
+		font-size: 20px;
 		height: 10px;
 		color: #273047;
 	}
@@ -916,15 +921,16 @@ body {
 		min-height: 2222px;
 	    margin-top: -25%;
 	    padding-top: 210%;
+	    padding-bottom:25%;
 	}
 
 	.row1Sec14Mobile{
 		background: url(images/mobile/man.png) top center no-repeat;
 		background-size: 100%;	
 		min-height: 440px;
-		padding-top: 97%;
-	    padding-left: 18%;
-	    padding-right: 12%;
+		padding-top: 98%;
+		padding-left: 20%;
+		padding-right: 12%;
 	}
 	.row1Sec14Mobile div h1{
 		color: #fff;
@@ -941,6 +947,7 @@ body {
 	}
 	.row2Sec14Mobile div h2{
 		height: 55px;
+		font-weight: 900;
 	}
 	.row2Sec14Mobile div h2 strong span{
 		font-size: 60px;
@@ -955,8 +962,8 @@ body {
 
 	.row4Sec14Mobile div h1{
 		height: 15px;
-		font-size: 24px;
-		font-weight: 500;
+		font-size: 23px;
+		font-weight: 900;
 	}
 	.row4Sec14Mobile div p{
 		color: white;
@@ -971,11 +978,13 @@ body {
 	.row5Sec14Mobile form div input{
 		height: 50%;
 		font-size: 14px;
+		background-color: rgba(0, 0, 0, 0);
+		color: #fff;
 	}
 	.row5Sec14Mobile form div label{
 		font-size: 12px;
 	}
-	.row5Sec14Mobile form div button{
+	.row5Sec14Mobile form div .wpcf7-submit{
 		width: 50%;
 	    height: 40px;
 	    font-size: 16px;
@@ -1078,6 +1087,10 @@ body {
 		.section10Mobile{
 			margin-top: -8%;
 		}
+
+		.section13Mobile{
+			margin-top: -12%;
+		}
 	}
 /**/
 
@@ -1132,6 +1145,14 @@ body {
  		.section3Mobile{
  			margin-top: -47%;
  		}
+
+		.row2Sec3Mobile div h1{
+			font-size: 23px;
+		}
+
+		.row2Sec3Mobile{
+			padding-top: 7%;
+		}
 
  		.row1Sec3Mobile div h2{
  			font-size: 17px;
@@ -1194,13 +1215,27 @@ body {
  		}
 
  		.row1Sec6Mobile .div1Row1Sec6{
- 			padding-left: 21%;
-    		padding-top: 5%;
- 		}
+			padding-left: 13%;
+			padding-top: 8%;
+		 }
+		 
+		.row1Sec6Mobile div h2{
+			font-size: 45px;
+			line-height: 35px;
+		}
 
  		.row1Sec6Mobile .div2Row1Sec6{
- 			margin-top: -17%;
+			margin-top: -19%;
+			margin-left: -24%;
  		}
+
+		.row1Sec6Mobile div h1{
+			font-size: 95px;
+		}
+
+		.div1Row2Sec6 img{
+			margin-top: -38%;
+		}
 
  		.div1Row2Sec6 p{
  			font-size: 15px;
@@ -1283,6 +1318,10 @@ body {
  			background-size: 109%;
  		}
 
+		.row1Sec12Mobile{
+			padding-left: 5%;
+		}
+
  		.row4Sec12Mobile{
  			margin-top: 20%;
  		}
@@ -1340,11 +1379,23 @@ body {
  			margin-top: -60%;
  		}
 
+		.row1Sec14Mobile{
+			padding-left: 17%;
+		 }
+		
+		.row2Sec14Mobile div h2{
+			font-size: 30px;
+		}
+
+		.row2Sec14Mobile{
+			margin-top: -13%;
+		}
+
  		.row4Sec14Mobile div h1{
- 			font-size: 22px;
+ 			font-size: 20px;
  		}
 
- 		.row5Sec14Mobile form div button{
+ 		.row5Sec14Mobile form div .wpcf7-submit{
  			font-size: 15px;
  		}
 
@@ -1368,7 +1419,11 @@ body {
  */
 
  	@media only screen and (max-width: 360px) and (min-width: 321px){
- 		.s1TextoBanner h2{
+		.imgeverton{
+			margin-top: 78px;
+		} 
+		
+		.s1TextoBanner h2{
  			font-size: 17px;
  		}
 
@@ -1479,6 +1534,10 @@ body {
  			font-size: 12px;
  		}
 
+		.row5Sec5Mobile{
+			margin-top: -10%;
+		}
+
  		.section6Mobile{
  			margin-top: -55%;
  		}
@@ -1488,13 +1547,30 @@ body {
  		}
 
  		.row1Sec6Mobile .div1Row1Sec6{
- 			padding-left: 21%;
+ 			padding-left: 11%;
     		padding-top: 5%;
  		}
 
  		.row1Sec6Mobile .div2Row1Sec6{
- 			margin-top: -20%;
+			 margin-top: -19%;
+			 margin-left: -29%;
  		}
+
+		.div1Row2Sec6 img{
+			margin-top: -39%;
+		}
+
+		.row1Sec6Mobile div h2{
+			font-size: 40px;
+		}
+
+		.row1Sec6Mobile div h2 p{
+			font-size: 18px;
+		}
+
+		.row1Sec6Mobile div h1{
+			font-size: 90px;
+		}
 
  		.div1Row2Sec6 p{
  			font-size: 15px;
@@ -1581,6 +1657,18 @@ body {
  			background-size: 114%;
  		}
 
+		.row1Sec12Mobile{
+			padding-left: 6%;
+		}
+
+		.row1Sec12Mobile div h2{
+			font-size: 11px;
+		}
+
+		.row1Sec12Mobile div h1{
+			font-size: 34px;
+		}
+
  		.row2Sec12Mobile{
  			padding-top: 17%;
  		}
@@ -1627,7 +1715,7 @@ body {
 
 
  		.row4Sec13Mobile div h1{
- 			font-size: 11px;
+ 			font-size: 15px;
  		}
 
  		.row4Sec13Mobile div p{
@@ -1644,11 +1732,23 @@ body {
 
  		.row6Sec13Mobile div h2{
  			font-size: 18px;
- 		}
+		}
+		 
+		.row7Sec13Mobile div h1{
+			height: 30px;
+		}
 
  		.section14Mobile{
  			margin-top: -60%;
  		}
+
+		.row1Sec14Mobile{
+			padding-left: 17%;
+		}
+		
+		.row2Sec14Mobile{
+			margin-top: -20%;
+		}
 
  		.row4Sec14Mobile div h1{
  			font-size: 22px;
@@ -1662,7 +1762,7 @@ body {
  			font-size: 13px;	
  		}
 
- 		.row5Sec14Mobile form div button{
+ 		.row5Sec14Mobile form div .wpcf7-submit{
  			font-size: 14px;
  		}
 
@@ -1699,10 +1799,15 @@ body {
 
  	@media only screen and (max-width: 320px) and (min-width: 0px){
  		
- 		.row1Sec6Mobile div h1{
- 			font-size: 88px;
+		.imgeverton {
+			width: 220px;
+			margin-top: 57px;
+			margin-left: 32px;
+		} 
+		
+		.row1Sec6Mobile div h1{
+ 			font-size: 80px;
  		}
-
 
  		.logotopo{
  			margin-left: 20%;
@@ -1778,10 +1883,10 @@ body {
  		}
 
  		.row2Sec3Mobile{
- 			padding-top: 5%;
+ 			padding-top: 5.5%
  		}
  		.row2Sec3Mobile div h1{
- 			font-size: 24px;
+ 			font-size: 22px;
  		}
 
  		.row4Sec3Mobile div img{
@@ -1845,7 +1950,8 @@ body {
  		}
 
  		.row1Sec6Mobile div h2{
- 			font-size: 40px;
+			font-size: 40px;
+			line-height: 28px;
  		}
 
  		.row1Sec6Mobile div h2 p{
@@ -1853,14 +1959,20 @@ body {
  		}
 
  		.row1Sec6Mobile .div1Row1Sec6{
- 			padding-left: 21%;
-    		padding-top: 5%;
+			padding-left: 11%;
+			padding-top: 8%;
  		}
 
  		.row1Sec6Mobile .div2Row1Sec6{
- 			margin-top: -22%;
+ 			margin-top: -19%;
  		}
 
+		.div1Row2Sec6 img {
+			width: 140px;
+			margin-top: -40%;
+			margin-left: -33%;
+		}
+		
  		.div1Row2Sec6 h1 span{
  			font-size: 40px;
  		}
@@ -1967,7 +2079,7 @@ body {
  		}
 
  		.row1Sec12Mobile{
- 			padding-left: 7%;
+ 			padding-left: 6%;
  		}
 
  		.row1Sec12Mobile div h2{
@@ -2044,7 +2156,7 @@ body {
 
 
  		.row4Sec13Mobile div h1{
- 			font-size: 10px;
+ 			font-size: 15px;
  		}
 
  		.row4Sec13Mobile div p{
@@ -2062,6 +2174,10 @@ body {
  		.row6Sec13Mobile div h2{
  			font-size: 16px;
  		}
+
+		.row7Sec13Mobile div h1{
+			height: 30px;
+		}
 
  		.row7Sec13Mobile div h2{
  			font-size: 12px;
@@ -2081,12 +2197,14 @@ body {
  		}
 
  		.section14Mobile{
- 			margin-top: -97%;
+			 margin-top: -97%;
+			 min-height: unset;
  		}
 
  		.row1Sec14Mobile{
  			padding-top: 99%;
- 			min-height: 347px;
+			min-height: 347px;
+			padding-left: 18%; 
  		}
 
  		.row4Sec14Mobile div h1{
@@ -2094,14 +2212,14 @@ body {
  		}
 
  		.row4Sec14Mobile div h1{
- 			font-size: 18px;
+ 			font-size: 16px;
  		}
 
  		.row4Sec14Mobile div p{
  			font-size: 13px;	
  		}
 
- 		.row5Sec14Mobile form div button{
+ 		.row5Sec14Mobile form div .wpcf7-submit{
  			font-size: 12px;
  		}
 
