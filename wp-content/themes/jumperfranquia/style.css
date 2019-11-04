@@ -40,6 +40,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 }
 
 
+
+.main404{
+	margin-top: 5%;
+    margin-bottom: 15%;
+}
+
 .header-top{
 	/*background-image: url('../../uploads/2019/10/background-pt1-1.png');*/
 	background-size: cover;

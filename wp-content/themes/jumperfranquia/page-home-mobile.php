@@ -134,6 +134,7 @@ body {
 					<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
 					<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
 					<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link" href="https://franquia.jumpercursos.com.br/blog/" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
 					<li class='menu-item nav-item'>
 						<a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
 					</li>

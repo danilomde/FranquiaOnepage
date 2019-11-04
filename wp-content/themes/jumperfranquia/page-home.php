@@ -458,7 +458,7 @@ get_header();
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
-		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  						<p>A JUMPER! Profissões e Idiomas mudou a nossa vida em todos os sentidos: como empresária, como professora, como profissional e como pessoa."</p>
 		  					</div>
 		  					
 		  					
@@ -483,7 +483,7 @@ get_header();
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
-		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  						<p>>Hoje somos líder de mercado em nossa cidade. Isso nos trouxe muita satisfação de ter acertado na escolha. Atualmente faturamos 3 vezes mais que há um ano atrás."</p>
 		  					</div>
 		  					
 		  					

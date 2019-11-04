@@ -55,6 +55,8 @@
 	<script src="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js"></script>
 
 
+	<link rel="icon" type="image/png" href="<?php bloginfo( 'template_url' ); ?>/images/favicon/favicon.ico" />
+
 	<?php wp_head(); ?>
 
 
@@ -85,10 +87,10 @@
 							<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
 							<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
 							<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link" href="https://franquia.jumpercursos.com.br/blog/" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
 							<li class='menu-item nav-item'>
 								 <a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
 							</li>
-
 							
 
 							
@@ -119,11 +121,11 @@
 		<div class="divBgSection1">
 
 			<div class="divH2Section1 col-6 col-sm-12 col-md-12 col-lg-5 col-xl-5 offset-md-5 animated bounceInLeft">
-				<?php echo get_field( "texto_banner");?>
+				<?php echo get_field( "texto_banner" , 14302);?>
 			</div>
 
 			<div class="divImageSection1 col-6 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-				<img class="float-right animated bounceInRight" width="380" src="<?php echo get_field( "foto_everton" );?>">
+				<img class="float-right animated bounceInRight" width="380" src="<?php echo get_field( "foto_everton" , 14302);?>">
 				<div class="float-right">
 					<div class="verticalLine animated tada">
 						<span><strong>Everton Sabú</strong></span>
@@ -139,7 +141,7 @@
 
 		<div class="divBg2Section1 text-center mt-n2">
 			<div class="animated bounceInUp h1TextoChamado slower">
-				<?php echo get_field( "texto_chamada" );?>
+				<?php echo get_field( "texto_chamada" , 14302);?>
 			</div>
 		</div>
 
