@@ -83,11 +83,16 @@
 					
 					<div class="collapse navbar-collapse animated bounceInDown delay-1s">
 						<ul class='main-navigation navbar-nav mr-auto'>
-							<li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
-							<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
-							<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
-							<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.section2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">A Jumper! </a></li>
+
+							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.section8').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Estrutura</a></li>
+
+							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.section9').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Investimento</a>	</li>
+
+							<li class='menu-item nav-item' > <a class="nav-link" onclick="$('.namidia').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Jumper na Mídia</a>	</li>
+
 							<li class='menu-item nav-item'> <a class="nav-link" href="https://franquia.jumpercursos.com.br/blog/" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
+
 							<li class='menu-item nav-item'>
 								 <a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
 							</li>
