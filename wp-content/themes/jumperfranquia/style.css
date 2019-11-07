@@ -665,7 +665,7 @@ h1 strong{
 }
 #ajusteRow2Sec6 div h3{
 	font-weight: 600;
-    font-size: 30px;
+    font-size: 31px;
 }
 
 #div3Sec6{
@@ -933,6 +933,7 @@ h1 strong{
 	font-weight: 900;
 	height: 0;
 	color: #252F49;
+	margin-left: -10%;
 }
 
 .depoFranqueado p{
