@@ -12,7 +12,9 @@ new simpleParallax(image, {
 
 jQuery('.section1ImgFundoEscola').parallax({imageSrc: url+'/wp-content/uploads/2019/10/background-pt1-1.png'});
 
-jQuery('.namidia').parallax({imageSrc: template_url+'/images/na-midia.jpg'});
+jQuery('.namidia').parallax({
+	imageSrc: template_url+'/images/imagemInteiraAltaQualidade.png'
+});
 
 jQuery('.section5').parallax({
 	imageSrc: template_url+'/images/p5/bg-s5-txt.png',

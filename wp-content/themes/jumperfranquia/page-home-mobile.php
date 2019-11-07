@@ -130,12 +130,13 @@ body {
 
 		          <!-- Links -->
 		          <ul class="navbar-nav mr-auto" style="width:100%" >
-		            <li class='menu-item nav-item'> <a class="nav-link">A Jumper! </a>	</li>
-					<li class='menu-item nav-item'> <a class="nav-link">Estrutura</a>		</li>
-					<li class='menu-item nav-item'> <a class="nav-link">Investimento</a>	</li>
-					<li class='menu-item nav-item'> <a class="nav-link">Jumper na Mídia</a>	</li>
+		            <li class='menu-item nav-item'> <a class="nav-link" onclick="aJumper()">A Jumper! </a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link" onclick="estrutura()">Estrutura</a>		</li>
+					<li class='menu-item nav-item'> <a class="nav-link" onclick="investimento()">Investimento</a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link" onclick="jumperNaMidia()">Jumper na Mídia</a>	</li>
+					<li class='menu-item nav-item'> <a class="nav-link" href="https://franquia.jumpercursos.com.br/blog/" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
 					<li class='menu-item nav-item'>
-						<a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
+						<a class="nav-link contatolink" id="contato-link" style="cursor:pointer;" onclick="contato()">Contato</a>
 					</li>
 		          </ul>
 		          <!-- Links -->
@@ -983,6 +984,26 @@ body {
 
 	function modalFoto6() {
 		$('#modalFoto6').modal('show');
+	}
+
+	function jumperNaMidia() {
+		window.scrollTo(0, 10050);
+	}
+
+	function contato() {
+		window.scrollTo(0, 15000);
+	}
+
+	function investimento() {
+		window.scrollTo(0, 7200);
+	}
+	
+	function estrutura() {
+		window.scrollTo(0, 6300);
+	}
+	
+	function aJumper() {
+		window.scrollTo(0, 950);
 	}
 </script>
 

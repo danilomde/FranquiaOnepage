@@ -2344,6 +2344,8 @@ body {
 
 	.section4Mobile {
 		margin-top: -28%;
+		background-size: 100% 100%;
+    	min-height: 1100px;
 	}
 
 	.row1Sec4Mobile div h2 {
@@ -2363,7 +2365,7 @@ body {
 	}
 
 	.section5Mobile {
-		margin-top: -30%;
+		margin-top: -20%;
 	}
 
 	.row5Sec5Mobile div ul li {
@@ -2473,5 +2475,18 @@ body {
 
 	.row4Sec13Mobile div h1 {
 		font-size: 18px;
+	}
+
+	.row1Sec6Mobile div h1 {
+		font-size: 90px;
+	}
+
+	.row1Sec6Mobile .div2Row1Sec6 {
+		margin-top: -16%;
+		margin-left: -24%;
+	}
+
+	.btnwhatsMobile img {
+		width: 395px;
 	}
 }

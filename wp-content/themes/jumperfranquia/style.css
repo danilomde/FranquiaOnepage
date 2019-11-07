@@ -40,6 +40,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2
 }
 
 
+
+.main404{
+	margin-top: 5%;
+    margin-bottom: 15%;
+}
+
 .header-top{
 	/*background-image: url('../../uploads/2019/10/background-pt1-1.png');*/
 	background-size: cover;
@@ -763,7 +769,7 @@ h1 strong{
     margin: 0;
 }
 .section8Imgs div img{
-	height: 100%;
+	height: 102%;
 	cursor: pointer;
 }
 
@@ -945,7 +951,7 @@ h1 strong{
 
 
 .row1Sec10{
-	margin-top: 2%;
+	margin-top: 0%;
 }    
 .row1Sec10 div div h1{
 	font-size: 60px;
@@ -1132,6 +1138,7 @@ h1 strong{
 .texto2Section2 h3 strong{
 	text-transform: uppercase;
 	font-size: 22px;
+	font-weight: 900;
 }
 
 /*--------------------------------------------------------------
@@ -1229,7 +1236,7 @@ h1 strong{
     font-size: 16px !important;
     color: #A2BC05 !important;
     background-color: rgba(0,0,0,0) !important;
-    border: 1px solid #A2BC05 !important;
+    border: 2px solid #A2BC05 !important;
     font-weight: bold !important;
     text-transform: uppercase !important;
 }
@@ -1313,7 +1320,7 @@ h1 strong{
 .titlenamidia{
 	background: url(images/bg-triangulo-gray.png) center center no-repeat;
 	height: 565px;
-	background-position-y: -160px;
+	background-position-y: -92px;
 }
 
 .titlenamidia img{
@@ -1354,6 +1361,10 @@ h1 strong{
 		font-size: 30px;
 	}
 
+	#site-navigation div ul {
+		margin-left: -15%;
+	}
+
 	.bignumber{
 		margin-left: -145px;
 	}
@@ -1383,12 +1394,29 @@ h1 strong{
 		margin-top: -36%;
 	}
 
+	.texto2Section2 h3 strong {
+		font-size: 19px;
+	}
+
+	#textoMenino2 {
+		margin-top: -22%;
+	}
+
 	#ajusteRow1Sec4{
 		padding-top: 18%;
 	}
 
+	#div1Sec4 {
+		margin-top: -12%;
+	}
+
+	#div2Sec4 {
+		margin-top: -39%;
+		margin-left: -30%;
+	}
+
 	#ajusteRow2Sec4{
-		margin-top: 5%;
+		margin-top: 2%;
 	}
 
 	#ajusteRow3Sec4{
@@ -1549,12 +1577,21 @@ h1 strong{
 		margin-top: -6.5%;
 	}
 
+	.titlenamidia {
+		background-position-y: -122px;
+	}
+
 	.callfooter{
-		padding-top: 235px;
+		padding-top: 252px;
+		padding-left: 19%;
 	}
 
 	#divAjusteFooter{
 		padding: 0;
+	}
+
+	#row2Footer div div h2 {
+		font-size: 20px;
 	}
 
 	.footerLucreAjuste{
@@ -1606,6 +1643,11 @@ h1 strong{
 
 	#textMenino3 h1{
 		font-size: 40px;
+	}
+
+	.texto2Section2 h3 strong {
+		font-weight: 900;
+		font-size: 18px;
 	}
 
 	.ajusteSomenteUmaFormacao{
@@ -1744,6 +1786,10 @@ h1 strong{
 		margin-top: -6.4%;
 	}
 
+	.aspasFranqueado h1 {
+		margin-left: -10%;
+	}
+
 	.ajusteDiv1Sec10{
 		padding-top: 7.5%;
 	}
@@ -1844,16 +1890,24 @@ h1 strong{
 	}
 
 	.row3Sec10{
-		margin-top: 12%;
+		margin-top: 10%;
 	}
 
 	.row4Sec10{
 		margin-top: 9%;
 	}
 
+	.row3Sec10 #div1Row3Sec10 h3{
+		height: 0px;
+	}
+
+	.titlenamidia {
+		background-position-y: -100px;
+	}
 
 	.callfooter{
-		padding-top: 235px;
+		padding-top: 250px;
+		padding-left: 18%;
 	}
 
 	#divAjusteFooter{
@@ -1868,6 +1922,10 @@ h1 strong{
 	.footerLucre15Mil h3{
 		font-size: 34px;
 	}
+
+	#row2Footer div div h2 {
+		font-size: 20px;
+	}
 }
 
 
@@ -1878,6 +1936,10 @@ h1 strong{
 @media only screen and (max-width: 1440px) and (min-width: 1367px){
  	.header-top{
 		margin-top: -8%;
+	}
+
+	.phone{
+		height: 40px;
 	}
 
 	#site-navigation div ul{
@@ -1938,6 +2000,11 @@ h1 strong{
 
 	#textoMenino2{
 		padding-left: 14%;
+		margin-top: -23%;
+	}
+
+	.texto2Section2 h3 strong{
+		font-size: 17px;
 	}
 
 	#textMenino3 h1{
@@ -2213,6 +2280,10 @@ h1 strong{
 		padding-top: 7.1%;
 	}
 
+	.aspasFranqueado h1 {
+		margin-left: -10%;
+	}
+
 	#h1Sec10{
 		font-size: 30px;
 	}
@@ -2335,6 +2406,10 @@ h1 strong{
 		width: 560px;
 	}
 
+	#row2Footer div div h2 {
+		font-size: 18px;
+	}
+
 	.callfooter{
 	    padding-top: 255px;
     	padding-left: 14%;
@@ -2386,7 +2461,7 @@ h1 strong{
 	}
 
 	.phone span a strong{
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	.divImageSection1{
@@ -2443,6 +2518,15 @@ h1 strong{
 
 	#NemNemNemP{
 		font-size: 12px;
+	}
+
+	.texto2Section2 h3 strong {
+		font-weight: 900;
+		font-size: 20px;
+	}
+
+	#textoMenino2 .texto2Section2 {
+		width: 86%;
 	}
 
 	#textoMenino2{
@@ -2504,7 +2588,7 @@ h1 strong{
 	}
 
 	#h2AjusteSec3 span{
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.divBorderRightSec3 p{
@@ -2516,11 +2600,11 @@ h1 strong{
 	}
 
 	#rowBgTreinamentoSection3{
-		margin-top: -45%;
+		margin-top: -50%;
 	}
 
 	#bgMeninaApontandoSec3{
-		margin-top: -58%;
+		margin-top: -55%;
 	}
 
 	#rowListaMeninaApontandoSec3{
@@ -2738,7 +2822,7 @@ h1 strong{
 	}
 
 	.section10{
-		margin-top: -12.5%;
+		margin-top: -13%;
 	}
 
 	.ajusteDiv1Sec10{
@@ -2753,6 +2837,10 @@ h1 strong{
 		font-size: 28px;
 	}
 
+	.aspasFranqueado h1 {
+		margin-left: -15%;
+	}
+
 	.depoFranqueado p{
 		font-size: 15px;
 	}
@@ -2761,6 +2849,9 @@ h1 strong{
 		font-size: 21px;
 	}
 
+	.row1Sec10 div h1{
+		font-size: 21px;
+	}
 
 	.containerFranqueados .row{
 		margin-top: 3%;
@@ -2783,7 +2874,7 @@ h1 strong{
 	}
 
 	.row1Sec10 {
-		margin-top: -7%;
+		margin-top: -6%;
 	}
 
 	.row2Sec10 div h1{
@@ -2863,7 +2954,7 @@ h1 strong{
 
 
 	.row3Sec10{
-		margin-top: 13%;
+		margin-top: 11.5%;
 	}
 
 	.row4Sec10{
@@ -2909,7 +3000,7 @@ h1 strong{
 	}
 
 	#row2Footer div div h2 {
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
@@ -2995,6 +3086,10 @@ h1 strong{
 
 	.texto2Section2 h3 strong{
 		font-size: 16px;
+		font-weight: 900;
+	}
+	#textoMenino2 .texto2Section2 {
+		width: 70%;
 	}
 
 	#textMenino3 h1{
@@ -3029,6 +3124,11 @@ h1 strong{
 	#textMenino3 .divSuporteH3{
 		min-height: unset;
 		margin-bottom: 5%;
+	}
+	
+	.ajusteLinha2RowAjuste4 img {
+		margin-left: 70%;
+		width: 230px;
 	}
 	
 	.imgEscolaSec3{
@@ -3329,7 +3429,7 @@ h1 strong{
 
 	.row3Sec10 #div1Row3Sec10{
 		padding-right: 0%;
-		padding-top: 5%;
+		padding-top: 4%;
 	}
 
 	.row3Sec10 #div1Row3Sec10 h3{
@@ -3363,6 +3463,10 @@ h1 strong{
 
 	#h1Sec102{
 		font-size: 26px;
+	}
+
+	.aspasFranqueado h1 {
+		margin-left: -10%;
 	}
 
 	.depoFranqueado p{
@@ -3401,7 +3505,7 @@ h1 strong{
 
 
 	.row1Sec10 div h1{
-		font-size: 23px;
+		font-size: 21px;
 	}
 
 
@@ -3459,7 +3563,7 @@ h1 strong{
 	}
 
 	.row6Sec10{
-		margin-top: -9%;
+		margin-top: -10%;
 	}
 
 	.botaoFooterContato{
@@ -3509,7 +3613,7 @@ h1 strong{
 	}
 
 	#h2FooterAjuste{
-		font-size: 18px !important;
+		font-size: 16px !important;
 	}
 
 	.titlenamidia img {

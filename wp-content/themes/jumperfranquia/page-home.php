@@ -151,7 +151,7 @@ get_header();
 						</div>
 
 						<div class="ajusteClasseCeD">	
-							<h2>E as classes <strong>C e D,</strong> conseguem pagar todos esses cursos?</h2>
+							<h2>E as classes <strong>C</strong> e <strong>  D,</strong> conseguem pagar todos esses cursos?</h2>
 							<p>Na concorrência, não. Pois, os cursos necessários, são cobrados separadamente.</p>
 
 							<p>Mas se vier na <strong>JUMPER!</strong>, terá <strong>Formação completa,</strong> irá fazer cursos, com valor único e acessível, nas áreas de: </p>
@@ -224,7 +224,7 @@ get_header();
 					<ul>
 						<li>1. Liderança</li>
 						<li>2. Técnicas de Entrevistas de Emprego</li>
-						<li>3. Comnunicação</li>
+						<li>3. Comunicação</li>
 						<li>4. Expressão Corporal</li>
 						<li>5. Marketing Pessoal</li>
 						<li>6. Trabalho em Equipe</li>
@@ -308,7 +308,7 @@ get_header();
   					<p>As aulas são:</p>
   				</div>
   				<div class="col-md-3">
-  					<h3><strong>Presencias, Práticas, Em grupo e Divertidas</strong></h3>
+  					<h3><strong>Presencias, Práticas, em grupo e Divertidas</strong></h3>
   				</div>
   			</div>
 
@@ -458,7 +458,7 @@ get_header();
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
-		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  						<p>A JUMPER! Profissões e Idiomas mudou a nossa vida em todos os sentidos: como empresária, como professora, como profissional e como pessoa."</p>
 		  					</div>
 		  					
 		  					
@@ -483,7 +483,7 @@ get_header();
 		  					</div>
 
 		  					<div class="text-left depoFranqueado">
-		  						<p>Eu não tenho dúvidas que fiz a escolha certa, por isso que hoje estou abrindo minha 7° escola e possuo o maior faturamento de toda rede."</p>
+		  						<p>Hoje somos líder de mercado em nossa cidade. Isso nos trouxe muita satisfação de ter acertado na escolha. Atualmente faturamos 3 vezes mais que há um ano atrás."</p>
 		  					</div>
 		  					
 		  					
@@ -520,7 +520,7 @@ get_header();
   				<div class="col-md-6" id="div2Row3Sec10">
   					<h2>Não tenho todo o dinheiro, <strong>como faço?</strong></h2>
 
-  					<p>Temos convênio de financiamento de franquia; com juros subsidiados (menores), e carência de 6 meses para começar a pagar</p>
+  					<p>Temos convênio de financiamento de franquia; com juros subsidiados (menores), e carência de 6 meses para começar a pagar.</p>
 
   					<p><strong>Você paga o financiamento com o próprio lucro da unidade.</strong></p>
 
@@ -535,7 +535,7 @@ get_header();
   			<div class="row justify-content-left row4Sec10">
   				<div class="col-md-12">
   					<h1>Qual será o <strong>lucro?</strong></h1>
-  					<p>Em apenas <strong>6 meses,</strong> você vai ganhar mais de <strong>15 mil por mês,</strong> dentro do plano de negócio</p>
+  					<p>Em apenas <strong>6 meses,</strong> você vai ganhar mais de <strong>15 mil por mês,</strong> dentro do plano de negócio.</p>
 
   					<div>
   						<button class="botao2Sec10">Saiba mais</button>
@@ -559,7 +559,7 @@ get_header();
   					<h1>Será que <strong>dá certo</strong> uma <strong>JUMPER!</strong> na <strong>minha cidade?</strong></h1>
   					<p>A nossa equipe, fará um estudo de potencial da sua cidade, pois o seu sucesso é o nosso sucesso.</p>
 
-  					<p>Fale com o nosso consultor e solicite o estudo de viabilidade</p>
+  					<p>Fale com o nosso consultor e solicite o estudo de viabilidade.</p>
 
   					<div>
   						<button class="botao4Sec10">Quero contato</button>
@@ -575,10 +575,6 @@ get_header();
 			<img src="<?php bloginfo( 'template_url' ); ?>/images/jumper-na-midia.png" class="mt-5 ml-5" alt="JIMPER NA MÍDIA" title="JIMPER NA MÍDIA">
 		</div>
 	</section>
-	
-	
-
-
 
 
 
@@ -658,7 +654,6 @@ get_header();
 		width: 100% !important;
 	}
 </style> -->
-
 
 <?php
 
