@@ -715,7 +715,7 @@ body {
 				</div>
 
 				<div class="col-12 text-center">
-					<button>Fale com o Consultor</button>
+					<button onclick="contato()">Fale com o Consultor</button>
 				</div>
 			</div>
 
@@ -729,7 +729,7 @@ body {
 				</div>
 
 				<div class="col-12 text-center">
-					<button>Saiba Mais</button>
+					<button onclick="contato()">Saiba Mais</button>
 				</div>
 			</div>
 
@@ -747,7 +747,7 @@ body {
 				</div>
 
 				<div class="col-12 text-center">
-					<button>Consultar Disponibilidade</button>
+					<button onclick="contato()">Consultar Disponibilidade</button>
 				</div>
 			</div>
 
@@ -765,7 +765,7 @@ body {
 				</div>
 
 				<div class="col-12 text-center">
-					<button>Quero Contato</button>
+					<button onclick="contato()">Quero Contato</button>
 				</div>
 			</div>
 
