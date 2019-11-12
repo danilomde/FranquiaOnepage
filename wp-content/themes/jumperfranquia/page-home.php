@@ -505,7 +505,7 @@ get_header();
 
   			<div class="row justify-content-left row2Sec10">
   				<div class="col-md-3">
-  					<h1>Quantos eu <strong>preciso</strong> para <strong>investir</strong>?</h1>
+  					<h1>Quanto eu <strong>preciso</strong> para <strong>investir</strong>?</h1>
   				</div>
   			</div>
 
