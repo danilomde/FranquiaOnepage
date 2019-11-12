@@ -211,7 +211,8 @@ get_header();
 							</div>
 
 							<div class="col-md-3 text-left">
-								<h2 id="h2AjusteSec3">12 treinamentos <span>complementares gratuitos</span></h2>
+								<h2 id="h2AjusteSec3">12 treinamentos </h2>
+								<span id="SpanAjusteSec3">Complementares gratuitos</span>
 							</div>
 						</div>
 					<!-- </div> -->
