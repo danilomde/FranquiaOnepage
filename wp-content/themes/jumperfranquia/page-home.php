@@ -526,7 +526,7 @@ get_header();
   					<p><strong>Você paga o financiamento com o próprio lucro da unidade.</strong></p>
 
   					<div class="float-right">
-  						<button class="botaoSec10" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fale com o consultor</button>	
+  						<button class="botaoSec10" onclick="$('#row2Footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fale com o consultor</button>	
   					</div>
 
   				</div>
@@ -539,7 +539,7 @@ get_header();
   					<p>Em apenas <strong>6 meses,</strong> você vai ganhar mais de <strong>15 mil por mês,</strong> dentro do plano de negócio.</p>
 
   					<div>
-  						<button class="botao2Sec10" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Saiba mais</button>
+  						<button class="botao2Sec10" onclick="$('#row2Footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Saiba mais</button>
   					</div>
   				</div>
   			</div>
@@ -550,7 +550,7 @@ get_header();
   					<p>A <strong>JUMPER!</strong> abre apenas <strong>12 unidades por ano,</strong> para atender com excelência o novo parceiro.</p>
   					<p>Entre em contato com o nosso consultor e consulte a disponibilidade.</p>
   					<div class="float-right">
-  						<button class="botao3Sec10" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Consultar Disponibilidade</button>
+  						<button class="botao3Sec10" onclick="$('#row2Footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Consultar Disponibilidade</button>
   					</div>
   				</div>
   			</div>
@@ -563,7 +563,7 @@ get_header();
   					<p>Fale com o nosso consultor e solicite o estudo de viabilidade.</p>
 
   					<div>
-  						<button class="botao4Sec10" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Quero contato</button>
+  						<button class="botao4Sec10" onclick="$('#row2Footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Quero contato</button>
   					</div>
   				</div>
   			</div>
