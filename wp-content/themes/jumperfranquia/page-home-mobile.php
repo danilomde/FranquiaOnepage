@@ -689,7 +689,7 @@ body {
 
 			<div class="row justify-content-center row6Sec13Mobile">
 				<div class="col-10 text-center">
-					<h2>Quantos eu <strong>preciso</strong> para <strong>investir?</strong></h2>
+					<h2>Quanto eu <strong>preciso</strong> para <strong>investir?</strong></h2>
 				</div>
 			</div>
 

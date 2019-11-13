@@ -257,7 +257,7 @@ h1 strong{
 
 #textoMenino2{
 	padding-left: 17%;
-    margin-top: -24%;
+    margin-top: -21%;
 }
 
 #textoMenino2 .texto2Section2{
@@ -455,12 +455,13 @@ h1 strong{
 	font-weight: 900;
 	color: #B7CB21;
 	padding: 2%;
+	height: 32px;
 }
 
-#h2AjusteSec3 span{
-	font-size: 18px;
-	color: #B7CB21;
-
+#SpanAjusteSec3{
+	font-size: 20px;
+    color: #B7CB21;
+    padding: 2%;
 }
 
 
@@ -543,7 +544,7 @@ h1 strong{
 
 #div3Sec4{
 	padding-left: 7%;
-	margin-top: -1%;
+	margin-top: 0%;
 	color: #2D3856;
 }
 #div3Sec4 p{
@@ -588,7 +589,7 @@ h1 strong{
 #div6Sec4{
     padding-bottom: 4%;
     padding-top: 4%;
-    padding-right: 6%;
+    padding-right: 0%;
     padding-left: 2%;
     color: #2D3856;
 }
@@ -1153,7 +1154,7 @@ h1 strong{
     padding-top: 175px;	
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -172px;
+    margin-top: -220px;
 
 }
 
@@ -1298,7 +1299,7 @@ h1 strong{
 
 
 .namidia{
-	height: 700px;
+	height: 1000px;
 	margin-top: -0.1%;
 }
 
@@ -1531,7 +1532,7 @@ h1 strong{
 	}
 
 	#div2Row3Sec10 h2{
-		font-size: 35px;
+		font-size: 30px;
 	}
 
 	.row6Sec10 div h1{
@@ -1567,7 +1568,7 @@ h1 strong{
 	}
 
 	.row3Sec10{
-		margin-top: 12.5%;
+		margin-top: 14.5%;
 	}
 
 	.row4Sec10{
@@ -2045,9 +2046,10 @@ h1 strong{
 
 	#h2AjusteSec3{
 		font-size: 25px;
+		height: 30px;
 	}
 
-	#h2AjusteSec3 span{
+	#SpanAjusteSec3{
 		font-size: 16px;
 	}
 
@@ -2392,7 +2394,7 @@ h1 strong{
 	}
 
 	.row3Sec10{
-		margin-top: 14%;
+		margin-top: 12%;
 	}
 
 	.row4Sec10{
@@ -2586,10 +2588,11 @@ h1 strong{
 
 	#h2AjusteSec3{
 		font-size: 25px;
+		height: 29px;
 	}
 
-	#h2AjusteSec3 span{
-		font-size: 14px;
+	#SpanAjusteSec3{
+		font-size: 16px;
 	}
 
 	.divBorderRightSec3 p{
@@ -3171,7 +3174,7 @@ h1 strong{
 		font-size: 22px;
 	}
 
-	#h2AjusteSec3 span{
+	#SpanAjusteSec3{
 		font-size: 14px;
 	}
 
@@ -3234,7 +3237,7 @@ h1 strong{
 	}
 
 	#div4Sec4 p{
-		font-size: 14px;
+		font-size: 13px;
 	}
 
 	#div6Sec4 p{
@@ -3247,7 +3250,6 @@ h1 strong{
 
 	#div6Sec4{
 		padding-left: 4%;
-		padding-right: 4%;
 	}
 
 	#div5Sec4{
@@ -3261,7 +3263,7 @@ h1 strong{
 	}
 
 	#ajusteRow3Sec4{
-		margin-top: 1%;
+		margin-top: 3%;
 	}
 
 	.section5{
@@ -3767,7 +3769,7 @@ h1 strong{
 		font-size: 20px;
 	}
 
-	#h2AjusteSec3 span{
+	#SpanAjusteSec3{
 		font-size: 13px;
 	}
 
@@ -4312,7 +4314,7 @@ h1 strong{
 		font-size: 18px;
 	}
 
-	#h2AjusteSec3 span{
+	#SpanAjusteSec3{
 		font-size: 11px;
 	}
 

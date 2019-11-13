@@ -60,7 +60,12 @@
 	<?php wp_head(); ?>
 
 
-
+	<!-- Facebook Shared -->
+		<meta property="og:url" id="urlShared" 		content="https://franquiadeescola.jumpercursos.com.br/" />
+        <meta property="og:type"               		content="article" />
+        <meta property="og:title"              		content="Jumper Franquias" />
+        <meta property="og:description"        		content="A melhor opção em Franquia de Cursos Profissionalizantes e Idiomas!" />
+        <meta property="og:image"              		content="https://jumpercursos.com.br/wp-content/uploads/2019/11/imagem.jpg">
 
 	
 </head>
@@ -87,7 +92,7 @@
 
 							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.section8').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Estrutura</a></li>
 
-							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.section9').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Investimento</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link" onclick="$('.row2Sec10').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Investimento</a>	</li>
 
 							<li class='menu-item nav-item' > <a class="nav-link" onclick="$('.namidia').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Jumper na Mídia</a>	</li>
 
