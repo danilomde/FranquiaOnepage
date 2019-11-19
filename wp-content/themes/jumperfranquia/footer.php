@@ -113,6 +113,8 @@
 <!-- scripts -->
 <script src="<?php bloginfo( 'template_url' ); ?>/js/scripts.js"></script>
 
+<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/bcd8c251-7680-4f5f-8ee5-caa79b5374ff-loader.js" ></script>
+
 
 </body>
 </html>
