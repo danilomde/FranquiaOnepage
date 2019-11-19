@@ -696,7 +696,7 @@ body {
 			<div class="row justify-content-center row7Sec13Mobile">
 				<div class="col-10 text-center">
 					<h2>Investimento total:</h2>
-					<h1>R$ <span>159</span> mil</h1>
+					<h1>R$ <span>90</span> mil</h1>
 					<p>(Adesão + Estrutura + Inauguração)</p>
 				</div>
 			</div>

@@ -514,7 +514,7 @@ get_header();
   				
   				<div class="col-md-6 text-center" id="div1Row3Sec10">
   					<h3>Investimento Total:</h3> 
-  					<h1>R$ <strong>159</strong> mil</h1>
+  					<h1>R$ <strong>90</strong> mil</h1>
   					<p>(adesão + estrutura + inauguração)</p>
   				</div>
 
