@@ -10,28 +10,42 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<style>
+    
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+    #content{
+        margin-bottom:25%;
+	}
+	
+	.contentBlogRow p{
+		font-size: 18px;
+	}
 
-			get_template_part( 'template-parts/content', get_post_type() );
+	
+</style>
 
-			the_post_navigation();
+<div id="primary" class="content-area container-fluid" style="margin-top: 10%;">
+	<div id="main" class="site-main container">
+		
+		<?php get_sidebar(); ?>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+		<div class="row contentBlogRow float-left">
+			<?php
+				while ( have_posts() ) :
+					the_post();
+					?>
+						<span class="spanImgSinglePost"><?php the_post_thumbnail('1920x500');?></span>
+						<h1 class="singlePostTitle"><?php the_title(); ?></h1>
+					<?php
 
-		endwhile; // End of the loop.
-		?>
+					the_content();
+				endwhile; // End of the loop.
+			?>
+		</div>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</div><!-- #main -->
+</div><!-- #primary -->
 
 <?php
-get_sidebar();
+
 get_footer();

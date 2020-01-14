@@ -90,7 +90,7 @@
 </div><!-- #page -->
 
 
-<a href="https://api.whatsapp.com/send?phone=5541999120265&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="btnwhats animated bounceInDown delay-2s	 " target="_blank">
+<a href="https://api.whatsapp.com/send?phone=5541996841781&text=Ol%C3%A1,%20tenho%20interesse%20em%20comprar%20uma%20franquia%20JUMPER!" class="btnwhats animated bounceInDown delay-2s	 " target="_blank">
 	<img src="<?php bloginfo( 'template_url' ); ?>/images/whats.png">
 </a>
 
@@ -114,6 +114,7 @@
 <script src="<?php bloginfo( 'template_url' ); ?>/js/scripts.js"></script>
 
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/bcd8c251-7680-4f5f-8ee5-caa79b5374ff-loader.js" ></script>
+
 
 
 </body>
