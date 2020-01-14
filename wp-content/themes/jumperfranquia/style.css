@@ -3645,7 +3645,7 @@ h1 strong{
 	}
 
 	#site-navigation div ul{
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	.phone span a{
@@ -4187,7 +4187,7 @@ h1 strong{
 	}
 
 	#site-navigation div ul{
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.h1TextoChamado h1{
@@ -4911,7 +4911,7 @@ h1 strong{
 }
 .blogPostList div p{
 	font-size: 12px;
-	font-weight: 300;
+    font-weight: 400;
 	color: #000;
 }
 .blogPostList img{
@@ -4922,9 +4922,6 @@ h1 strong{
 	margin-bottom: 5%;
 }
 
-.blogPostText{
-	/* padding-top: 52%; */
-}
 
 .btnCarregarMaisPostList button{
 	width: 225px;
@@ -4965,4 +4962,220 @@ h1 strong{
 .spanImgSinglePost img{
 	width: 1920px;
 	height: 500px;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1367px){
+	.sideRow{
+		width: 400px;
+	}
+
+	.colPostSide h2{ 
+		font-size: 14px;
+	}
+	.colPostSide h3{ 
+		font-size: 14px;
+	}
+
+	.singlePostTitle{
+		font-size: 26px;
+	}
+
+	.caroulserDescription h5 {
+		font-size: 19px;
+	}
+
+	.caroulserDescription p {
+		font-size: 12px;
+	}
+
+	.blogPostList div h1 {
+		font-size: 16px;
+	}
+
+	.colRedeSocialSide{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1281px){
+	.sideRow{
+		width: 400px;
+	}
+
+	.contentBlogRow{
+		width: 62%;
+	}
+
+	.colPostSide h2{ 
+		font-size: 14px;
+	}
+	.colPostSide h3{ 
+		font-size: 14px;
+	}
+
+	.singlePostTitle{
+		font-size: 26px;
+	}
+
+	.caroulserDescription h5 {
+		font-size: 17px;
+	}
+
+	.caroulserDescription p {
+		font-size: 12px;
+	}
+
+	.blogPostList div h1 {
+		font-size: 14px;
+	}
+
+	.blogPostList{
+		font-size: 14px;
+	}	
+	
+	.colRedeSocialSide{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1153px){
+	.contentBlogRow {
+		width: 60%;
+	}
+
+	.sideRow {
+		width: 400px;
+	}
+
+	.colPostSide h3 {
+		font-size: 13px;
+	}
+
+	.colPostSide h2 {
+		font-size: 14px;
+	}
+
+	.caroulserDescription h5 {
+		font-size: 15px;
+	}
+
+	.caroulserDescription p {
+		font-size: 10px;
+	}
+
+	.blogPostList div h1 {
+		font-size: 12px;
+	}
+
+	.blogPostList div p {
+		font-size: 10px;
+	}
+
+	.colRedeSocialSide a {
+		font-size: 48px;
+	}
+
+	.singlePostTitle {
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 1152px) and (min-width: 1025px){
+	.contentBlogRow {
+		width: 60%;
+	}
+
+	.sideRow {
+		width: 375px;
+	}
+
+	.colPostSide h3 {
+		font-size: 12px;
+	}
+
+	.colPostSide h2 {
+		font-size: 13px;
+	}
+
+	.caroulserDescription h5 {
+		font-size: 15px;
+	}
+
+	.caroulserDescription p {
+		font-size: 10px;
+	}
+	
+	.blogPostList div h1 {
+		font-size: 11px;
+	}
+
+	.blogPostList div p {
+		font-size: 10px;
+	}
+
+	.colRedeSocialSide a {
+		font-size: 45px;
+	}
+
+	.singlePostTitle {
+		font-size: 22px;
+	}
+
+	#site-navigation div ul {
+		margin-left: -8%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+	.contentBlogRow {
+		width: 60%;
+	}
+
+	.sideRow {
+		width: 325px;
+	}
+
+	.colPostSide h3 {
+		font-size: 10px;
+	}
+
+	.colPostSide h2 {
+		font-size: 11px;
+	}
+
+	.caroulserDescription h5 {
+		font-size: 13px;
+	}
+
+	.caroulserDescription p {
+		font-size: 9px;
+	}
+
+	.caroulserDescription {
+		padding-right: 20%;
+	}
+
+	.colRedeSocialSide a {
+		font-size: 36px;
+	}
+
+	.singlePostTitle {
+		font-size: 16px;
+	}
+
+	#site-navigation div ul {
+		margin-left: 0%;
+	}
+	
+	.colRedeSocialSide{
+		padding:0% 7%;
+	}
+
+	.blogPostList div h1 {
+		font-size: 10px;
+	}
+
+	.blogPostList div p {
+		font-size: 9px;
+	}
 }

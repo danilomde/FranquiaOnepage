@@ -21,6 +21,37 @@ get_header();
 		font-size: 18px;
 	}
 
+	@media only screen and (max-width: 1440px) and (min-width: 1367px){
+		.contentBlogRow p{
+			font-size: 16px;
+		}
+	}
+
+	@media only screen and (max-width: 1366px) and (min-width: 1281px){
+		.contentBlogRow p{
+			font-size:14px;
+		}
+	}
+	
+
+	@media only screen and (max-width: 1280px) and (min-width: 1153px){
+		.contentBlogRow p {
+			font-size: 14px;
+		}
+	}
+
+	@media only screen and (max-width: 1152px) and (min-width: 1025px){
+		.contentBlogRow p {
+			font-size: 13px;
+		}
+	}
+
+	@media only screen and (max-width: 1024px) and (min-width: 768px){
+		.contentBlogRow p {
+			font-size: 10px;
+		}
+	}
+
 	
 </style>
 
