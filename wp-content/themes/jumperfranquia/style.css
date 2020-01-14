@@ -634,9 +634,6 @@ h1 strong{
     padding-left: 10%;
 }
 
-#div1Sec6{
-}
-
 #div1Sec6 p {
 	color: #B7CA20;
     font-size: 26px;
@@ -1059,7 +1056,7 @@ h1 strong{
     color: #252F49;
     font-weight: 800;
 }
-}
+
 
 
 #div2Row3Sec10{
@@ -2313,10 +2310,6 @@ h1 strong{
 
 	#divEdenilson{
 		margin-left: 9%;
-	}
-
-	.containerFranqueados .row{
-		/* margin-top: 3%; */
 	}
 
 	.row1Sec10 {
@@ -4738,4 +4731,238 @@ h1 strong{
 	#h2FooterAjuste{
 		font-size: 14px;
 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+ *	BLOG - 1600x900px
+ *--------------------------------------------------------------*/
+.sideRow{
+	width: 449px;
+}
+
+.divPopularSide{
+	background-color: #B5D700;
+	height: 50px;
+	padding-top: 2px;
+	margin-bottom: 30px;
+}
+.divPopularSide h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.colPostSide{
+	margin-bottom: 5%;
+}
+.colPostSide h2{ 
+	font-size: 16px;
+	font-weight: bold;
+	color: #bed630;
+}
+.colPostSide h3{ 
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+.colPostSide p{ 
+	font-size: 10px;
+}
+.colPostSide h2 a{
+	text-decoration: none;
+	color: #bed630;
+}
+.colPostSide h3 a{
+	text-decoration: none;
+	color: #000;
+}
+
+.colRedeSocialSide{
+	height: 100px;
+	width: 500px;
+	background-color: #bed630;
+	padding: 2% 7%;
+	color: #fff;
+	font-size: 60px;
+	letter-spacing: 14px;
+	margin-bottom: 11%;
+}
+
+.colRedeSocialSide a{
+	color: #fff;
+	font-size: 60px;
+	letter-spacing: 14px;
+	text-decoration: none;
+}
+
+.youtubeSide{
+	height: 50px;
+	width: 500px;
+	background-color: #bed630;
+	padding-top: 2px;
+}
+.youtubeSide h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.videoYoutubeSide{
+	margin-bottom: 11%;
+}
+
+.facebookSide{
+	height: 50px;
+	width: 500px;
+	background-color: #bed630;
+	padding-top: 2px;
+}
+.facebookSide h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.contentBlogRow{
+	width: 65%;
+}
+
+.carousel-inner .carousel-item img{
+	height: 500px;
+	width: 1920px;
+}
+
+.carouselFlecha {
+	background-color: rgba(0,0,0, 1);
+	height: 90px;
+	top: 185px;
+	width: 7%;
+	transition: 0.2s;
+}
+.carouselFlecha:hover{
+	background-color: #bed630;
+}
+
+.carousel-control-prev-icon{
+	height: 30px;
+	width: 50px;
+}
+
+.carousel-control-next-icon{
+	height: 30px;
+	width: 50px;
+}
+
+.caroulserDescription{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 110px;
+	background-color: rgba(0,0,0, 0.4);
+	padding-right: 15%;
+	padding-left: 5%;
+	padding-bottom: 0;
+	text-align: left;
+}
+
+.carousel-indicatorsEdit{
+	right: 0;
+	left: unset;
+	margin-right: 5%;
+	bottom: 20px;
+}
+
+.carousel-indicatorsEdit li{
+	width: 13px;
+	height: 13px;
+	border-radius: 20px;
+	border-top: 0px;
+	border-bottom: 0px;
+	margin-right: 8px;
+}
+
+.blogPostList{
+	padding: 0;
+	margin-bottom: 3%;
+}
+.blogPostList div h1{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	height: 35px;
+}
+.blogPostList div h1 a{
+	text-decoration: none;
+	color: #000;
+}
+.blogPostList div p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #000;
+}
+.blogPostList img{
+	width: 100%;
+}
+
+.carousel{
+	margin-bottom: 5%;
+}
+
+.blogPostText{
+	/* padding-top: 52%; */
+}
+
+.btnCarregarMaisPostList button{
+	width: 225px;
+	font-size: 18px;
+	height: 50px;
+	text-transform: uppercase;
+	background-color: #bed630;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+.alm-btn-wrap{
+	text-align:center;
+}
+.alm-btn-wrap button{
+	text-align:center;
+	width: 225px;
+	font-size: 18px;
+	height: 50px;
+	text-transform: uppercase;
+	background-color: #bed630;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+.ajax-load-more-wrap{
+	width:100%;
+}
+
+.singlePostTitle{
+	font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.spanImgSinglePost img{
+	width: 1920px;
+	height: 500px;
 }

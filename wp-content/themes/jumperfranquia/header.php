@@ -54,6 +54,13 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.min.css" />
 	<script src="<?php bloginfo( 'template_url' ); ?>/inc/package/dist/sweetalert2.all.min.js"></script>
 
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/layouts/fontawsome.min.css" />
+	<script
+      src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+
 
 	<link rel="icon" type="image/png" href="<?php bloginfo( 'template_url' ); ?>/images/favicon/favicon.ico" />
 
@@ -66,7 +73,10 @@
         <meta property="og:title"              		content="Jumper Franquias" />
         <meta property="og:description"        		content="A melhor opção em Franquia de Cursos Profissionalizantes e Idiomas!" />
         <meta property="og:image"              		content="https://jumpercursos.com.br/wp-content/uploads/2019/11/imagem.jpg">
-
+	
+	<!-- Facebook Embed -->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
 	
 </head>
 
@@ -81,7 +91,7 @@
 			<div class="row">
 				
 				<div class="col-md-3 site-branding">
-					<img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" />
+					<a href="<?php bloginfo( 'template_url' ); ?>/home"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" /></a>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="col-md-7 main-navigation navbar navbar-expand-lg">
@@ -96,7 +106,7 @@
 
 							<li class='menu-item nav-item' > <a class="nav-link" onclick="$('.namidia').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Jumper na Mídia</a>	</li>
 
-							<li class='menu-item nav-item'> <a class="nav-link" href="https://franquia.jumpercursos.com.br/blog/" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
+							<li class='menu-item nav-item'> <a class="nav-link" href="<?php $_SERVER['HTTP_HOST'] ?>/blog" style="text-decoration: none; color:white; hover{}">Blog</a>	</li>
 
 							<li class='menu-item nav-item'>
 								 <a class="nav-link contatolink" id="contato-link" onclick="$('#footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Contato</a>
@@ -108,10 +118,6 @@
 					</div>
 
 				</nav><!-- #site-navigation -->
-
-				
-
-
 
 			</div>
 
@@ -156,13 +162,6 @@
 		</div>
 
 	</section>
-
-
-
-
-
-
-
 
 
 	<div id="content" class="site-content">

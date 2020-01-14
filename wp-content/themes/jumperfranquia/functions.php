@@ -159,3 +159,28 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+*
+* Thumbs Imagens
+*
+* */
+
+add_theme_support( 'post-thumbnails' );
+add_image_size( '420x240', 420, 240, true );
+add_image_size( '1920x500', 1920, 500, true );
+add_image_size( '55x55', 55, 55, true );
+add_image_size( '90x90', 90, 90, true );
+add_image_size( '200x100', 200, 100, true );
+add_image_size( '250x250', 250, 250, true );
+
+
+
+
+
+function custom_excerpt_length( $length ) {
+	return 25;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length');
+
+
+
