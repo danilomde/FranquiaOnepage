@@ -91,7 +91,7 @@
 			<div class="row">
 				
 				<div class="col-md-3 site-branding">
-					<a href="<?php bloginfo( 'template_url' ); ?>/home"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" /></a>
+					<a href="<?php bloginfo( 'url' ); ?>/home"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="Logo JUMPER!" /></a>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="col-md-7 main-navigation navbar navbar-expand-lg">
