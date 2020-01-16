@@ -4842,7 +4842,7 @@ h1 strong{
 }
 
 .carousel-inner .carousel-item img{
-	height: 500px;
+	/* height: 600px; */
 	width: 1920px;
 }
 
@@ -4962,7 +4962,7 @@ h1 strong{
 
 .spanImgSinglePost img{
 	width: 1920px;
-	height: 500px;
+	/* height: 500px; */
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1367px){

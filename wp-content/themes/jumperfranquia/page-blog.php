@@ -55,7 +55,7 @@ get_header();
                         <?php if ($cont == 0) { ?>
                         
                             <div class="carousel-item active">
-                                <a href="<?php the_permalink();?>"><?php the_post_thumbnail('1920x500'); ?></a>
+                                <a href="<?php the_permalink();?>"><?php the_post_thumbnail('500X230'); ?></a>
                                 
                                 <div class="carousel-caption d-none d-md-block caroulserDescription">
                                     <h5><a href="<?php the_permalink();?>" style="text-decoration:none; color:#fff;" ><?php the_title(); ?></a></h5>
@@ -65,7 +65,7 @@ get_header();
 
                         <?php }else{?>
                             <div class="carousel-item">
-                                <a href="<?php the_permalink();?>"><?php the_post_thumbnail('1920x500'); ?></a>
+                                <a href="<?php the_permalink();?>"><?php the_post_thumbnail('500X230'); ?></a>
                                 
                                 <div class="carousel-caption d-none d-md-block caroulserDescription">
                                     <h5><a href="<?php the_permalink();?>" style="text-decoration:none; color:#fff;" ><?php the_title(); ?></a></h5>
