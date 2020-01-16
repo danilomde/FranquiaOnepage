@@ -65,7 +65,7 @@ get_header();
 				while ( have_posts() ) :
 					the_post();
 					?>
-						<span class="spanImgSinglePost"><?php the_post_thumbnail('1920x500');?></span>
+						<span class="spanImgSinglePost"><?php the_post_thumbnail('500X230');?></span>
 						<h1 class="singlePostTitle"><?php the_title(); ?></h1>
 					<?php
 
